@@ -1,0 +1,121 @@
+INFO  01:24:36,419 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  01:24:36,447 - #2 program
+INFO  01:24:36,447 - #38 MJProgram
+INFO  01:24:36,447 - #38 int
+INFO  01:24:36,448 - #38 niz
+INFO  01:24:36,448 - #11 [
+INFO  01:24:36,449 - #12 ]
+INFO  01:24:36,449 - #25 ;
+INFO  01:24:36,450 - #8 {
+INFO  01:24:36,451 - #4 void
+INFO  01:24:36,452 - #38 main
+INFO  01:24:36,452 - #14 (
+INFO  01:24:36,453 - #15 )
+INFO  01:24:36,454 - #8 {
+INFO  01:24:36,454 - #38 niz
+INFO  01:24:36,455 - #13 =
+INFO  01:24:36,455 - #7 new
+INFO  01:24:36,456 - #38 char
+INFO  01:24:36,456 - #11 [
+INFO  01:24:36,456 - #39 10
+INFO  01:24:36,456 - #12 ]
+INFO  01:24:36,457 - #25 ;
+INFO  01:24:36,458 - #9 }
+INFO  01:24:36,459 - #9 }
+INFO  01:24:36,465 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    NoGlobalDeclarations(
+    ) [NoGlobalDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarIdent(
+       niz
+        ArrayDeclaration(
+        ) [ArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               niz
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorNew(
+                          Type(
+                           char
+                          ) [Type]
+                          ExpressionSimple(
+                            Expression(
+                              NoOptionalMinus(
+                              ) [NoOptionalMinus]
+                              SingleExpressionOptList(
+                                Term(
+                                  SingleFactorOptionalList(
+                                    FactorConst(
+                                      ConstValueInt(
+                                       10
+                                      ) [ConstValueInt]
+                                    ) [FactorConst]
+                                  ) [SingleFactorOptionalList]
+                                ) [Term]
+                              ) [SingleExpressionOptList]
+                            ) [Expression]
+                          ) [ExpressionSimple]
+                        ) [FactorNew]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:24:36,466 - ===================================
+INFO  01:24:36,469 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  01:24:36,469 - Obradjuje se funkcija: main na liniji: 14 [Meth main: notype, 0, 0 
+]
+INFO  01:24:36,470 - Pristup globalnoj promenljivoj: niz na liniji: 17 [Var niz: Arr of int, 0, 0 ]
+ERROR 01:24:36,470 - Greska na liniji 17 : nekompatibilni tipovi podataka u operaciji dodele vrednosti!
+INFO  01:24:36,470 - Print count calls = 0
+INFO  01:24:36,470 - Deklarisanih globalnih promenljivih ima = 1
+INFO  01:24:36,470 - Definisanih konstanti ima = 0
+INFO  01:24:36,470 - Definisanih lokalnih promenljivih ima = 0
+INFO  01:24:36,470 - ===================================
+ERROR 01:24:36,471 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,197 @@
+INFO  23:25:06,947 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  23:25:06,978 - #2 program
+INFO  23:25:06,978 - #38 MJProgram
+INFO  23:25:06,978 - #38 int
+INFO  23:25:06,980 - #38 a
+INFO  23:25:06,980 - #25 ;
+INFO  23:25:06,982 - #38 char
+INFO  23:25:06,983 - #38 b
+INFO  23:25:06,983 - #25 ;
+INFO  23:25:06,983 - #8 {
+INFO  23:25:06,983 - #4 void
+INFO  23:25:06,984 - #38 anka
+INFO  23:25:06,984 - #14 (
+INFO  23:25:06,985 - #15 )
+INFO  23:25:06,985 - #38 char
+INFO  23:25:06,986 - #38 k
+INFO  23:25:06,986 - #25 ;
+INFO  23:25:06,987 - #8 {
+INFO  23:25:06,988 - #9 }
+INFO  23:25:06,989 - #4 void
+INFO  23:25:06,989 - #38 main
+INFO  23:25:06,990 - #14 (
+INFO  23:25:06,990 - #15 )
+INFO  23:25:07,020 - #38 int
+INFO  23:25:07,020 - #38 k
+INFO  23:25:07,020 - #25 ;
+INFO  23:25:07,020 - #8 {
+INFO  23:25:07,021 - #38 k
+INFO  23:25:07,021 - #13 =
+INFO  23:25:07,023 - #38 a
+INFO  23:25:07,024 - #20 +
+INFO  23:25:07,026 - #38 b
+INFO  23:25:07,028 - #25 ;
+INFO  23:25:07,029 - #9 }
+INFO  23:25:07,030 - #9 }
+INFO  23:25:07,046 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         a
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       b
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          RetValVoid(
+          ) [RetValVoid]
+         anka
+        ) [MethodTypeName]
+        NoFormParsProd(
+        ) [NoFormParsProd]
+        LocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          LocalVarDecl(
+            Type(
+             char
+            ) [Type]
+            LocalVarIdent(
+             k
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [LocalVarIdent]
+            NoLocalVarDeclAdditionals(
+            ) [NoLocalVarDeclAdditionals]
+          ) [LocalVarDecl]
+        ) [LocalVarDeclarations]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               k
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  Term(
+                    FactorDesignator(
+                      Designator(
+                       a
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                    NoFactorOptionalList(
+                    ) [NoFactorOptionalList]
+                  ) [Term]
+                  ExpressionOptList(
+                    NoExpressionOptList(
+                    ) [NoExpressionOptList]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    Term(
+                      FactorDesignator(
+                        Designator(
+                         b
+                          NoDesignatorArray(
+                          ) [NoDesignatorArray]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                      NoFactorOptionalList(
+                      ) [NoFactorOptionalList]
+                    ) [Term]
+                  ) [ExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:25:07,048 - ===================================
+INFO  23:25:07,055 - Deklarisana globalna promenljiva sa imenom: a na liniji: 3 [Var a: int, 0, 0 ]
+INFO  23:25:07,056 - Deklarisana globalna promenljiva sa imenom: b na liniji: 4 [Var b: char, 1, 0 ]
+INFO  23:25:07,056 - Obradjuje se funkcija: anka na liniji: 11 [Meth anka: notype, 0, 0 
+]
+INFO  23:25:07,056 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 11 [Var k: char, 0, 1 ]
+INFO  23:25:07,057 - Obradjuje se funkcija: main na liniji: 16 [Meth main: notype, 0, 0 
+]
+INFO  23:25:07,057 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 16 [Var k: int, 0, 1 ]
+INFO  23:25:07,057 - Pristup promenljivoj: k na liniji: 18 [Var k: int, 0, 1 ]
+INFO  23:25:07,058 - Pristup promenljivoj: a na liniji: 18 [Var a: int, 0, 0 ]
+ERROR 23:25:07,058 - Greska na liniji 18 : nekompatibilni tipovi u izrazu za mnozenje.
+INFO  23:25:07,058 - Pristup promenljivoj: b na liniji: 18 [Var b: char, 1, 0 ]
+ERROR 23:25:07,058 - Greska na liniji 18 : nekompatibilni tipovi u izrazu za mnozenje.
+INFO  23:25:07,059 - Print count calls = 0
+INFO  23:25:07,059 - Deklarisanih globalnih promenljivih ima = 2
+INFO  23:25:07,059 - Definisanih konstanti ima = 0
+INFO  23:25:07,059 - Definisanih lokalnih promenljivih ima = 2
+INFO  23:25:07,059 - ===================================
+ERROR 23:25:07,061 - Parsiranje NIJE uspesno zavrseno!

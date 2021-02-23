@@ -1,0 +1,152 @@
+INFO  03:15:13,661 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  03:15:13,684 - #2 program
+INFO  03:15:13,684 - #38 MJProgram
+INFO  03:15:13,684 - #38 int
+INFO  03:15:13,685 - #38 a
+INFO  03:15:13,685 - #11 [
+INFO  03:15:13,685 - #12 ]
+INFO  03:15:13,686 - #10 ,
+INFO  03:15:13,687 - #38 b
+INFO  03:15:13,687 - #10 ,
+INFO  03:15:13,687 - #38 d
+INFO  03:15:13,687 - #25 ;
+INFO  03:15:13,687 - #3 const
+INFO  03:15:13,688 - #38 bool
+INFO  03:15:13,688 - #38 janja
+INFO  03:15:13,688 - #13 =
+INFO  03:15:13,688 - #41 false
+INFO  03:15:13,688 - #25 ;
+INFO  03:15:13,689 - #8 {
+INFO  03:15:13,689 - #4 void
+INFO  03:15:13,690 - #38 main
+INFO  03:15:13,690 - #14 (
+INFO  03:15:13,690 - #15 )
+INFO  03:15:13,697 - #38 int
+INFO  03:15:13,697 - #38 k
+INFO  03:15:13,697 - #25 ;
+INFO  03:15:13,698 - #8 {
+INFO  03:15:13,699 - #6 print
+INFO  03:15:13,699 - #14 (
+INFO  03:15:13,699 - #39 9
+INFO  03:15:13,700 - #15 )
+INFO  03:15:13,701 - #25 ;
+INFO  03:15:13,701 - #9 }
+INFO  03:15:13,701 - #9 }
+INFO  03:15:13,708 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         a
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        VarDeclAdditionals(
+          VarDeclAdditionals(
+            NoVarDeclAdditionals(
+            ) [NoVarDeclAdditionals]
+            VarIdent(
+             b
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [VarIdent]
+          ) [VarDeclAdditionals]
+          VarIdent(
+           d
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+        ) [VarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         janja
+          ConstValueBool(
+           false
+          ) [ConstValueBool]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  03:15:13,709 - ===================================
+INFO  03:15:13,711 - Deklarisan globalni niz sa imenom: a na liniji: 3 [Var a: Arr of int, 0, 0 ]
+INFO  03:15:13,711 - Deklarisana globalna promenljiva sa imenom: b na liniji: 3 [Var b: int, 1, 0 ]
+INFO  03:15:13,711 - Deklarisana globalna promenljiva sa imenom: d na liniji: 3 [Var d: int, 2, 0 ]
+INFO  03:15:13,711 - Definisana konstanta sa imenom: janja na liniji: 5 [Con janja: int, 0, 0 ]
+ERROR 03:15:13,711 - ERROR Funkcija main mora imati povratni tip void!  na liniji 13
+INFO  03:15:13,711 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 13 [Var k: int, 3, 0 ]
+ERROR 03:15:13,711 - ERROR Program mora imati definisanu funkciju main! na liniji 1
+INFO  03:15:13,712 - Print count calls = 0
+INFO  03:15:13,712 - Deklarisanih globalnih promenljivih ima = 3
+INFO  03:15:13,712 - Definisanih konstanti ima = 1
+INFO  03:15:13,712 - Definisanih lokalnih promenljivih ima = 1
+INFO  03:15:13,712 - ===================================
+ERROR 03:15:13,712 - Parsiranje NIJE uspesno zavrseno!

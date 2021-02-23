@@ -1,0 +1,204 @@
+INFO  00:46:03,156 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  00:46:03,201 - #2 program
+INFO  00:46:03,201 - #38 MJProgram
+INFO  00:46:03,201 - #38 int
+INFO  00:46:03,203 - #38 a
+INFO  00:46:03,203 - #10 ,
+INFO  00:46:03,205 - #38 b
+INFO  00:46:03,205 - #10 ,
+INFO  00:46:03,206 - #38 d
+INFO  00:46:03,206 - #25 ;
+INFO  00:46:03,206 - #3 const
+INFO  00:46:03,207 - #38 char
+INFO  00:46:03,207 - #38 anka
+INFO  00:46:03,207 - #13 =
+INFO  00:46:03,207 - #40 'a'
+INFO  00:46:03,207 - #10 ,
+INFO  00:46:03,208 - #38 marko
+INFO  00:46:03,208 - #13 =
+INFO  00:46:03,208 - #40 'b'
+INFO  00:46:03,208 - #25 ;
+INFO  00:46:03,209 - #3 const
+INFO  00:46:03,209 - #38 int
+INFO  00:46:03,210 - #38 mika
+INFO  00:46:03,210 - #13 =
+INFO  00:46:03,211 - #39 11
+INFO  00:46:03,211 - #25 ;
+INFO  00:46:03,211 - #3 const
+INFO  00:46:03,211 - #38 bool
+INFO  00:46:03,212 - #38 janja
+INFO  00:46:03,212 - #13 =
+INFO  00:46:03,212 - #39 1
+INFO  00:46:03,212 - #25 ;
+INFO  00:46:03,212 - #8 {
+INFO  00:46:03,213 - #38 int
+INFO  00:46:03,214 - #38 main
+INFO  00:46:03,214 - #14 (
+INFO  00:46:03,215 - #15 )
+INFO  00:46:03,216 - #38 int
+INFO  00:46:03,217 - #38 k
+INFO  00:46:03,217 - #25 ;
+INFO  00:46:03,220 - #8 {
+INFO  00:46:03,222 - #6 print
+INFO  00:46:03,223 - #14 (
+INFO  00:46:03,223 - #39 9
+INFO  00:46:03,225 - #15 )
+INFO  00:46:03,229 - #25 ;
+INFO  00:46:03,230 - #9 }
+INFO  00:46:03,230 - #9 }
+INFO  00:46:03,249 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalConstDeclarations(
+      GlobalConstDeclarations(
+        GlobalVarDeclarations(
+          NoGlobalDeclarations(
+          ) [NoGlobalDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdent(
+             a
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [VarIdent]
+            VarDeclAdditionals(
+              VarDeclAdditionals(
+                NoVarDeclAdditionals(
+                ) [NoVarDeclAdditionals]
+                VarIdent(
+                 b
+                  NoArrayDeclaration(
+                  ) [NoArrayDeclaration]
+                ) [VarIdent]
+              ) [VarDeclAdditionals]
+              VarIdent(
+               d
+                NoArrayDeclaration(
+                ) [NoArrayDeclaration]
+              ) [VarIdent]
+            ) [VarDeclAdditionals]
+          ) [VarDecl]
+        ) [GlobalVarDeclarations]
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          ConstDeclAdditionals(
+            ConstDeclAdditionalsOne(
+              ConstDeclOne(
+               anka
+                ConstValueChar(
+                 'a'
+                ) [ConstValueChar]
+              ) [ConstDeclOne]
+            ) [ConstDeclAdditionalsOne]
+            ConstDeclOne(
+             marko
+              ConstValueChar(
+               'b'
+              ) [ConstValueChar]
+            ) [ConstDeclOne]
+          ) [ConstDeclAdditionals]
+        ) [ConstDecl]
+      ) [GlobalConstDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclAdditionalsOne(
+          ConstDeclOne(
+           mika
+            ConstValueInt(
+             11
+            ) [ConstValueInt]
+          ) [ConstDeclOne]
+        ) [ConstDeclAdditionalsOne]
+      ) [ConstDecl]
+    ) [GlobalConstDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         janja
+          ConstValueInt(
+           1
+          ) [ConstValueInt]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        Type(
+         int
+        ) [Type]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:46:03,250 - ===================================
+INFO  00:46:03,255 - Deklarisana globalna promenljiva sa imenom: a na liniji 3
+INFO  00:46:03,256 - Deklarisana globalna promenljiva sa imenom: b na liniji 3
+INFO  00:46:03,256 - Deklarisana globalna promenljiva sa imenom: d na liniji 3
+INFO  00:46:03,256 - Definisana konstanta sa imenom: anka na liniji 4
+INFO  00:46:03,256 - Definisana konstanta sa imenom: marko na liniji 4
+INFO  00:46:03,257 - Definisana konstanta sa imenom: mika na liniji 5
+ERROR 00:46:03,257 - ERROR Tip konstante sa imenom: janja i tip njoj dodeljene vrednosti se razlikuju! na liniji 6
+INFO  00:46:03,258 - Print count calls = 0
+INFO  00:46:03,258 - Deklarisanih globalnih promenljivih ima = 3
+INFO  00:46:03,258 - Definisanih konstanti ima = 3
+INFO  00:46:03,258 - ===================================
+ERROR 00:46:03,260 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,172 @@
+INFO  18:53:41,973 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  18:53:41,995 - #2 program
+INFO  18:53:41,995 - #38 MJProgram
+INFO  18:53:41,995 - #38 char
+INFO  18:53:41,996 - #38 anka
+INFO  18:53:41,997 - #25 ;
+INFO  18:53:41,998 - #38 int
+INFO  18:53:41,998 - #38 niz
+INFO  18:53:41,998 - #11 [
+INFO  18:53:41,998 - #12 ]
+INFO  18:53:41,998 - #10 ,
+INFO  18:53:41,999 - #38 niz2
+INFO  18:53:41,999 - #11 [
+INFO  18:53:41,999 - #12 ]
+INFO  18:53:41,999 - #25 ;
+INFO  18:53:41,999 - #3 const
+INFO  18:53:41,999 - #38 int
+INFO  18:53:41,999 - #38 a
+INFO  18:53:41,999 - #13 =
+INFO  18:53:41,999 - #39 1
+INFO  18:53:41,999 - #25 ;
+INFO  18:53:42,000 - #8 {
+INFO  18:53:42,001 - #4 void
+INFO  18:53:42,006 - #38 main
+INFO  18:53:42,006 - #14 (
+INFO  18:53:42,007 - #15 )
+INFO  18:53:42,007 - #8 {
+INFO  18:53:42,007 - #38 niz
+INFO  18:53:42,008 - #13 =
+INFO  18:53:42,008 - #7 new
+INFO  18:53:42,008 - #38 int
+INFO  18:53:42,008 - #11 [
+INFO  18:53:42,009 - #38 anka
+INFO  18:53:42,009 - #12 ]
+INFO  18:53:42,009 - #25 ;
+INFO  18:53:42,010 - #9 }
+INFO  18:53:42,010 - #9 }
+INFO  18:53:42,017 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarIdent(
+           anka
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        VarDeclAdditionals(
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+          VarIdent(
+           niz2
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [VarIdent]
+        ) [VarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         a
+          ConstValueInt(
+           1
+          ) [ConstValueInt]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               niz
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorNew(
+                          Type(
+                           int
+                          ) [Type]
+                          ExpressionSimple(
+                            Expression(
+                              SingleExpressionOptList(
+                                Term(
+                                  SingleFactorOptionalList(
+                                    FactorDesignator(
+                                      Designator(
+                                       anka
+                                        NoDesignatorArray(
+                                        ) [NoDesignatorArray]
+                                      ) [Designator]
+                                    ) [FactorDesignator]
+                                  ) [SingleFactorOptionalList]
+                                ) [Term]
+                              ) [SingleExpressionOptList]
+                            ) [Expression]
+                          ) [ExpressionSimple]
+                        ) [FactorNew]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:53:42,017 - ===================================
+INFO  18:53:42,020 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 3 [Var anka: char, 0, 0 ]
+INFO  18:53:42,020 - Deklarisan globalni niz sa imenom: niz na liniji: 8 [Var niz: Arr of int, 1, 0 ]
+INFO  18:53:42,020 - Deklarisan globalni niz sa imenom: niz2 na liniji: 8 [Var niz2: Arr of int, 2, 0 ]
+INFO  18:53:42,020 - Definisana konstanta sa imenom: a na liniji: 9 [Con a: int, 1, 0 ]
+INFO  18:53:42,020 - Obradjuje se funkcija: main na liniji: 16 [Meth main: notype, 0, 0 
+]
+INFO  18:53:42,020 - Pristup globalnoj promenljivoj: niz na liniji: 19 [Var niz: Arr of int, 1, 0 ]
+INFO  18:53:42,020 - Pristup globalnoj promenljivoj: anka na liniji: 19 [Var anka: char, 0, 0 ]
+ERROR 18:53:42,021 - Greska na liniji 19 : izraz u okviru new naredbe mora biti tipa int!
+INFO  18:53:42,021 - Print count calls = 0
+INFO  18:53:42,021 - Deklarisanih globalnih promenljivih ima = 3
+INFO  18:53:42,021 - Definisanih konstanti ima = 1
+INFO  18:53:42,021 - Definisanih lokalnih promenljivih ima = 0
+INFO  18:53:42,021 - ===================================
+ERROR 18:53:42,021 - Parsiranje NIJE uspesno zavrseno!

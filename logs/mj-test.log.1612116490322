@@ -1,0 +1,116 @@
+INFO  19:06:43,050 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  19:06:43,076 - #2 program
+INFO  19:06:43,076 - #38 MJProgram
+INFO  19:06:43,077 - #38 int
+INFO  19:06:43,077 - #38 anka
+INFO  19:06:43,078 - #25 ;
+INFO  19:06:43,079 - #38 int
+INFO  19:06:43,079 - #38 niz
+INFO  19:06:43,079 - #11 [
+INFO  19:06:43,080 - #12 ]
+INFO  19:06:43,080 - #10 ,
+INFO  19:06:43,080 - #38 niz2
+INFO  19:06:43,080 - #11 [
+INFO  19:06:43,080 - #12 ]
+INFO  19:06:43,080 - #25 ;
+INFO  19:06:43,080 - #3 const
+INFO  19:06:43,080 - #38 int
+INFO  19:06:43,080 - #38 a
+INFO  19:06:43,080 - #13 =
+INFO  19:06:43,081 - #40 'a'
+INFO  19:06:43,081 - #25 ;
+INFO  19:06:43,081 - #8 {
+INFO  19:06:43,082 - #4 void
+INFO  19:06:43,088 - #38 main
+INFO  19:06:43,089 - #14 (
+INFO  19:06:43,089 - #15 )
+INFO  19:06:43,089 - #8 {
+INFO  19:06:43,090 - #9 }
+INFO  19:06:43,090 - #9 }
+INFO  19:06:43,096 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           anka
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        VarDeclAdditionals(
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+          VarIdent(
+           niz2
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [VarIdent]
+        ) [VarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         a
+          ConstValueChar(
+           'a'
+          ) [ConstValueChar]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:06:43,096 - ===================================
+INFO  19:06:43,099 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 3 [Var anka: int, 0, 0 ]
+INFO  19:06:43,099 - Deklarisan globalni niz sa imenom: niz na liniji: 8 [Var niz: Arr of int, 1, 0 ]
+INFO  19:06:43,099 - Deklarisan globalni niz sa imenom: niz2 na liniji: 8 [Var niz2: Arr of int, 2, 0 ]
+ERROR 19:06:43,099 - Tip konstante sa imenom: a i tip njoj dodeljene vrednosti se razlikuju! na liniji 9
+INFO  19:06:43,099 - Obradjuje se funkcija: main na liniji: 16 [Meth main: notype, 0, 0 
+]
+INFO  19:06:43,099 - Print count calls = 0
+INFO  19:06:43,099 - Deklarisanih globalnih promenljivih ima = 3
+INFO  19:06:43,099 - Definisanih konstanti ima = 0
+INFO  19:06:43,099 - Definisanih lokalnih promenljivih ima = 0
+INFO  19:06:43,100 - ===================================
+ERROR 19:06:43,100 - Parsiranje NIJE uspesno zavrseno!

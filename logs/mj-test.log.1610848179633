@@ -1,0 +1,136 @@
+INFO  02:48:15,119 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  02:48:15,141 - #2 program
+INFO  02:48:15,141 - #41 MJProgram
+INFO  02:48:15,141 - #26 int
+INFO  02:48:15,142 - #41 a
+INFO  02:48:15,142 - #25 ;
+INFO  02:48:15,143 - #27 char
+INFO  02:48:15,144 - #41 c
+INFO  02:48:15,144 - #25 ;
+INFO  02:48:15,144 - #28 bool
+INFO  02:48:15,144 - #41 b
+INFO  02:48:15,145 - #25 ;
+INFO  02:48:15,145 - #26 int
+INFO  02:48:15,145 - #41 kl
+INFO  02:48:15,145 - #25 ;
+INFO  02:48:15,145 - #8 {
+INFO  02:48:15,145 - #26 int
+INFO  02:48:15,146 - #41 main
+INFO  02:48:15,146 - #14 (
+INFO  02:48:15,146 - #15 )
+INFO  02:48:15,146 - #26 int
+INFO  02:48:15,147 - #41 h
+INFO  02:48:15,147 - #25 ;
+INFO  02:48:15,153 - #8 {
+INFO  02:48:15,153 - #6 print
+INFO  02:48:15,153 - #14 (
+INFO  02:48:15,153 - #42 9
+INFO  02:48:15,154 - #15 )
+INFO  02:48:15,155 - #25 ;
+INFO  02:48:15,156 - #9 }
+INFO  02:48:15,156 - #9 }
+INFO  02:48:15,157 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        GlobalVarDeclarations(
+          NoGlobalDeclarations(
+          ) [NoGlobalDeclarations]
+          VarDecl(
+            IntegerType(
+            ) [IntegerType]
+           a
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+            NoVarDeclAdditionals(
+            ) [NoVarDeclAdditionals]
+          ) [VarDecl]
+        ) [GlobalVarDeclarations]
+        VarDecl(
+          CharType(
+          ) [CharType]
+         c
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        BoolType(
+        ) [BoolType]
+       b
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      IntegerType(
+      ) [IntegerType]
+     kl
+      NoArrayDeclaration(
+      ) [NoArrayDeclaration]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        IntegerType(
+        ) [IntegerType]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      VarDeclarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDecl(
+          IntegerType(
+          ) [IntegerType]
+         h
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  02:48:15,158 - ===================================
+INFO  02:48:15,160 -  Print count calls = 0
+INFO  02:48:15,160 -  Deklarisanih promenljivih ima = 0

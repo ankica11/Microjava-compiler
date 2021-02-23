@@ -1,0 +1,42 @@
+program MJProgram
+
+    
+   
+    
+    
+    
+   int a, b, mika;
+   int anka;
+   int niz[];
+   int niz2[];
+   const int size=7;
+   const char karakter='A';
+   char m;
+   
+	
+{
+    
+    
+   
+    
+   
+    
+   
+ 
+	
+	
+	void main() bool flag;
+	 {
+	  read(b);
+	  a=b+10;
+	  b--;
+	  print(a);
+	  print(b ? 'A' : 'B');
+
+	    
+	}
+	
+	
+	
+	
+}

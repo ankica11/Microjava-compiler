@@ -1,0 +1,204 @@
+INFO  00:45:33,840 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  00:45:33,872 - #2 program
+INFO  00:45:33,873 - #38 MJProgram
+INFO  00:45:33,873 - #38 int
+INFO  00:45:33,874 - #38 a
+INFO  00:45:33,875 - #10 ,
+INFO  00:45:33,877 - #38 b
+INFO  00:45:33,877 - #10 ,
+INFO  00:45:33,877 - #38 d
+INFO  00:45:33,877 - #25 ;
+INFO  00:45:33,877 - #3 const
+INFO  00:45:33,878 - #38 char
+INFO  00:45:33,878 - #38 anka
+INFO  00:45:33,878 - #13 =
+INFO  00:45:33,878 - #40 'a'
+INFO  00:45:33,878 - #10 ,
+INFO  00:45:33,879 - #38 marko
+INFO  00:45:33,879 - #13 =
+INFO  00:45:33,879 - #40 'b'
+INFO  00:45:33,880 - #25 ;
+INFO  00:45:33,880 - #3 const
+INFO  00:45:33,881 - #38 int
+INFO  00:45:33,881 - #38 mika
+INFO  00:45:33,881 - #13 =
+INFO  00:45:33,881 - #39 11
+INFO  00:45:33,881 - #25 ;
+INFO  00:45:33,882 - #3 const
+INFO  00:45:33,882 - #38 bool
+INFO  00:45:33,882 - #38 janja
+INFO  00:45:33,882 - #13 =
+INFO  00:45:33,882 - #41 true
+INFO  00:45:33,882 - #25 ;
+INFO  00:45:33,882 - #8 {
+INFO  00:45:33,882 - #38 int
+INFO  00:45:33,883 - #38 main
+INFO  00:45:33,883 - #14 (
+INFO  00:45:33,883 - #15 )
+INFO  00:45:33,884 - #38 int
+INFO  00:45:33,884 - #38 k
+INFO  00:45:33,884 - #25 ;
+INFO  00:45:33,885 - #8 {
+INFO  00:45:33,886 - #6 print
+INFO  00:45:33,886 - #14 (
+INFO  00:45:33,886 - #39 9
+INFO  00:45:33,887 - #15 )
+INFO  00:45:33,890 - #25 ;
+INFO  00:45:33,890 - #9 }
+INFO  00:45:33,890 - #9 }
+INFO  00:45:33,901 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalConstDeclarations(
+      GlobalConstDeclarations(
+        GlobalVarDeclarations(
+          NoGlobalDeclarations(
+          ) [NoGlobalDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdent(
+             a
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [VarIdent]
+            VarDeclAdditionals(
+              VarDeclAdditionals(
+                NoVarDeclAdditionals(
+                ) [NoVarDeclAdditionals]
+                VarIdent(
+                 b
+                  NoArrayDeclaration(
+                  ) [NoArrayDeclaration]
+                ) [VarIdent]
+              ) [VarDeclAdditionals]
+              VarIdent(
+               d
+                NoArrayDeclaration(
+                ) [NoArrayDeclaration]
+              ) [VarIdent]
+            ) [VarDeclAdditionals]
+          ) [VarDecl]
+        ) [GlobalVarDeclarations]
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          ConstDeclAdditionals(
+            ConstDeclAdditionalsOne(
+              ConstDeclOne(
+               anka
+                ConstValueChar(
+                 'a'
+                ) [ConstValueChar]
+              ) [ConstDeclOne]
+            ) [ConstDeclAdditionalsOne]
+            ConstDeclOne(
+             marko
+              ConstValueChar(
+               'b'
+              ) [ConstValueChar]
+            ) [ConstDeclOne]
+          ) [ConstDeclAdditionals]
+        ) [ConstDecl]
+      ) [GlobalConstDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclAdditionalsOne(
+          ConstDeclOne(
+           mika
+            ConstValueInt(
+             11
+            ) [ConstValueInt]
+          ) [ConstDeclOne]
+        ) [ConstDeclAdditionalsOne]
+      ) [ConstDecl]
+    ) [GlobalConstDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         janja
+          ConstValueBool(
+           true
+          ) [ConstValueBool]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        Type(
+         int
+        ) [Type]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:45:33,902 - ===================================
+INFO  00:45:33,904 - Deklarisana globalna promenljiva sa imenom: a na liniji 3
+INFO  00:45:33,904 - Deklarisana globalna promenljiva sa imenom: b na liniji 3
+INFO  00:45:33,905 - Deklarisana globalna promenljiva sa imenom: d na liniji 3
+INFO  00:45:33,905 - Definisana konstanta sa imenom: anka na liniji 4
+INFO  00:45:33,905 - Definisana konstanta sa imenom: marko na liniji 4
+INFO  00:45:33,905 - Definisana konstanta sa imenom: mika na liniji 5
+INFO  00:45:33,905 - Definisana konstanta sa imenom: janja na liniji 6
+INFO  00:45:33,905 - Print count calls = 0
+INFO  00:45:33,905 - Deklarisanih globalnih promenljivih ima = 3
+INFO  00:45:33,905 - Definisanih konstanti ima = 4
+INFO  00:45:33,906 - ===================================
+INFO  00:45:33,907 - Parsiranje uspesno zavrseno!

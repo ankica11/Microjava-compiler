@@ -1,0 +1,161 @@
+INFO  22:54:44,526 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  22:54:44,563 - #2 program
+INFO  22:54:44,563 - #38 MJProgram
+INFO  22:54:44,563 - #38 int
+INFO  22:54:44,564 - #38 a
+INFO  22:54:44,565 - #11 [
+INFO  22:54:44,565 - #12 ]
+INFO  22:54:44,565 - #10 ,
+INFO  22:54:44,567 - #38 k
+INFO  22:54:44,567 - #25 ;
+INFO  22:54:44,567 - #3 const
+INFO  22:54:44,568 - #38 bool
+INFO  22:54:44,568 - #38 i
+INFO  22:54:44,568 - #13 =
+INFO  22:54:44,568 - #41 true
+INFO  22:54:44,569 - #25 ;
+INFO  22:54:44,569 - #38 char
+INFO  22:54:44,570 - #38 k
+INFO  22:54:44,570 - #25 ;
+INFO  22:54:44,571 - #8 {
+INFO  22:54:44,571 - #4 void
+INFO  22:54:44,571 - #38 mainko
+INFO  22:54:44,572 - #14 (
+INFO  22:54:44,605 - #15 )
+INFO  22:54:44,606 - #38 int
+INFO  22:54:44,607 - #38 k
+INFO  22:54:44,607 - #25 ;
+INFO  22:54:44,609 - #8 {
+INFO  22:54:44,611 - #6 print
+INFO  22:54:44,611 - #14 (
+INFO  22:54:44,612 - #39 9
+INFO  22:54:44,613 - #15 )
+INFO  22:54:44,617 - #25 ;
+INFO  22:54:44,617 - #9 }
+INFO  22:54:44,617 - #9 }
+INFO  22:54:44,635 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalConstDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           a
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [VarIdent]
+          VarDeclAdditionals(
+            NoVarDeclAdditionals(
+            ) [NoVarDeclAdditionals]
+            VarIdent(
+             k
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [VarIdent]
+          ) [VarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        ConstDeclAdditionalsOne(
+          ConstDeclOne(
+           i
+            ConstValueBool(
+             true
+            ) [ConstValueBool]
+          ) [ConstDeclOne]
+        ) [ConstDeclAdditionalsOne]
+      ) [ConstDecl]
+    ) [GlobalConstDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       k
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       mainko
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:54:44,636 - ===================================
+INFO  22:54:44,641 - Deklarisan globalni niz sa imenom: a na liniji: 3 [Var a: Arr of int, 0, 0 ]
+INFO  22:54:44,641 - Deklarisana globalna promenljiva sa imenom: k na liniji: 3 [Var k: int, 1, 0 ]
+INFO  22:54:44,641 - Definisana konstanta sa imenom: i na liniji: 5 [Con i: int, 1, 0 ]
+ERROR 22:54:44,641 - ERROR Visestruka deklaracija simbola: Globalna promenljiva sa imenom: k je vec deklarisana. na liniji 7
+INFO  22:54:44,642 - Obradjuje se funkcija: mainko na liniji: 15 [Meth mainko: notype, 0, 0 
+]
+INFO  22:54:44,642 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 15 [Var k: int, 0, 1 ]
+ERROR 22:54:44,642 - ERROR Program mora imati definisanu funkciju main! na liniji 1
+INFO  22:54:44,643 - Print count calls = 0
+INFO  22:54:44,643 - Deklarisanih globalnih promenljivih ima = 2
+INFO  22:54:44,643 - Definisanih konstanti ima = 1
+INFO  22:54:44,643 - Definisanih lokalnih promenljivih ima = 1
+INFO  22:54:44,643 - ===================================
+ERROR 22:54:44,644 - Parsiranje NIJE uspesno zavrseno!

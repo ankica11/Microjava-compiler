@@ -1,0 +1,170 @@
+INFO  18:30:53,363 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  18:30:53,386 - #2 program
+INFO  18:30:53,387 - #38 MJProgram
+INFO  18:30:53,387 - #38 int
+INFO  18:30:53,387 - #38 anka
+INFO  18:30:53,388 - #25 ;
+INFO  18:30:53,389 - #38 char
+INFO  18:30:53,390 - #38 ana
+INFO  18:30:53,390 - #25 ;
+INFO  18:30:53,390 - #8 {
+INFO  18:30:53,390 - #4 void
+INFO  18:30:53,391 - #38 main
+INFO  18:30:53,391 - #14 (
+INFO  18:30:53,391 - #15 )
+INFO  18:30:53,392 - #8 {
+INFO  18:30:53,392 - #38 anka
+INFO  18:30:53,392 - #13 =
+INFO  18:30:53,393 - #21 -
+INFO  18:30:53,393 - #39 2
+INFO  18:30:53,393 - #21 -
+INFO  18:30:53,394 - #14 (
+INFO  18:30:53,395 - #21 -
+INFO  18:30:53,395 - #39 2
+INFO  18:30:53,426 - #20 +
+INFO  18:30:53,426 - #39 3
+INFO  18:30:53,427 - #22 *
+INFO  18:30:53,427 - #39 1
+INFO  18:30:53,428 - #15 )
+INFO  18:30:53,429 - #25 ;
+INFO  18:30:53,430 - #9 }
+INFO  18:30:53,431 - #9 }
+INFO  18:30:53,443 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         anka
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       ana
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               anka
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  ExpressionOptList(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConstWithNegativeSign(
+                            ConstValueInt(
+                             2
+                            ) [ConstValueInt]
+                          ) [FactorConstWithNegativeSign]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorExpr(
+                          ExpressionSimple(
+                            Expression(
+                              ExpressionOptList(
+                                SingleExpressionOptList(
+                                  Term(
+                                    SingleFactorOptionalList(
+                                      FactorConstWithNegativeSign(
+                                        ConstValueInt(
+                                         2
+                                        ) [ConstValueInt]
+                                      ) [FactorConstWithNegativeSign]
+                                    ) [SingleFactorOptionalList]
+                                  ) [Term]
+                                ) [SingleExpressionOptList]
+                                AddopPlus(
+                                ) [AddopPlus]
+                                Term(
+                                  FactorOptionalList(
+                                    SingleFactorOptionalList(
+                                      FactorConst(
+                                        ConstValueInt(
+                                         3
+                                        ) [ConstValueInt]
+                                      ) [FactorConst]
+                                    ) [SingleFactorOptionalList]
+                                    MulopMul(
+                                    ) [MulopMul]
+                                    FactorConst(
+                                      ConstValueInt(
+                                       1
+                                      ) [ConstValueInt]
+                                    ) [FactorConst]
+                                  ) [FactorOptionalList]
+                                ) [Term]
+                              ) [ExpressionOptList]
+                            ) [Expression]
+                          ) [ExpressionSimple]
+                        ) [FactorExpr]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [ExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:30:53,444 - ===================================
+INFO  18:30:53,446 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 3 [Var anka: int, 0, 0 ]
+INFO  18:30:53,446 - Deklarisana globalna promenljiva sa imenom: ana na liniji: 8 [Var ana: char, 1, 0 ]
+INFO  18:30:53,447 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  18:30:53,447 - Pristup globalnoj promenljivoj: anka na liniji: 19 [Var anka: int, 0, 0 ]
+INFO  18:30:53,447 - Print count calls = 0
+INFO  18:30:53,447 - Deklarisanih globalnih promenljivih ima = 2
+INFO  18:30:53,447 - Definisanih konstanti ima = 0
+INFO  18:30:53,447 - Definisanih lokalnih promenljivih ima = 0
+INFO  18:30:53,447 - ===================================
+INFO  18:30:53,448 - Parsiranje uspesno zavrseno!

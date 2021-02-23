@@ -1,0 +1,183 @@
+INFO  22:33:20,672 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  22:33:20,697 - #2 program
+INFO  22:33:20,697 - #41 MJProgram
+INFO  22:33:20,698 - #8 {
+INFO  22:33:20,698 - #26 int
+INFO  22:33:20,699 - #41 main
+INFO  22:33:20,700 - #14 (
+INFO  22:33:20,700 - #15 )
+INFO  22:33:20,700 - #26 int
+INFO  22:33:20,701 - #41 a
+INFO  22:33:20,701 - #10 ,
+INFO  22:33:20,703 - #41 c
+INFO  22:33:20,703 - #25 ;
+INFO  22:33:20,703 - #27 char
+INFO  22:33:20,704 - #41 b
+INFO  22:33:20,705 - #11 [
+INFO  22:33:20,705 - #12 ]
+INFO  22:33:20,705 - #25 ;
+INFO  22:33:20,705 - #8 {
+INFO  22:33:20,705 - #41 b
+INFO  22:33:20,706 - #13 =
+INFO  22:33:20,707 - #7 new
+INFO  22:33:20,707 - #27 char
+INFO  22:33:20,714 - #11 [
+INFO  22:33:20,714 - #42 10
+INFO  22:33:20,714 - #12 ]
+INFO  22:33:20,715 - #25 ;
+INFO  22:33:20,716 - #41 b
+INFO  22:33:20,716 - #11 [
+INFO  22:33:20,716 - #42 1
+INFO  22:33:20,716 - #12 ]
+INFO  22:33:20,716 - #13 =
+INFO  22:33:20,716 - #43 'a'
+INFO  22:33:20,716 - #25 ;
+INFO  22:33:20,716 - #9 }
+INFO  22:33:20,716 - #9 }
+INFO  22:33:20,718 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoGlobalDeclarations(
+  ) [NoGlobalDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        IntegerType(
+        ) [IntegerType]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDecl(
+            IntegerType(
+            ) [IntegerType]
+           a
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+            VarDeclAdditionals(
+              NoVarDeclAdditionals(
+              ) [NoVarDeclAdditionals]
+             c
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [VarDeclAdditionals]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          CharType(
+          ) [CharType]
+         b
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 b
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    NoOptionalMinus(
+                    ) [NoOptionalMinus]
+                    Term(
+                      FactorNew(
+                        CharType(
+                        ) [CharType]
+                        ExpressionSimple(
+                          Expression(
+                            NoOptionalMinus(
+                            ) [NoOptionalMinus]
+                            Term(
+                              FactorConst(
+                                ConstValueInt(
+                                 10
+                                ) [ConstValueInt]
+                              ) [FactorConst]
+                              NoFactorOptionalList(
+                              ) [NoFactorOptionalList]
+                            ) [Term]
+                            NoExpressionOptList(
+                            ) [NoExpressionOptList]
+                          ) [Expression]
+                        ) [ExpressionSimple]
+                      ) [FactorNew]
+                      NoFactorOptionalList(
+                      ) [NoFactorOptionalList]
+                    ) [Term]
+                    NoExpressionOptList(
+                    ) [NoExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               b
+                DesignatorArray(
+                  ExpressionSimple(
+                    Expression(
+                      NoOptionalMinus(
+                      ) [NoOptionalMinus]
+                      Term(
+                        FactorConst(
+                          ConstValueInt(
+                           1
+                          ) [ConstValueInt]
+                        ) [FactorConst]
+                        NoFactorOptionalList(
+                        ) [NoFactorOptionalList]
+                      ) [Term]
+                      NoExpressionOptList(
+                      ) [NoExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [DesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  Term(
+                    FactorConst(
+                      ConstValueChar(
+                       'a'
+                      ) [ConstValueChar]
+                    ) [FactorConst]
+                    NoFactorOptionalList(
+                    ) [NoFactorOptionalList]
+                  ) [Term]
+                  NoExpressionOptList(
+                  ) [NoExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:33:20,719 - ===================================
+INFO  22:33:20,721 -  Print count calls = 0
+INFO  22:33:20,721 -  Deklarisanih promenljivih ima = 3

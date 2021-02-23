@@ -1,0 +1,87 @@
+INFO  16:38:20,305 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  16:38:20,325 - #2 program
+INFO  16:38:20,326 - #38 MJProgram
+INFO  16:38:20,326 - #38 bool
+INFO  16:38:20,326 - #38 a
+INFO  16:38:20,327 - #25 ;
+INFO  16:38:20,328 - #8 {
+INFO  16:38:20,329 - #38 int
+INFO  16:38:20,329 - #38 main
+INFO  16:38:20,329 - #14 (
+INFO  16:38:20,329 - #15 )
+INFO  16:38:20,330 - #8 {
+INFO  16:38:20,330 - #6 print
+INFO  16:38:20,330 - #14 (
+INFO  16:38:20,330 - #39 9
+INFO  16:38:20,331 - #15 )
+INFO  16:38:20,333 - #25 ;
+INFO  16:38:20,333 - #9 }
+INFO  16:38:20,333 - #9 }
+INFO  16:38:20,340 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    NoGlobalDeclarations(
+    ) [NoGlobalDeclarations]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarIdent(
+       a
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        Type(
+         int
+        ) [Type]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:38:20,340 - ===================================
+INFO  16:38:20,341 - Deklarisana globalna promenljiva sa imenom: a na liniji 3
+INFO  16:38:20,341 - Print count calls = 0
+INFO  16:38:20,341 - Deklarisanih promenljivih ima = 1
+INFO  16:38:20,341 - ===================================
+INFO  16:38:20,342 - Parsiranje uspesno zavrseno!

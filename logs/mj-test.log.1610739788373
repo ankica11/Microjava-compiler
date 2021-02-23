@@ -1,0 +1,66 @@
+INFO  20:34:35,548 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  20:34:35,570 - #2 program
+INFO  20:34:35,570 - #41 MJProgram
+INFO  20:34:35,570 - #26 int
+INFO  20:34:35,571 - #41 x
+INFO  20:34:35,571 - #25 ;
+INFO  20:34:35,572 - #26 int
+INFO  20:34:35,572 - #41 y
+INFO  20:34:35,572 - #25 ;
+INFO  20:34:35,573 - #8 {
+INFO  20:34:35,573 - #26 int
+INFO  20:34:35,573 - #41 main
+INFO  20:34:35,573 - #14 (
+INFO  20:34:35,573 - #15 )
+INFO  20:34:35,574 - #8 {
+INFO  20:34:35,574 - #9 }
+INFO  20:34:35,575 - #9 }
+INFO  20:34:35,576 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        IntegerType(
+        ) [IntegerType]
+       x
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      IntegerType(
+      ) [IntegerType]
+     y
+      NoArrayDeclaration(
+      ) [NoArrayDeclaration]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        IntegerType(
+        ) [IntegerType]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:34:35,577 - ===================================
+INFO  20:34:35,578 -  Print count calls = 0
+INFO  20:34:35,578 -  Deklarisanih promenljivih ima = 2

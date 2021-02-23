@@ -1,0 +1,95 @@
+INFO  15:08:37,069 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  15:08:37,092 - #2 program
+INFO  15:08:37,092 - #38 MJProgram
+INFO  15:08:37,092 - #8 {
+INFO  15:08:37,093 - #4 void
+INFO  15:08:37,093 - #38 main
+INFO  15:08:37,094 - #14 (
+INFO  15:08:37,094 - #15 )
+INFO  15:08:37,095 - #8 {
+INFO  15:08:37,095 - #6 print
+INFO  15:08:37,095 - #14 (
+INFO  15:08:37,095 - #39 1
+INFO  15:08:37,095 - #15 )
+INFO  15:08:37,097 - #25 ;
+INFO  15:08:37,097 - #6 print
+INFO  15:08:37,097 - #14 (
+INFO  15:08:37,097 - #39 2
+INFO  15:08:37,097 - #15 )
+INFO  15:08:37,097 - #25 ;
+INFO  15:08:37,097 - #9 }
+INFO  15:08:37,097 - #9 }
+INFO  15:08:37,105 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoGlobalDeclarations(
+  ) [NoGlobalDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          PrintStmt(
+            ExpressionSimple(
+              Expression(
+                SingleExpressionOptList(
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorConst(
+                        ConstValueInt(
+                         1
+                        ) [ConstValueInt]
+                      ) [FactorConst]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [SingleExpressionOptList]
+              ) [Expression]
+            ) [ExpressionSimple]
+            NoPrintParamOptional(
+            ) [NoPrintParamOptional]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorConst(
+                      ConstValueInt(
+                       2
+                      ) [ConstValueInt]
+                    ) [FactorConst]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:08:37,108 - ===================================
+INFO  15:08:37,110 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  15:08:37,111 - Deklarisanih globalnih promenljivih ima = 0
+INFO  15:08:37,111 - Definisanih konstanti ima = 0
+INFO  15:08:37,111 - Deklarisanih lokalnih promenljivih ima = 0
+INFO  15:08:37,111 - ===================================
+INFO  15:08:37,114 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,123 @@
+INFO  15:19:47,948 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  15:19:47,973 - #2 program
+INFO  15:19:47,973 - #38 MJProgram
+INFO  15:19:47,973 - #8 {
+INFO  15:19:47,974 - #4 void
+INFO  15:19:47,974 - #38 main
+INFO  15:19:47,975 - #14 (
+INFO  15:19:47,975 - #15 )
+INFO  15:19:47,976 - #38 int
+INFO  15:19:47,976 - #38 k
+INFO  15:19:47,976 - #25 ;
+INFO  15:19:47,978 - #8 {
+INFO  15:19:47,978 - #38 k
+INFO  15:19:47,978 - #13 =
+INFO  15:19:47,979 - #39 11
+INFO  15:19:47,979 - #25 ;
+INFO  15:19:47,980 - #6 print
+INFO  15:19:47,981 - #14 (
+INFO  15:19:47,981 - #38 k
+INFO  15:19:47,981 - #15 )
+INFO  15:19:47,981 - #25 ;
+INFO  15:19:47,981 - #9 }
+INFO  15:19:47,981 - #9 }
+INFO  15:19:47,989 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoGlobalDeclarations(
+  ) [NoGlobalDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 k
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConst(
+                            ConstValueInt(
+                             11
+                            ) [ConstValueInt]
+                          ) [FactorConst]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorDesignator(
+                      Designator(
+                       k
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:19:47,990 - ===================================
+INFO  15:19:47,992 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  15:19:47,993 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 15 [Var k: int, 0, 1 ]
+INFO  15:19:47,993 - Pristup lokalnoj promenljivoj: k na liniji: 18 [Var k: int, 0, 1 ]
+INFO  15:19:47,993 - Pristup lokalnoj promenljivoj: k na liniji: 19 [Var k: int, 0, 1 ]
+INFO  15:19:47,993 - Deklarisanih globalnih promenljivih ima = 0
+INFO  15:19:47,993 - Definisanih konstanti ima = 0
+INFO  15:19:47,993 - Deklarisanih lokalnih promenljivih ima = 1
+INFO  15:19:47,993 - ===================================
+INFO  15:19:47,997 - Parsiranje uspesno zavrseno!

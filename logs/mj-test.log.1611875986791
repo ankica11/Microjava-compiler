@@ -1,0 +1,170 @@
+INFO  00:19:13,356 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  00:19:13,378 - #2 program
+INFO  00:19:13,379 - #38 MJProgram
+INFO  00:19:13,379 - #38 int
+INFO  00:19:13,379 - #38 niz
+INFO  00:19:13,380 - #11 [
+INFO  00:19:13,380 - #12 ]
+INFO  00:19:13,380 - #25 ;
+INFO  00:19:13,381 - #38 int
+INFO  00:19:13,382 - #38 index
+INFO  00:19:13,382 - #25 ;
+INFO  00:19:13,382 - #38 bool
+INFO  00:19:13,382 - #38 trol
+INFO  00:19:13,382 - #25 ;
+INFO  00:19:13,383 - #8 {
+INFO  00:19:13,383 - #4 void
+INFO  00:19:13,383 - #38 main
+INFO  00:19:13,383 - #14 (
+INFO  00:19:13,384 - #15 )
+INFO  00:19:13,384 - #8 {
+INFO  00:19:13,385 - #38 trol
+INFO  00:19:13,385 - #13 =
+INFO  00:19:13,386 - #41 false
+INFO  00:19:13,418 - #25 ;
+INFO  00:19:13,419 - #6 print
+INFO  00:19:13,420 - #14 (
+INFO  00:19:13,420 - #38 trol
+INFO  00:19:13,420 - #10 ,
+INFO  00:19:13,420 - #39 1
+INFO  00:19:13,420 - #15 )
+INFO  00:19:13,420 - #25 ;
+INFO  00:19:13,420 - #9 }
+INFO  00:19:13,421 - #9 }
+INFO  00:19:13,429 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           niz
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         index
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarIdent(
+       trol
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 trol
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    NoOptionalMinus(
+                    ) [NoOptionalMinus]
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConst(
+                            ConstValueBool(
+                             false
+                            ) [ConstValueBool]
+                          ) [FactorConst]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorDesignator(
+                      Designator(
+                       trol
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          PrintParamOptional(
+           1
+          ) [PrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:19:13,430 - ===================================
+INFO  00:19:13,433 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  00:19:13,433 - Deklarisana globalna promenljiva sa imenom: index na liniji: 4 [Var index: int, 1, 0 ]
+INFO  00:19:13,433 - Deklarisana globalna promenljiva sa imenom: trol na liniji: 5 [Var trol: int, 2, 0 ]
+INFO  00:19:13,433 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  00:19:13,433 - Pristup promenljivoj: trol na liniji: 18 [Var trol: int, 2, 0 ]
+INFO  00:19:13,434 - Pristup promenljivoj: trol na liniji: 19 [Var trol: int, 2, 0 ]
+ERROR 00:19:13,434 - Argument print funkcije mora biti tipa int ili char!
+INFO  00:19:13,434 - Print count calls = 0
+INFO  00:19:13,434 - Deklarisanih globalnih promenljivih ima = 3
+INFO  00:19:13,434 - Definisanih konstanti ima = 0
+INFO  00:19:13,434 - Definisanih lokalnih promenljivih ima = 0
+INFO  00:19:13,434 - ===================================
+ERROR 00:19:13,435 - Parsiranje NIJE uspesno zavrseno!

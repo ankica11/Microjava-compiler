@@ -1,0 +1,137 @@
+INFO  23:02:53,784 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  23:02:53,806 - #2 program
+INFO  23:02:53,806 - #38 MJProgram
+INFO  23:02:53,806 - #38 int
+INFO  23:02:53,807 - #38 niz
+INFO  23:02:53,807 - #11 [
+INFO  23:02:53,807 - #12 ]
+INFO  23:02:53,808 - #25 ;
+INFO  23:02:53,809 - #38 int
+INFO  23:02:53,809 - #38 index
+INFO  23:02:53,809 - #25 ;
+INFO  23:02:53,810 - #8 {
+INFO  23:02:53,810 - #4 void
+INFO  23:02:53,810 - #38 main
+INFO  23:02:53,811 - #14 (
+INFO  23:02:53,811 - #15 )
+INFO  23:02:53,812 - #8 {
+INFO  23:02:53,812 - #38 niz
+INFO  23:02:53,812 - #11 [
+INFO  23:02:53,812 - #38 index
+INFO  23:02:53,813 - #20 +
+INFO  23:02:53,814 - #39 5
+INFO  23:02:53,815 - #12 ]
+INFO  23:02:53,823 - #16 ++
+INFO  23:02:53,823 - #25 ;
+INFO  23:02:53,823 - #9 }
+INFO  23:02:53,824 - #9 }
+INFO  23:02:53,831 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarIdent(
+       index
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            IncrementOp(
+              Designator(
+               niz
+                DesignatorArray(
+                  ExpressionSimple(
+                    Expression(
+                      NoOptionalMinus(
+                      ) [NoOptionalMinus]
+                      ExpressionOptList(
+                        SingleExpressionOptList(
+                          Term(
+                            SingleFactorOptionalList(
+                              FactorDesignator(
+                                Designator(
+                                 index
+                                  NoDesignatorArray(
+                                  ) [NoDesignatorArray]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [SingleFactorOptionalList]
+                          ) [Term]
+                        ) [SingleExpressionOptList]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorConst(
+                              ConstValueInt(
+                               5
+                              ) [ConstValueInt]
+                            ) [FactorConst]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [ExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [DesignatorArray]
+              ) [Designator]
+            ) [IncrementOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:02:53,831 - ===================================
+INFO  23:02:53,834 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  23:02:53,834 - Deklarisana globalna promenljiva sa imenom: index na liniji: 4 [Var index: int, 1, 0 ]
+INFO  23:02:53,834 - Obradjuje se funkcija: main na liniji: 14 [Meth main: notype, 0, 0 
+]
+INFO  23:02:53,834 - Pristup promenljivoj: index na liniji: 17 [Var index: int, 1, 0 ]
+INFO  23:02:53,835 - Pristup nizu: niz na liniji: 17 [Var niz: Arr of int, 0, 0 ]
+INFO  23:02:53,835 - Print count calls = 0
+INFO  23:02:53,835 - Deklarisanih globalnih promenljivih ima = 2
+INFO  23:02:53,835 - Definisanih konstanti ima = 0
+INFO  23:02:53,835 - Definisanih lokalnih promenljivih ima = 0
+INFO  23:02:53,835 - ===================================
+INFO  23:02:53,835 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,279 @@
+INFO  00:59:12,613 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  00:59:12,638 - #2 program
+INFO  00:59:12,639 - #38 MJProgram
+INFO  00:59:12,639 - #38 int
+INFO  00:59:12,640 - #38 a
+INFO  00:59:12,640 - #11 [
+INFO  00:59:12,640 - #12 ]
+INFO  00:59:12,640 - #25 ;
+INFO  00:59:12,641 - #38 int
+INFO  00:59:12,642 - #38 i
+INFO  00:59:12,642 - #25 ;
+INFO  00:59:12,642 - #3 const
+INFO  00:59:12,642 - #38 char
+INFO  00:59:12,642 - #38 m
+INFO  00:59:12,642 - #13 =
+INFO  00:59:12,643 - #40 '1'
+INFO  00:59:12,643 - #25 ;
+INFO  00:59:12,643 - #8 {
+INFO  00:59:12,644 - #38 int
+INFO  00:59:12,644 - #38 anka
+INFO  00:59:12,644 - #14 (
+INFO  00:59:12,645 - #15 )
+INFO  00:59:12,645 - #38 char
+INFO  00:59:12,651 - #38 k
+INFO  00:59:12,651 - #25 ;
+INFO  00:59:12,652 - #8 {
+INFO  00:59:12,652 - #9 }
+INFO  00:59:12,652 - #4 void
+INFO  00:59:12,653 - #38 main
+INFO  00:59:12,653 - #14 (
+INFO  00:59:12,653 - #15 )
+INFO  00:59:12,653 - #38 int
+INFO  00:59:12,653 - #38 k
+INFO  00:59:12,653 - #25 ;
+INFO  00:59:12,653 - #8 {
+INFO  00:59:12,653 - #38 i
+INFO  00:59:12,653 - #13 =
+INFO  00:59:12,654 - #39 10
+INFO  00:59:12,655 - #20 +
+INFO  00:59:12,655 - #38 a
+INFO  00:59:12,656 - #11 [
+INFO  00:59:12,656 - #38 i
+INFO  00:59:12,656 - #12 ]
+INFO  00:59:12,656 - #22 *
+INFO  00:59:12,657 - #38 a
+INFO  00:59:12,657 - #11 [
+INFO  00:59:12,657 - #38 i
+INFO  00:59:12,657 - #12 ]
+INFO  00:59:12,657 - #25 ;
+INFO  00:59:12,658 - #9 }
+INFO  00:59:12,658 - #9 }
+INFO  00:59:12,665 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           a
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         i
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         m
+          ConstValueChar(
+           '1'
+          ) [ConstValueChar]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          RetValAny(
+            Type(
+             int
+            ) [Type]
+          ) [RetValAny]
+         anka
+        ) [MethodTypeName]
+        NoFormParsProd(
+        ) [NoFormParsProd]
+        LocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          LocalVarDecl(
+            Type(
+             char
+            ) [Type]
+            LocalVarIdent(
+             k
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [LocalVarIdent]
+            NoLocalVarDeclAdditionals(
+            ) [NoLocalVarDeclAdditionals]
+          ) [LocalVarDecl]
+        ) [LocalVarDeclarations]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               i
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  ExpressionOptList(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConst(
+                            ConstValueInt(
+                             10
+                            ) [ConstValueInt]
+                          ) [FactorConst]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    Term(
+                      FactorOptionalList(
+                        SingleFactorOptionalList(
+                          FactorDesignator(
+                            Designator(
+                             a
+                              DesignatorArray(
+                                ExpressionSimple(
+                                  Expression(
+                                    NoOptionalMinus(
+                                    ) [NoOptionalMinus]
+                                    SingleExpressionOptList(
+                                      Term(
+                                        SingleFactorOptionalList(
+                                          FactorDesignator(
+                                            Designator(
+                                             i
+                                              NoDesignatorArray(
+                                              ) [NoDesignatorArray]
+                                            ) [Designator]
+                                          ) [FactorDesignator]
+                                        ) [SingleFactorOptionalList]
+                                      ) [Term]
+                                    ) [SingleExpressionOptList]
+                                  ) [Expression]
+                                ) [ExpressionSimple]
+                              ) [DesignatorArray]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [SingleFactorOptionalList]
+                        MulopMul(
+                        ) [MulopMul]
+                        FactorDesignator(
+                          Designator(
+                           a
+                            DesignatorArray(
+                              ExpressionSimple(
+                                Expression(
+                                  NoOptionalMinus(
+                                  ) [NoOptionalMinus]
+                                  SingleExpressionOptList(
+                                    Term(
+                                      SingleFactorOptionalList(
+                                        FactorDesignator(
+                                          Designator(
+                                           i
+                                            NoDesignatorArray(
+                                            ) [NoDesignatorArray]
+                                          ) [Designator]
+                                        ) [FactorDesignator]
+                                      ) [SingleFactorOptionalList]
+                                    ) [Term]
+                                  ) [SingleExpressionOptList]
+                                ) [Expression]
+                              ) [ExpressionSimple]
+                            ) [DesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [FactorOptionalList]
+                    ) [Term]
+                  ) [ExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:59:12,666 - ===================================
+INFO  00:59:12,668 - Deklarisan globalni niz sa imenom: a na liniji: 3 [Var a: Arr of int, 0, 0 ]
+INFO  00:59:12,669 - Deklarisana globalna promenljiva sa imenom: i na liniji: 4 [Var i: int, 1, 0 ]
+INFO  00:59:12,669 - Definisana konstanta sa imenom: m na liniji: 6 [Con m: char, 49, 0 ]
+INFO  00:59:12,669 - Obradjuje se funkcija: anka na liniji: 14 [Meth anka: int, 0, 0 
+]
+INFO  00:59:12,669 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 14 [Var k: char, 0, 1 ]
+INFO  00:59:12,669 - Obradjuje se funkcija: main na liniji: 19 [Meth main: notype, 0, 0 
+]
+INFO  00:59:12,669 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 19 [Var k: int, 0, 1 ]
+INFO  00:59:12,669 - Pristup promenljivoj: i na liniji: 22 [Var i: int, 1, 0 ]
+INFO  00:59:12,669 - Pristup promenljivoj: i na liniji: 22 [Var i: int, 1, 0 ]
+INFO  00:59:12,670 - Pristup nizu: a na liniji: 22 [Var a: Arr of int, 0, 0 ]
+INFO  00:59:12,670 - Pristup promenljivoj: i na liniji: 22 [Var i: int, 1, 0 ]
+INFO  00:59:12,670 - Pristup nizu: a na liniji: 22 [Var a: Arr of int, 0, 0 ]
+INFO  00:59:12,670 - Print count calls = 0
+INFO  00:59:12,670 - Deklarisanih globalnih promenljivih ima = 2
+INFO  00:59:12,670 - Definisanih konstanti ima = 1
+INFO  00:59:12,671 - Definisanih lokalnih promenljivih ima = 2
+INFO  00:59:12,671 - ===================================
+INFO  00:59:12,671 - Parsiranje uspesno zavrseno!

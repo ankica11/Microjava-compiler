@@ -1,0 +1,189 @@
+INFO  00:23:08,361 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  00:23:08,397 - #2 program
+INFO  00:23:08,397 - #38 MJProgram
+INFO  00:23:08,397 - #38 int
+INFO  00:23:08,398 - #38 niz
+INFO  00:23:08,399 - #11 [
+INFO  00:23:08,399 - #12 ]
+INFO  00:23:08,399 - #25 ;
+INFO  00:23:08,401 - #38 int
+INFO  00:23:08,402 - #38 index
+INFO  00:23:08,402 - #25 ;
+INFO  00:23:08,402 - #38 bool
+INFO  00:23:08,403 - #38 trol
+INFO  00:23:08,403 - #25 ;
+INFO  00:23:08,403 - #38 trol
+INFO  00:23:08,403 - #38 i
+INFO  00:23:08,403 - #25 ;
+INFO  00:23:08,403 - #8 {
+INFO  00:23:08,403 - #4 void
+INFO  00:23:08,404 - #38 main
+INFO  00:23:08,404 - #14 (
+INFO  00:23:08,405 - #15 )
+INFO  00:23:08,406 - #8 {
+INFO  00:23:08,409 - #38 trol
+INFO  00:23:08,409 - #13 =
+INFO  00:23:08,411 - #41 false
+INFO  00:23:08,412 - #25 ;
+INFO  00:23:08,413 - #6 print
+INFO  00:23:08,414 - #14 (
+INFO  00:23:08,414 - #38 i
+INFO  00:23:08,414 - #10 ,
+INFO  00:23:08,414 - #39 1
+INFO  00:23:08,414 - #15 )
+INFO  00:23:08,414 - #25 ;
+INFO  00:23:08,414 - #9 }
+INFO  00:23:08,414 - #9 }
+INFO  00:23:08,424 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        GlobalVarDeclarations(
+          NoGlobalDeclarations(
+          ) [NoGlobalDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdent(
+             niz
+              ArrayDeclaration(
+              ) [ArrayDeclaration]
+            ) [VarIdent]
+            NoVarDeclAdditionals(
+            ) [NoVarDeclAdditionals]
+          ) [VarDecl]
+        ) [GlobalVarDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           index
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        VarIdent(
+         trol
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       trol
+      ) [Type]
+      VarIdent(
+       i
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 trol
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    NoOptionalMinus(
+                    ) [NoOptionalMinus]
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConst(
+                            ConstValueBool(
+                             false
+                            ) [ConstValueBool]
+                          ) [FactorConst]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorDesignator(
+                      Designator(
+                       i
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          PrintParamOptional(
+           1
+          ) [PrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:23:08,425 - ===================================
+INFO  00:23:08,428 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  00:23:08,429 - Deklarisana globalna promenljiva sa imenom: index na liniji: 4 [Var index: int, 1, 0 ]
+INFO  00:23:08,429 - Deklarisana globalna promenljiva sa imenom: trol na liniji: 5 [Var trol: int, 2, 0 ]
+ERROR 00:23:08,429 - Greska: Ime trol ne predstavlja tip! na liniji 6
+INFO  00:23:08,429 - Deklarisana globalna promenljiva sa imenom: i na liniji: 6 [Var i: notype, 3, 0 ]
+INFO  00:23:08,429 - Obradjuje se funkcija: main na liniji: 16 [Meth main: notype, 0, 0 
+]
+INFO  00:23:08,429 - Pristup promenljivoj: trol na liniji: 19 [Var trol: int, 2, 0 ]
+INFO  00:23:08,430 - Pristup promenljivoj: i na liniji: 20 [Var i: notype, 3, 0 ]
+ERROR 00:23:08,431 - Argument print funkcije mora biti tipa int ili char!
+INFO  00:23:08,431 - Print count calls = 0
+INFO  00:23:08,431 - Deklarisanih globalnih promenljivih ima = 4
+INFO  00:23:08,431 - Definisanih konstanti ima = 0
+INFO  00:23:08,431 - Definisanih lokalnih promenljivih ima = 0
+INFO  00:23:08,431 - ===================================
+ERROR 00:23:08,432 - Parsiranje NIJE uspesno zavrseno!

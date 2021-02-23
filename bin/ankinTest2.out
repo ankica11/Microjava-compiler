@@ -1,0 +1,547 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+  280: enter       0 1 
+     | 
+  283: const_0     
+     | 0 
+  284: store_0     
+     | 
+  285: call        -285 
+     | 
+    0: enter       0 0 
+     | 
+    3: const       10 
+     | 10 
+    8: putstatic   0 
+     | 
+   11: const       11 
+     | 11 
+   16: putstatic   1 
+     | 
+   19: getstatic   0 
+     | 10 
+   22: const_1     
+     | 10 1 
+   23: add         
+     | 11 
+   24: putstatic   0 
+     | 
+   27: getstatic   1 
+     | 11 
+   30: const_1     
+     | 11 1 
+   31: sub         
+     | 10 
+   32: putstatic   1 
+     | 
+   35: exit        
+     | 
+   36: return      
+     | 
+  288: getstatic   0 
+     | 11 
+  291: const_5     
+     | 11 5 
+  292: print          11
+     | 
+  293: getstatic   1 
+     | 10 
+  296: const_5     
+     | 10 5 
+  297: print          10
+     | 
+  298: const       7 
+     | 7 
+  303: newarray    1 
+     | 2 
+  305: putstatic   2 
+     | 
+  308: call        -271 
+     | 
+   37: enter       0 0 
+     | 
+   40: const_0     
+     | 0 
+   41: getstatic   2 
+     | 0 2 
+   44: ???         
+     | 2 0 2 
+   45: pop         
+     | 2 0 
+   46: read        
+     | 2 0 10 
+   47: astore      
+Arraylength = 7
+Address = 2
+Index = 0
+Value = 10
+
+     | 
+   48: const_1     
+     | 1 
+   49: getstatic   2 
+     | 1 2 
+   52: ???         
+     | 2 1 2 
+   53: pop         
+     | 2 1 
+   54: const_0     
+     | 2 1 0 
+   55: getstatic   2 
+     | 2 1 0 2 
+   58: ???         
+     | 2 1 2 0 2 
+   59: pop         
+     | 2 1 2 0 
+   60: aload       
+     | 2 1 10 
+   61: astore      
+Arraylength = 7
+Address = 2
+Index = 1
+Value = 10
+
+     | 
+   62: const_1     
+     | 1 
+   63: getstatic   2 
+     | 1 2 
+   66: ???         
+     | 2 1 2 
+   67: pop         
+     | 2 1 
+   68: dup2        
+     | 2 1 2 1 
+   69: aload       
+     | 2 1 10 
+   70: const_1     
+     | 2 1 10 1 
+   71: add         
+     | 2 1 11 
+   72: astore      
+Arraylength = 7
+Address = 2
+Index = 1
+Value = 11
+
+     | 
+   73: const_2     
+     | 2 
+   74: getstatic   2 
+     | 2 2 
+   77: ???         
+     | 2 2 2 
+   78: pop         
+     | 2 2 
+   79: const_1     
+     | 2 2 1 
+   80: getstatic   2 
+     | 2 2 1 2 
+   83: ???         
+     | 2 2 2 1 2 
+   84: pop         
+     | 2 2 2 1 
+   85: aload       
+     | 2 2 11 
+   86: astore      
+Arraylength = 7
+Address = 2
+Index = 2
+Value = 11
+
+     | 
+   87: const_2     
+     | 2 
+   88: getstatic   2 
+     | 2 2 
+   91: ???         
+     | 2 2 2 
+   92: pop         
+     | 2 2 
+   93: dup2        
+     | 2 2 2 2 
+   94: aload       
+     | 2 2 11 
+   95: const_1     
+     | 2 2 11 1 
+   96: add         
+     | 2 2 12 
+   97: astore      
+Arraylength = 7
+Address = 2
+Index = 2
+Value = 12
+
+     | 
+   98: const_3     
+     | 3 
+   99: getstatic   2 
+     | 3 2 
+  102: ???         
+     | 2 3 2 
+  103: pop         
+     | 2 3 
+  104: const_2     
+     | 2 3 2 
+  105: getstatic   2 
+     | 2 3 2 2 
+  108: ???         
+     | 2 3 2 2 2 
+  109: pop         
+     | 2 3 2 2 
+  110: aload       
+     | 2 3 12 
+  111: astore      
+Arraylength = 7
+Address = 2
+Index = 3
+Value = 12
+
+     | 
+  112: const_3     
+     | 3 
+  113: getstatic   2 
+     | 3 2 
+  116: ???         
+     | 2 3 2 
+  117: pop         
+     | 2 3 
+  118: dup2        
+     | 2 3 2 3 
+  119: aload       
+     | 2 3 12 
+  120: const_1     
+     | 2 3 12 1 
+  121: add         
+     | 2 3 13 
+  122: astore      
+Arraylength = 7
+Address = 2
+Index = 3
+Value = 13
+
+     | 
+  123: const_4     
+     | 4 
+  124: getstatic   2 
+     | 4 2 
+  127: ???         
+     | 2 4 2 
+  128: pop         
+     | 2 4 
+  129: const_3     
+     | 2 4 3 
+  130: getstatic   2 
+     | 2 4 3 2 
+  133: ???         
+     | 2 4 2 3 2 
+  134: pop         
+     | 2 4 2 3 
+  135: aload       
+     | 2 4 13 
+  136: astore      
+Arraylength = 7
+Address = 2
+Index = 4
+Value = 13
+
+     | 
+  137: const_4     
+     | 4 
+  138: getstatic   2 
+     | 4 2 
+  141: ???         
+     | 2 4 2 
+  142: pop         
+     | 2 4 
+  143: dup2        
+     | 2 4 2 4 
+  144: aload       
+     | 2 4 13 
+  145: const_1     
+     | 2 4 13 1 
+  146: sub         
+     | 2 4 12 
+  147: astore      
+Arraylength = 7
+Address = 2
+Index = 4
+Value = 12
+
+     | 
+  148: const_5     
+     | 5 
+  149: getstatic   2 
+     | 5 2 
+  152: ???         
+     | 2 5 2 
+  153: pop         
+     | 2 5 
+  154: const_4     
+     | 2 5 4 
+  155: getstatic   2 
+     | 2 5 4 2 
+  158: ???         
+     | 2 5 2 4 2 
+  159: pop         
+     | 2 5 2 4 
+  160: aload       
+     | 2 5 12 
+  161: astore      
+Arraylength = 7
+Address = 2
+Index = 5
+Value = 12
+
+     | 
+  162: const_5     
+     | 5 
+  163: getstatic   2 
+     | 5 2 
+  166: ???         
+     | 2 5 2 
+  167: pop         
+     | 2 5 
+  168: dup2        
+     | 2 5 2 5 
+  169: aload       
+     | 2 5 12 
+  170: const_1     
+     | 2 5 12 1 
+  171: sub         
+     | 2 5 11 
+  172: astore      
+Arraylength = 7
+Address = 2
+Index = 5
+Value = 11
+
+     | 
+  173: const       6 
+     | 6 
+  178: getstatic   2 
+     | 6 2 
+  181: ???         
+     | 2 6 2 
+  182: pop         
+     | 2 6 
+  183: const_5     
+     | 2 6 5 
+  184: getstatic   2 
+     | 2 6 5 2 
+  187: ???         
+     | 2 6 2 5 2 
+  188: pop         
+     | 2 6 2 5 
+  189: aload       
+     | 2 6 11 
+  190: astore      
+Arraylength = 7
+Address = 2
+Index = 6
+Value = 11
+
+     | 
+  191: const       6 
+     | 6 
+  196: getstatic   2 
+     | 6 2 
+  199: ???         
+     | 2 6 2 
+  200: pop         
+     | 2 6 
+  201: dup2        
+     | 2 6 2 6 
+  202: aload       
+     | 2 6 11 
+  203: const_1     
+     | 2 6 11 1 
+  204: sub         
+     | 2 6 10 
+  205: astore      
+Arraylength = 7
+Address = 2
+Index = 6
+Value = 10
+
+     | 
+  206: exit        
+     | 
+  207: return      
+     | 
+  311: call        -103 
+     | 
+  208: enter       0 0 
+     | 
+  211: const_0     
+     | 0 
+  212: getstatic   2 
+     | 0 2 
+  215: ???         
+     | 2 0 2 
+  216: pop         
+     | 2 0 
+  217: aload       
+     | 10 
+  218: const_5     
+     | 10 5 
+  219: print          10
+     | 
+  220: const_1     
+     | 1 
+  221: getstatic   2 
+     | 1 2 
+  224: ???         
+     | 2 1 2 
+  225: pop         
+     | 2 1 
+  226: aload       
+     | 11 
+  227: const_5     
+     | 11 5 
+  228: print          11
+     | 
+  229: const_2     
+     | 2 
+  230: getstatic   2 
+     | 2 2 
+  233: ???         
+     | 2 2 2 
+  234: pop         
+     | 2 2 
+  235: aload       
+     | 12 
+  236: const_5     
+     | 12 5 
+  237: print          12
+     | 
+  238: const_3     
+     | 3 
+  239: getstatic   2 
+     | 3 2 
+  242: ???         
+     | 2 3 2 
+  243: pop         
+     | 2 3 
+  244: aload       
+     | 13 
+  245: const_5     
+     | 13 5 
+  246: print          13
+     | 
+  247: const_4     
+     | 4 
+  248: getstatic   2 
+     | 4 2 
+  251: ???         
+     | 2 4 2 
+  252: pop         
+     | 2 4 
+  253: aload       
+     | 12 
+  254: const_5     
+     | 12 5 
+  255: print          12
+     | 
+  256: const_5     
+     | 5 
+  257: getstatic   2 
+     | 5 2 
+  260: ???         
+     | 2 5 2 
+  261: pop         
+     | 2 5 
+  262: aload       
+     | 11 
+  263: const_5     
+     | 11 5 
+  264: print          11
+     | 
+  265: const       6 
+     | 6 
+  270: getstatic   2 
+     | 6 2 
+  273: ???         
+     | 2 6 2 
+  274: pop         
+     | 2 6 
+  275: aload       
+     | 10 
+  276: const_5     
+     | 10 5 
+  277: print          10
+     | 
+  278: exit        
+     | 
+  279: return      
+     | 
+  314: load_0      
+     | 0 
+  315: getstatic   0 
+     | 0 11 
+  318: getstatic   1 
+     | 0 11 10 
+  321: const       10 
+     | 0 11 10 10 
+  326: mul         
+     | 0 11 100 
+  327: add         
+     | 0 111 
+  328: neg         
+     | 0 -111 
+  329: const       10 
+     | 0 -111 10 
+  334: mul         
+     | 0 -1110 
+  335: getstatic   0 
+     | 0 -1110 11 
+  338: getstatic   1 
+     | 0 -1110 11 10 
+  341: add         
+     | 0 -1110 21 
+  342: getstatic   0 
+     | 0 -1110 21 11 
+  345: getstatic   1 
+     | 0 -1110 21 11 10 
+  348: sub         
+     | 0 -1110 21 1 
+  349: mul         
+     | 0 -1110 21 
+  350: const       10 
+     | 0 -1110 21 10 
+  355: add         
+     | 0 -1110 31 
+  356: const       10 
+     | 0 -1110 31 10 
+  361: mul         
+     | 0 -1110 310 
+  362: ???         
+     | 310 0 -1110 310 
+  363: pop         
+     | 310 0 -1110 
+  364: ???         
+     | -1110 310 0 -1110 
+  365: pop         
+     | -1110 310 0 
+  366: const_0     
+     | -1110 310 0 0 
+  367: jne         9 
+     | -1110 310 
+  370: ???         
+     | 310 -1110 310 
+  371: pop         
+     | 310 -1110 
+  372: pop         
+     | 310 
+  373: jmp         4 
+     | 310 
+  377: const_5     
+     | 310 5 
+  378: print         310
+     | 
+  379: exit        
+     | 
+  380: return      
+Completion took 8035 ms

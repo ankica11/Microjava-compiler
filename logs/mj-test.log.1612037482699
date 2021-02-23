@@ -1,0 +1,143 @@
+INFO  21:10:54,348 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  21:10:54,378 - #2 program
+INFO  21:10:54,378 - #38 MJProgram
+INFO  21:10:54,378 - #38 int
+INFO  21:10:54,379 - #38 niz
+INFO  21:10:54,380 - #11 [
+INFO  21:10:54,380 - #12 ]
+INFO  21:10:54,380 - #25 ;
+INFO  21:10:54,381 - #3 const
+INFO  21:10:54,382 - #38 int
+INFO  21:10:54,382 - #38 size
+INFO  21:10:54,382 - #13 =
+INFO  21:10:54,382 - #39 10
+INFO  21:10:54,382 - #25 ;
+INFO  21:10:54,383 - #8 {
+INFO  21:10:54,384 - #4 void
+INFO  21:10:54,384 - #38 main
+INFO  21:10:54,384 - #14 (
+INFO  21:10:54,385 - #15 )
+INFO  21:10:54,385 - #38 char
+INFO  21:10:54,385 - #38 i
+INFO  21:10:54,386 - #25 ;
+INFO  21:10:54,387 - #8 {
+INFO  21:10:54,388 - #38 i
+INFO  21:10:54,389 - #13 =
+INFO  21:10:54,389 - #38 size
+INFO  21:10:54,390 - #25 ;
+INFO  21:10:54,391 - #9 }
+INFO  21:10:54,391 - #9 }
+INFO  21:10:54,400 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         size
+          ConstValueInt(
+           10
+          ) [ConstValueInt]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           char
+          ) [Type]
+          LocalVarIdent(
+           i
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               i
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorDesignator(
+                          Designator(
+                           size
+                            NoDesignatorArray(
+                            ) [NoDesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:10:54,400 - ===================================
+INFO  21:10:54,404 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  21:10:54,404 - Definisana konstanta sa imenom: size na liniji: 4 [Con size: int, 10, 0 ]
+INFO  21:10:54,404 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  21:10:54,404 - Deklarisana lokalna promenljiva sa imenom: i na liniji: 15 [Var i: char, 0, 1 ]
+INFO  21:10:54,404 - Pristup lokalnoj promenljivoj: i na liniji: 18 [Var i: char, 0, 1 ]
+INFO  21:10:54,404 - Pristup simbolickoj konstanti: size na liniji: 18 [Con size: int, 10, 0 ]
+ERROR 21:10:54,405 - Greska na liniji 18 : nekompatibilni tipovi podataka u operaciji dodele vrednosti!
+INFO  21:10:54,405 - Print count calls = 0
+INFO  21:10:54,405 - Deklarisanih globalnih promenljivih ima = 1
+INFO  21:10:54,405 - Definisanih konstanti ima = 1
+INFO  21:10:54,405 - Definisanih lokalnih promenljivih ima = 1
+INFO  21:10:54,405 - ===================================
+ERROR 21:10:54,406 - Parsiranje NIJE uspesno zavrseno!

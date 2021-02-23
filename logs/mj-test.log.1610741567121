@@ -1,0 +1,167 @@
+INFO  20:43:08,377 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  20:43:08,406 - #2 program
+INFO  20:43:08,406 - #41 MJProgram
+INFO  20:43:08,406 - #26 int
+INFO  20:43:08,407 - #41 x
+INFO  20:43:08,408 - #10 ,
+INFO  20:43:08,409 - #41 y
+INFO  20:43:08,409 - #25 ;
+INFO  20:43:08,409 - #8 {
+INFO  20:43:08,410 - #26 int
+INFO  20:43:08,410 - #41 main
+INFO  20:43:08,410 - #14 (
+INFO  20:43:08,410 - #26 int
+INFO  20:43:08,411 - #41 a
+INFO  20:43:08,411 - #10 ,
+INFO  20:43:08,411 - #27 char
+INFO  20:43:08,411 - #41 b
+INFO  20:43:08,412 - #15 )
+INFO  20:43:08,412 - #8 {
+INFO  20:43:08,412 - #41 x
+INFO  20:43:08,413 - #13 =
+INFO  20:43:08,414 - #42 5
+INFO  20:43:08,415 - #20 +
+INFO  20:43:08,423 - #42 2
+INFO  20:43:08,424 - #25 ;
+INFO  20:43:08,424 - #41 y
+INFO  20:43:08,425 - #13 =
+INFO  20:43:08,425 - #41 b
+INFO  20:43:08,425 - #25 ;
+INFO  20:43:08,425 - #9 }
+INFO  20:43:08,425 - #9 }
+INFO  20:43:08,427 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    NoGlobalDeclarations(
+    ) [NoGlobalDeclarations]
+    VarDecl(
+      IntegerType(
+      ) [IntegerType]
+     x
+      NoArrayDeclaration(
+      ) [NoArrayDeclaration]
+      VarDeclAdditionals(
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+       y
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        IntegerType(
+        ) [IntegerType]
+      ) [RetValAny]
+     main
+      FormParameters(
+        FormParametersList(
+          SingleFormParameter(
+            FormParsDecl(
+              IntegerType(
+              ) [IntegerType]
+             a
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [FormParsDecl]
+          ) [SingleFormParameter]
+          FormParsDecl(
+            CharType(
+            ) [CharType]
+           b
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [FormParsDecl]
+        ) [FormParametersList]
+      ) [FormParameters]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 x
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    NoOptionalMinus(
+                    ) [NoOptionalMinus]
+                    Term(
+                      FactorConst(
+                        ConstValueInt(
+                         5
+                        ) [ConstValueInt]
+                      ) [FactorConst]
+                      NoFactorOptionalList(
+                      ) [NoFactorOptionalList]
+                    ) [Term]
+                    ExpressionOptList(
+                      NoExpressionOptList(
+                      ) [NoExpressionOptList]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      Term(
+                        FactorConst(
+                          ConstValueInt(
+                           2
+                          ) [ConstValueInt]
+                        ) [FactorConst]
+                        NoFactorOptionalList(
+                        ) [NoFactorOptionalList]
+                      ) [Term]
+                    ) [ExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               y
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  Term(
+                    FactorDesignator(
+                      Designator(
+                       b
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                    NoFactorOptionalList(
+                    ) [NoFactorOptionalList]
+                  ) [Term]
+                  NoExpressionOptList(
+                  ) [NoExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:43:08,428 - ===================================
+INFO  20:43:08,430 -  Print count calls = 0
+INFO  20:43:08,430 -  Deklarisanih promenljivih ima = 1

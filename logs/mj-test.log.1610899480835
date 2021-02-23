@@ -1,0 +1,132 @@
+INFO  16:39:38,163 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  16:39:38,184 - #2 program
+INFO  16:39:38,185 - #38 MJProgram
+INFO  16:39:38,185 - #38 bool
+INFO  16:39:38,186 - #38 a
+INFO  16:39:38,186 - #10 ,
+INFO  16:39:38,188 - #38 b
+INFO  16:39:38,188 - #25 ;
+INFO  16:39:38,188 - #38 char
+INFO  16:39:38,188 - #38 c
+INFO  16:39:38,188 - #25 ;
+INFO  16:39:38,188 - #8 {
+INFO  16:39:38,189 - #38 int
+INFO  16:39:38,189 - #38 main
+INFO  16:39:38,189 - #14 (
+INFO  16:39:38,189 - #15 )
+INFO  16:39:38,190 - #38 int
+INFO  16:39:38,190 - #38 k
+INFO  16:39:38,190 - #25 ;
+INFO  16:39:38,190 - #8 {
+INFO  16:39:38,190 - #6 print
+INFO  16:39:38,191 - #14 (
+INFO  16:39:38,191 - #39 9
+INFO  16:39:38,191 - #15 )
+INFO  16:39:38,193 - #25 ;
+INFO  16:39:38,193 - #9 }
+INFO  16:39:38,193 - #9 }
+INFO  16:39:38,200 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        VarIdent(
+         a
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        VarDeclAdditionals(
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+          VarIdent(
+           b
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+        ) [VarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       c
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        Type(
+         int
+        ) [Type]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      VarDeclarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:39:38,200 - ===================================
+INFO  16:39:38,202 - Deklarisana globalna promenljiva sa imenom: a na liniji 3
+INFO  16:39:38,202 - Deklarisana globalna promenljiva sa imenom: c na liniji 4
+INFO  16:39:38,202 - Deklarisana globalna promenljiva sa imenom: k na liniji 11
+INFO  16:39:38,202 - Print count calls = 0
+INFO  16:39:38,202 - Deklarisanih promenljivih ima = 3
+INFO  16:39:38,202 - ===================================
+INFO  16:39:38,203 - Parsiranje uspesno zavrseno!

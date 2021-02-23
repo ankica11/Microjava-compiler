@@ -1,0 +1,15 @@
+INFO  21:46:55,145 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  21:46:55,176 - #2 program
+INFO  21:46:55,176 - #41 MJProgram
+INFO  21:46:55,176 - #8 {
+INFO  21:46:55,178 - #26 int
+INFO  21:46:55,178 - #41 main
+INFO  21:46:55,179 - #14 (
+INFO  21:46:55,179 - #15 )
+INFO  21:46:55,180 - #26 int
+INFO  21:46:55,180 - #41 a
+INFO  21:46:55,180 - #10 ,
+INFO  21:46:55,182 - #27 char
+ERROR 21:46:55,182 - 
+Sintaksna greska na liniji 8
+ERROR 21:46:55,182 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

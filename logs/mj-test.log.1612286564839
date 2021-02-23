@@ -1,0 +1,260 @@
+INFO  17:58:23,280 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  17:58:23,304 - #2 program
+INFO  17:58:23,304 - #38 MJProgram
+INFO  17:58:23,304 - #38 int
+INFO  17:58:23,305 - #38 anka
+INFO  17:58:23,306 - #10 ,
+INFO  17:58:23,307 - #38 danka
+INFO  17:58:23,307 - #25 ;
+INFO  17:58:23,307 - #38 int
+INFO  17:58:23,308 - #38 niz
+INFO  17:58:23,308 - #11 [
+INFO  17:58:23,308 - #12 ]
+INFO  17:58:23,308 - #25 ;
+INFO  17:58:23,308 - #8 {
+INFO  17:58:23,308 - #4 void
+INFO  17:58:23,309 - #38 increment
+INFO  17:58:23,309 - #14 (
+INFO  17:58:23,310 - #15 )
+INFO  17:58:23,310 - #8 {
+INFO  17:58:23,311 - #38 anka
+INFO  17:58:23,311 - #13 =
+INFO  17:58:23,312 - #39 0
+INFO  17:58:23,312 - #25 ;
+INFO  17:58:23,320 - #38 anka
+INFO  17:58:23,320 - #16 ++
+INFO  17:58:23,320 - #25 ;
+INFO  17:58:23,320 - #9 }
+INFO  17:58:23,320 - #4 void
+INFO  17:58:23,321 - #38 main
+INFO  17:58:23,321 - #14 (
+INFO  17:58:23,321 - #15 )
+INFO  17:58:23,321 - #8 {
+INFO  17:58:23,321 - #38 increment
+INFO  17:58:23,321 - #14 (
+INFO  17:58:23,321 - #15 )
+INFO  17:58:23,321 - #25 ;
+INFO  17:58:23,321 - #6 print
+INFO  17:58:23,322 - #14 (
+INFO  17:58:23,322 - #38 anka
+INFO  17:58:23,322 - #15 )
+INFO  17:58:23,322 - #25 ;
+INFO  17:58:23,322 - #38 anka
+INFO  17:58:23,322 - #17 --
+INFO  17:58:23,323 - #25 ;
+INFO  17:58:23,323 - #6 print
+INFO  17:58:23,323 - #14 (
+INFO  17:58:23,323 - #38 anka
+INFO  17:58:23,323 - #15 )
+INFO  17:58:23,323 - #25 ;
+INFO  17:58:23,323 - #9 }
+INFO  17:58:23,323 - #9 }
+INFO  17:58:23,330 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         anka
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        VarDeclAdditionals(
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+          VarIdent(
+           danka
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+        ) [VarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarIdent(
+       niz
+        ArrayDeclaration(
+        ) [ArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          RetValVoid(
+          ) [RetValVoid]
+         increment
+        ) [MethodTypeName]
+        NoFormParsProd(
+        ) [NoFormParsProd]
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStmtExt(
+              DesignatorStmtExtNoError(
+                AssignOp(
+                  Designator(
+                   anka
+                    NoDesignatorArray(
+                    ) [NoDesignatorArray]
+                  ) [Designator]
+                  ExpressionSimple(
+                    Expression(
+                      SingleExpressionOptList(
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorConst(
+                              ConstValueInt(
+                               0
+                              ) [ConstValueInt]
+                            ) [FactorConst]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [SingleExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [AssignOp]
+              ) [DesignatorStmtExtNoError]
+            ) [DesignatorStmtExt]
+          ) [Statements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              IncrementOp(
+                Designator(
+                 anka
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+              ) [IncrementOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorStmtExt(
+                DesignatorStmtExtNoError(
+                  FunctionCall(
+                    Designator(
+                     increment
+                      NoDesignatorArray(
+                      ) [NoDesignatorArray]
+                    ) [Designator]
+                    NoActParameters(
+                    ) [NoActParameters]
+                  ) [FunctionCall]
+                ) [DesignatorStmtExtNoError]
+              ) [DesignatorStmtExt]
+            ) [Statements]
+            PrintStmt(
+              ExpressionSimple(
+                Expression(
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorDesignator(
+                          Designator(
+                           anka
+                            NoDesignatorArray(
+                            ) [NoDesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+              NoPrintParamOptional(
+              ) [NoPrintParamOptional]
+            ) [PrintStmt]
+          ) [Statements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              DecrementOp(
+                Designator(
+                 anka
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+              ) [DecrementOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorDesignator(
+                      Designator(
+                       anka
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:58:23,331 - ===================================
+INFO  17:58:23,335 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 8 [Var anka: int, 0, 0 ]
+INFO  17:58:23,335 - Deklarisana globalna promenljiva sa imenom: danka na liniji: 8 [Var danka: int, 1, 0 ]
+INFO  17:58:23,335 - Deklarisan globalni niz sa imenom: niz na liniji: 9 [Var niz: Arr of int, 2, 0 ]
+INFO  17:58:23,335 - Obradjuje se funkcija: increment na liniji: 13 [Meth increment: notype, 0, 0 
+]
+INFO  17:58:23,335 - Pristup globalnoj promenljivoj: anka na liniji: 14 [Var anka: int, 0, 0 ]
+INFO  17:58:23,336 - Pristup globalnoj promenljivoj: anka na liniji: 15 [Var anka: int, 0, 0 ]
+INFO  17:58:23,336 - Obradjuje se funkcija: main na liniji: 20 [Meth main: notype, 0, 0 
+]
+INFO  17:58:23,336 - Poziv funkcije: increment na liniji: 22 [Meth increment: notype, 0, 0 
+]
+INFO  17:58:23,336 - Pristup globalnoj promenljivoj: anka na liniji: 23 [Var anka: int, 0, 0 ]
+INFO  17:58:23,336 - Pristup globalnoj promenljivoj: anka na liniji: 24 [Var anka: int, 0, 0 ]
+INFO  17:58:23,336 - Pristup globalnoj promenljivoj: anka na liniji: 25 [Var anka: int, 0, 0 ]
+INFO  17:58:23,336 - Deklarisanih globalnih promenljivih ima = 3
+INFO  17:58:23,336 - Definisanih konstanti ima = 0
+INFO  17:58:23,337 - Deklarisanih lokalnih promenljivih ima = 0
+INFO  17:58:23,337 - ===================================
+INFO  17:58:23,342 - Parsiranje uspesno zavrseno!

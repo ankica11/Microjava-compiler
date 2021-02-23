@@ -1,0 +1,1610 @@
+INFO  15:07:02,588 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\test301.mj
+INFO  15:07:02,618 - #2 program
+INFO  15:07:02,618 - #38 test301
+INFO  15:07:02,618 - #3 const
+INFO  15:07:02,619 - #38 int
+INFO  15:07:02,619 - #38 nula
+INFO  15:07:02,620 - #13 =
+INFO  15:07:02,620 - #39 0
+INFO  15:07:02,620 - #25 ;
+INFO  15:07:02,620 - #3 const
+INFO  15:07:02,621 - #38 int
+INFO  15:07:02,621 - #38 jedan
+INFO  15:07:02,621 - #13 =
+INFO  15:07:02,621 - #39 1
+INFO  15:07:02,621 - #25 ;
+INFO  15:07:02,621 - #3 const
+INFO  15:07:02,622 - #38 int
+INFO  15:07:02,622 - #38 pet
+INFO  15:07:02,622 - #13 =
+INFO  15:07:02,622 - #39 5
+INFO  15:07:02,622 - #25 ;
+INFO  15:07:02,622 - #38 int
+INFO  15:07:02,622 - #38 niz
+INFO  15:07:02,624 - #11 [
+INFO  15:07:02,624 - #12 ]
+INFO  15:07:02,624 - #25 ;
+INFO  15:07:02,626 - #38 char
+INFO  15:07:02,626 - #38 nizch
+INFO  15:07:02,626 - #11 [
+INFO  15:07:02,627 - #12 ]
+INFO  15:07:02,627 - #25 ;
+INFO  15:07:02,627 - #8 {
+INFO  15:07:02,627 - #4 void
+INFO  15:07:02,627 - #38 main
+INFO  15:07:02,628 - #14 (
+INFO  15:07:02,628 - #15 )
+INFO  15:07:02,629 - #38 int
+INFO  15:07:02,629 - #38 bodovi
+INFO  15:07:02,629 - #25 ;
+INFO  15:07:02,630 - #38 bool
+INFO  15:07:02,631 - #38 bt
+INFO  15:07:02,631 - #25 ;
+INFO  15:07:02,631 - #8 {
+INFO  15:07:02,631 - #38 bodovi
+INFO  15:07:02,631 - #13 =
+INFO  15:07:02,632 - #39 0
+INFO  15:07:02,633 - #25 ;
+INFO  15:07:02,634 - #38 bodovi
+INFO  15:07:02,634 - #16 ++
+INFO  15:07:02,634 - #25 ;
+INFO  15:07:02,634 - #38 bodovi
+INFO  15:07:02,635 - #13 =
+INFO  15:07:02,635 - #38 bodovi
+INFO  15:07:02,635 - #20 +
+INFO  15:07:02,635 - #38 jedan
+INFO  15:07:02,635 - #25 ;
+INFO  15:07:02,636 - #38 bodovi
+INFO  15:07:02,636 - #13 =
+INFO  15:07:02,636 - #38 bodovi
+INFO  15:07:02,636 - #22 *
+INFO  15:07:02,636 - #38 pet
+INFO  15:07:02,637 - #25 ;
+INFO  15:07:02,637 - #38 bodovi
+INFO  15:07:02,637 - #17 --
+INFO  15:07:02,638 - #25 ;
+INFO  15:07:02,638 - #6 print
+INFO  15:07:02,638 - #14 (
+INFO  15:07:02,638 - #38 bodovi
+INFO  15:07:02,638 - #15 )
+INFO  15:07:02,639 - #25 ;
+INFO  15:07:02,640 - #38 niz
+INFO  15:07:02,640 - #13 =
+INFO  15:07:02,640 - #7 new
+INFO  15:07:02,640 - #38 int
+INFO  15:07:02,640 - #11 [
+INFO  15:07:02,640 - #39 3
+INFO  15:07:02,640 - #12 ]
+INFO  15:07:02,640 - #25 ;
+INFO  15:07:02,640 - #38 niz
+INFO  15:07:02,640 - #11 [
+INFO  15:07:02,640 - #38 nula
+INFO  15:07:02,640 - #12 ]
+INFO  15:07:02,641 - #13 =
+INFO  15:07:02,641 - #38 jedan
+INFO  15:07:02,641 - #25 ;
+INFO  15:07:02,641 - #38 niz
+INFO  15:07:02,641 - #11 [
+INFO  15:07:02,641 - #39 1
+INFO  15:07:02,641 - #12 ]
+INFO  15:07:02,641 - #13 =
+INFO  15:07:02,641 - #39 2
+INFO  15:07:02,641 - #25 ;
+INFO  15:07:02,641 - #38 niz
+INFO  15:07:02,641 - #11 [
+INFO  15:07:02,641 - #38 niz
+INFO  15:07:02,641 - #11 [
+INFO  15:07:02,641 - #38 jedan
+INFO  15:07:02,641 - #12 ]
+INFO  15:07:02,641 - #12 ]
+INFO  15:07:02,642 - #13 =
+INFO  15:07:02,642 - #38 niz
+INFO  15:07:02,642 - #11 [
+INFO  15:07:02,642 - #38 niz
+INFO  15:07:02,642 - #11 [
+INFO  15:07:02,642 - #39 0
+INFO  15:07:02,642 - #12 ]
+INFO  15:07:02,642 - #12 ]
+INFO  15:07:02,642 - #22 *
+INFO  15:07:02,642 - #39 3
+INFO  15:07:02,642 - #25 ;
+INFO  15:07:02,642 - #38 bodovi
+INFO  15:07:02,642 - #13 =
+INFO  15:07:02,642 - #38 niz
+INFO  15:07:02,642 - #11 [
+INFO  15:07:02,642 - #39 2
+INFO  15:07:02,642 - #12 ]
+INFO  15:07:02,643 - #23 /
+INFO  15:07:02,643 - #38 niz
+INFO  15:07:02,643 - #11 [
+INFO  15:07:02,644 - #39 0
+INFO  15:07:02,644 - #12 ]
+INFO  15:07:02,644 - #25 ;
+INFO  15:07:02,644 - #6 print
+INFO  15:07:02,644 - #14 (
+INFO  15:07:02,644 - #38 bodovi
+INFO  15:07:02,644 - #15 )
+INFO  15:07:02,644 - #25 ;
+INFO  15:07:02,644 - #6 print
+INFO  15:07:02,644 - #14 (
+INFO  15:07:02,644 - #38 niz
+INFO  15:07:02,644 - #11 [
+INFO  15:07:02,644 - #39 2
+INFO  15:07:02,644 - #12 ]
+INFO  15:07:02,644 - #15 )
+INFO  15:07:02,644 - #25 ;
+INFO  15:07:02,644 - #38 nizch
+INFO  15:07:02,645 - #13 =
+INFO  15:07:02,645 - #7 new
+INFO  15:07:02,645 - #38 char
+INFO  15:07:02,645 - #11 [
+INFO  15:07:02,645 - #39 3
+INFO  15:07:02,645 - #12 ]
+INFO  15:07:02,645 - #25 ;
+INFO  15:07:02,645 - #38 nizch
+INFO  15:07:02,645 - #11 [
+INFO  15:07:02,645 - #39 0
+INFO  15:07:02,645 - #12 ]
+INFO  15:07:02,645 - #13 =
+INFO  15:07:02,645 - #40 'a'
+INFO  15:07:02,645 - #25 ;
+INFO  15:07:02,646 - #38 nizch
+INFO  15:07:02,646 - #11 [
+INFO  15:07:02,646 - #38 jedan
+INFO  15:07:02,646 - #12 ]
+INFO  15:07:02,647 - #13 =
+INFO  15:07:02,647 - #40 'b'
+INFO  15:07:02,647 - #25 ;
+INFO  15:07:02,647 - #38 nizch
+INFO  15:07:02,647 - #11 [
+INFO  15:07:02,647 - #38 pet
+INFO  15:07:02,647 - #21 -
+INFO  15:07:02,647 - #39 3
+INFO  15:07:02,648 - #12 ]
+INFO  15:07:02,648 - #13 =
+INFO  15:07:02,648 - #40 'c'
+INFO  15:07:02,648 - #25 ;
+INFO  15:07:02,648 - #6 print
+INFO  15:07:02,648 - #14 (
+INFO  15:07:02,648 - #38 nizch
+INFO  15:07:02,648 - #11 [
+INFO  15:07:02,648 - #39 1
+INFO  15:07:02,648 - #12 ]
+INFO  15:07:02,648 - #15 )
+INFO  15:07:02,648 - #25 ;
+INFO  15:07:02,648 - #6 print
+INFO  15:07:02,648 - #14 (
+INFO  15:07:02,648 - #38 nizch
+INFO  15:07:02,648 - #11 [
+INFO  15:07:02,648 - #38 jedan
+INFO  15:07:02,648 - #22 *
+INFO  15:07:02,649 - #39 2
+INFO  15:07:02,649 - #12 ]
+INFO  15:07:02,649 - #15 )
+INFO  15:07:02,649 - #25 ;
+INFO  15:07:02,649 - #38 bodovi
+INFO  15:07:02,649 - #13 =
+INFO  15:07:02,649 - #38 bodovi
+INFO  15:07:02,649 - #20 +
+INFO  15:07:02,649 - #14 (
+INFO  15:07:02,649 - #38 pet
+INFO  15:07:02,649 - #22 *
+INFO  15:07:02,649 - #38 jedan
+INFO  15:07:02,649 - #21 -
+INFO  15:07:02,649 - #39 1
+INFO  15:07:02,649 - #15 )
+INFO  15:07:02,649 - #22 *
+INFO  15:07:02,650 - #38 bodovi
+INFO  15:07:02,650 - #21 -
+INFO  15:07:02,650 - #14 (
+INFO  15:07:02,650 - #39 3
+INFO  15:07:02,650 - #24 %
+INFO  15:07:02,650 - #39 2
+INFO  15:07:02,651 - #20 +
+INFO  15:07:02,651 - #39 3
+INFO  15:07:02,651 - #22 *
+INFO  15:07:02,651 - #39 2
+INFO  15:07:02,651 - #21 -
+INFO  15:07:02,651 - #39 3
+INFO  15:07:02,651 - #15 )
+INFO  15:07:02,651 - #25 ;
+INFO  15:07:02,651 - #6 print
+INFO  15:07:02,651 - #14 (
+INFO  15:07:02,651 - #38 bodovi
+INFO  15:07:02,651 - #15 )
+INFO  15:07:02,651 - #25 ;
+INFO  15:07:02,651 - #5 read
+INFO  15:07:02,652 - #14 (
+INFO  15:07:02,652 - #38 bodovi
+INFO  15:07:02,652 - #15 )
+INFO  15:07:02,652 - #25 ;
+INFO  15:07:02,652 - #38 bt
+INFO  15:07:02,652 - #13 =
+INFO  15:07:02,652 - #41 true
+INFO  15:07:02,652 - #25 ;
+INFO  15:07:02,652 - #6 print
+INFO  15:07:02,652 - #14 (
+INFO  15:07:02,652 - #38 bt
+INFO  15:07:02,652 - #19 ?
+INFO  15:07:02,652 - #38 bodovi
+INFO  15:07:02,652 - #18 :
+INFO  15:07:02,652 - #38 bodovi
+INFO  15:07:02,652 - #20 +
+INFO  15:07:02,652 - #39 10
+INFO  15:07:02,652 - #15 )
+INFO  15:07:02,653 - #25 ;
+INFO  15:07:02,653 - #6 print
+INFO  15:07:02,653 - #14 (
+INFO  15:07:02,653 - #41 false
+INFO  15:07:02,653 - #19 ?
+INFO  15:07:02,653 - #38 bodovi
+INFO  15:07:02,653 - #20 +
+INFO  15:07:02,653 - #39 20
+INFO  15:07:02,653 - #18 :
+INFO  15:07:02,653 - #38 bodovi
+INFO  15:07:02,653 - #20 +
+INFO  15:07:02,653 - #39 30
+INFO  15:07:02,653 - #15 )
+INFO  15:07:02,653 - #25 ;
+INFO  15:07:02,653 - #9 }
+INFO  15:07:02,653 - #9 }
+INFO  15:07:02,671 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      GlobalConstDeclarations(
+        GlobalConstDeclarations(
+          GlobalConstDeclarations(
+            NoGlobalDeclarations(
+            ) [NoGlobalDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDeclAdditionalsOne(
+                ConstDeclOne(
+                 nula
+                  ConstValueInt(
+                   0
+                  ) [ConstValueInt]
+                ) [ConstDeclOne]
+              ) [ConstDeclAdditionalsOne]
+            ) [ConstDecl]
+          ) [GlobalConstDeclarations]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDeclAdditionalsOne(
+              ConstDeclOne(
+               jedan
+                ConstValueInt(
+                 1
+                ) [ConstValueInt]
+              ) [ConstDeclOne]
+            ) [ConstDeclAdditionalsOne]
+          ) [ConstDecl]
+        ) [GlobalConstDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDeclAdditionalsOne(
+            ConstDeclOne(
+             pet
+              ConstValueInt(
+               5
+              ) [ConstValueInt]
+            ) [ConstDeclOne]
+          ) [ConstDeclAdditionalsOne]
+        ) [ConstDecl]
+      ) [GlobalConstDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       nizch
+        ArrayDeclaration(
+        ) [ArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        LocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          LocalVarDecl(
+            Type(
+             int
+            ) [Type]
+            LocalVarIdent(
+             bodovi
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [LocalVarIdent]
+            NoLocalVarDeclAdditionals(
+            ) [NoLocalVarDeclAdditionals]
+          ) [LocalVarDecl]
+        ) [LocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           bool
+          ) [Type]
+          LocalVarIdent(
+           bt
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        NoStatements(
+                                                        ) [NoStatements]
+                                                        DesignatorStmtExt(
+                                                          DesignatorStmtExtNoError(
+                                                            AssignOp(
+                                                              Designator(
+                                                               bodovi
+                                                                NoDesignatorArray(
+                                                                ) [NoDesignatorArray]
+                                                              ) [Designator]
+                                                              ExpressionSimple(
+                                                                Expression(
+                                                                  SingleExpressionOptList(
+                                                                    Term(
+                                                                      SingleFactorOptionalList(
+                                                                        FactorConst(
+                                                                          ConstValueInt(
+                                                                           0
+                                                                          ) [ConstValueInt]
+                                                                        ) [FactorConst]
+                                                                      ) [SingleFactorOptionalList]
+                                                                    ) [Term]
+                                                                  ) [SingleExpressionOptList]
+                                                                ) [Expression]
+                                                              ) [ExpressionSimple]
+                                                            ) [AssignOp]
+                                                          ) [DesignatorStmtExtNoError]
+                                                        ) [DesignatorStmtExt]
+                                                      ) [Statements]
+                                                      DesignatorStmtExt(
+                                                        DesignatorStmtExtNoError(
+                                                          IncrementOp(
+                                                            Designator(
+                                                             bodovi
+                                                              NoDesignatorArray(
+                                                              ) [NoDesignatorArray]
+                                                            ) [Designator]
+                                                          ) [IncrementOp]
+                                                        ) [DesignatorStmtExtNoError]
+                                                      ) [DesignatorStmtExt]
+                                                    ) [Statements]
+                                                    DesignatorStmtExt(
+                                                      DesignatorStmtExtNoError(
+                                                        AssignOp(
+                                                          Designator(
+                                                           bodovi
+                                                            NoDesignatorArray(
+                                                            ) [NoDesignatorArray]
+                                                          ) [Designator]
+                                                          ExpressionSimple(
+                                                            Expression(
+                                                              ExpressionOptList(
+                                                                SingleExpressionOptList(
+                                                                  Term(
+                                                                    SingleFactorOptionalList(
+                                                                      FactorDesignator(
+                                                                        Designator(
+                                                                         bodovi
+                                                                          NoDesignatorArray(
+                                                                          ) [NoDesignatorArray]
+                                                                        ) [Designator]
+                                                                      ) [FactorDesignator]
+                                                                    ) [SingleFactorOptionalList]
+                                                                  ) [Term]
+                                                                ) [SingleExpressionOptList]
+                                                                AddopPlus(
+                                                                ) [AddopPlus]
+                                                                Term(
+                                                                  SingleFactorOptionalList(
+                                                                    FactorDesignator(
+                                                                      Designator(
+                                                                       jedan
+                                                                        NoDesignatorArray(
+                                                                        ) [NoDesignatorArray]
+                                                                      ) [Designator]
+                                                                    ) [FactorDesignator]
+                                                                  ) [SingleFactorOptionalList]
+                                                                ) [Term]
+                                                              ) [ExpressionOptList]
+                                                            ) [Expression]
+                                                          ) [ExpressionSimple]
+                                                        ) [AssignOp]
+                                                      ) [DesignatorStmtExtNoError]
+                                                    ) [DesignatorStmtExt]
+                                                  ) [Statements]
+                                                  DesignatorStmtExt(
+                                                    DesignatorStmtExtNoError(
+                                                      AssignOp(
+                                                        Designator(
+                                                         bodovi
+                                                          NoDesignatorArray(
+                                                          ) [NoDesignatorArray]
+                                                        ) [Designator]
+                                                        ExpressionSimple(
+                                                          Expression(
+                                                            SingleExpressionOptList(
+                                                              Term(
+                                                                FactorOptionalList(
+                                                                  SingleFactorOptionalList(
+                                                                    FactorDesignator(
+                                                                      Designator(
+                                                                       bodovi
+                                                                        NoDesignatorArray(
+                                                                        ) [NoDesignatorArray]
+                                                                      ) [Designator]
+                                                                    ) [FactorDesignator]
+                                                                  ) [SingleFactorOptionalList]
+                                                                  MulopMul(
+                                                                  ) [MulopMul]
+                                                                  FactorDesignator(
+                                                                    Designator(
+                                                                     pet
+                                                                      NoDesignatorArray(
+                                                                      ) [NoDesignatorArray]
+                                                                    ) [Designator]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorOptionalList]
+                                                              ) [Term]
+                                                            ) [SingleExpressionOptList]
+                                                          ) [Expression]
+                                                        ) [ExpressionSimple]
+                                                      ) [AssignOp]
+                                                    ) [DesignatorStmtExtNoError]
+                                                  ) [DesignatorStmtExt]
+                                                ) [Statements]
+                                                DesignatorStmtExt(
+                                                  DesignatorStmtExtNoError(
+                                                    DecrementOp(
+                                                      Designator(
+                                                       bodovi
+                                                        NoDesignatorArray(
+                                                        ) [NoDesignatorArray]
+                                                      ) [Designator]
+                                                    ) [DecrementOp]
+                                                  ) [DesignatorStmtExtNoError]
+                                                ) [DesignatorStmtExt]
+                                              ) [Statements]
+                                              PrintStmt(
+                                                ExpressionSimple(
+                                                  Expression(
+                                                    SingleExpressionOptList(
+                                                      Term(
+                                                        SingleFactorOptionalList(
+                                                          FactorDesignator(
+                                                            Designator(
+                                                             bodovi
+                                                              NoDesignatorArray(
+                                                              ) [NoDesignatorArray]
+                                                            ) [Designator]
+                                                          ) [FactorDesignator]
+                                                        ) [SingleFactorOptionalList]
+                                                      ) [Term]
+                                                    ) [SingleExpressionOptList]
+                                                  ) [Expression]
+                                                ) [ExpressionSimple]
+                                                NoPrintParamOptional(
+                                                ) [NoPrintParamOptional]
+                                              ) [PrintStmt]
+                                            ) [Statements]
+                                            DesignatorStmtExt(
+                                              DesignatorStmtExtNoError(
+                                                AssignOp(
+                                                  Designator(
+                                                   niz
+                                                    NoDesignatorArray(
+                                                    ) [NoDesignatorArray]
+                                                  ) [Designator]
+                                                  ExpressionSimple(
+                                                    Expression(
+                                                      SingleExpressionOptList(
+                                                        Term(
+                                                          SingleFactorOptionalList(
+                                                            FactorNew(
+                                                              Type(
+                                                               int
+                                                              ) [Type]
+                                                              ExpressionSimple(
+                                                                Expression(
+                                                                  SingleExpressionOptList(
+                                                                    Term(
+                                                                      SingleFactorOptionalList(
+                                                                        FactorConst(
+                                                                          ConstValueInt(
+                                                                           3
+                                                                          ) [ConstValueInt]
+                                                                        ) [FactorConst]
+                                                                      ) [SingleFactorOptionalList]
+                                                                    ) [Term]
+                                                                  ) [SingleExpressionOptList]
+                                                                ) [Expression]
+                                                              ) [ExpressionSimple]
+                                                            ) [FactorNew]
+                                                          ) [SingleFactorOptionalList]
+                                                        ) [Term]
+                                                      ) [SingleExpressionOptList]
+                                                    ) [Expression]
+                                                  ) [ExpressionSimple]
+                                                ) [AssignOp]
+                                              ) [DesignatorStmtExtNoError]
+                                            ) [DesignatorStmtExt]
+                                          ) [Statements]
+                                          DesignatorStmtExt(
+                                            DesignatorStmtExtNoError(
+                                              AssignOp(
+                                                Designator(
+                                                 niz
+                                                  DesignatorArray(
+                                                    ExpressionSimple(
+                                                      Expression(
+                                                        SingleExpressionOptList(
+                                                          Term(
+                                                            SingleFactorOptionalList(
+                                                              FactorDesignator(
+                                                                Designator(
+                                                                 nula
+                                                                  NoDesignatorArray(
+                                                                  ) [NoDesignatorArray]
+                                                                ) [Designator]
+                                                              ) [FactorDesignator]
+                                                            ) [SingleFactorOptionalList]
+                                                          ) [Term]
+                                                        ) [SingleExpressionOptList]
+                                                      ) [Expression]
+                                                    ) [ExpressionSimple]
+                                                  ) [DesignatorArray]
+                                                ) [Designator]
+                                                ExpressionSimple(
+                                                  Expression(
+                                                    SingleExpressionOptList(
+                                                      Term(
+                                                        SingleFactorOptionalList(
+                                                          FactorDesignator(
+                                                            Designator(
+                                                             jedan
+                                                              NoDesignatorArray(
+                                                              ) [NoDesignatorArray]
+                                                            ) [Designator]
+                                                          ) [FactorDesignator]
+                                                        ) [SingleFactorOptionalList]
+                                                      ) [Term]
+                                                    ) [SingleExpressionOptList]
+                                                  ) [Expression]
+                                                ) [ExpressionSimple]
+                                              ) [AssignOp]
+                                            ) [DesignatorStmtExtNoError]
+                                          ) [DesignatorStmtExt]
+                                        ) [Statements]
+                                        DesignatorStmtExt(
+                                          DesignatorStmtExtNoError(
+                                            AssignOp(
+                                              Designator(
+                                               niz
+                                                DesignatorArray(
+                                                  ExpressionSimple(
+                                                    Expression(
+                                                      SingleExpressionOptList(
+                                                        Term(
+                                                          SingleFactorOptionalList(
+                                                            FactorConst(
+                                                              ConstValueInt(
+                                                               1
+                                                              ) [ConstValueInt]
+                                                            ) [FactorConst]
+                                                          ) [SingleFactorOptionalList]
+                                                        ) [Term]
+                                                      ) [SingleExpressionOptList]
+                                                    ) [Expression]
+                                                  ) [ExpressionSimple]
+                                                ) [DesignatorArray]
+                                              ) [Designator]
+                                              ExpressionSimple(
+                                                Expression(
+                                                  SingleExpressionOptList(
+                                                    Term(
+                                                      SingleFactorOptionalList(
+                                                        FactorConst(
+                                                          ConstValueInt(
+                                                           2
+                                                          ) [ConstValueInt]
+                                                        ) [FactorConst]
+                                                      ) [SingleFactorOptionalList]
+                                                    ) [Term]
+                                                  ) [SingleExpressionOptList]
+                                                ) [Expression]
+                                              ) [ExpressionSimple]
+                                            ) [AssignOp]
+                                          ) [DesignatorStmtExtNoError]
+                                        ) [DesignatorStmtExt]
+                                      ) [Statements]
+                                      DesignatorStmtExt(
+                                        DesignatorStmtExtNoError(
+                                          AssignOp(
+                                            Designator(
+                                             niz
+                                              DesignatorArray(
+                                                ExpressionSimple(
+                                                  Expression(
+                                                    SingleExpressionOptList(
+                                                      Term(
+                                                        SingleFactorOptionalList(
+                                                          FactorDesignator(
+                                                            Designator(
+                                                             niz
+                                                              DesignatorArray(
+                                                                ExpressionSimple(
+                                                                  Expression(
+                                                                    SingleExpressionOptList(
+                                                                      Term(
+                                                                        SingleFactorOptionalList(
+                                                                          FactorDesignator(
+                                                                            Designator(
+                                                                             jedan
+                                                                              NoDesignatorArray(
+                                                                              ) [NoDesignatorArray]
+                                                                            ) [Designator]
+                                                                          ) [FactorDesignator]
+                                                                        ) [SingleFactorOptionalList]
+                                                                      ) [Term]
+                                                                    ) [SingleExpressionOptList]
+                                                                  ) [Expression]
+                                                                ) [ExpressionSimple]
+                                                              ) [DesignatorArray]
+                                                            ) [Designator]
+                                                          ) [FactorDesignator]
+                                                        ) [SingleFactorOptionalList]
+                                                      ) [Term]
+                                                    ) [SingleExpressionOptList]
+                                                  ) [Expression]
+                                                ) [ExpressionSimple]
+                                              ) [DesignatorArray]
+                                            ) [Designator]
+                                            ExpressionSimple(
+                                              Expression(
+                                                SingleExpressionOptList(
+                                                  Term(
+                                                    FactorOptionalList(
+                                                      SingleFactorOptionalList(
+                                                        FactorDesignator(
+                                                          Designator(
+                                                           niz
+                                                            DesignatorArray(
+                                                              ExpressionSimple(
+                                                                Expression(
+                                                                  SingleExpressionOptList(
+                                                                    Term(
+                                                                      SingleFactorOptionalList(
+                                                                        FactorDesignator(
+                                                                          Designator(
+                                                                           niz
+                                                                            DesignatorArray(
+                                                                              ExpressionSimple(
+                                                                                Expression(
+                                                                                  SingleExpressionOptList(
+                                                                                    Term(
+                                                                                      SingleFactorOptionalList(
+                                                                                        FactorConst(
+                                                                                          ConstValueInt(
+                                                                                           0
+                                                                                          ) [ConstValueInt]
+                                                                                        ) [FactorConst]
+                                                                                      ) [SingleFactorOptionalList]
+                                                                                    ) [Term]
+                                                                                  ) [SingleExpressionOptList]
+                                                                                ) [Expression]
+                                                                              ) [ExpressionSimple]
+                                                                            ) [DesignatorArray]
+                                                                          ) [Designator]
+                                                                        ) [FactorDesignator]
+                                                                      ) [SingleFactorOptionalList]
+                                                                    ) [Term]
+                                                                  ) [SingleExpressionOptList]
+                                                                ) [Expression]
+                                                              ) [ExpressionSimple]
+                                                            ) [DesignatorArray]
+                                                          ) [Designator]
+                                                        ) [FactorDesignator]
+                                                      ) [SingleFactorOptionalList]
+                                                      MulopMul(
+                                                      ) [MulopMul]
+                                                      FactorConst(
+                                                        ConstValueInt(
+                                                         3
+                                                        ) [ConstValueInt]
+                                                      ) [FactorConst]
+                                                    ) [FactorOptionalList]
+                                                  ) [Term]
+                                                ) [SingleExpressionOptList]
+                                              ) [Expression]
+                                            ) [ExpressionSimple]
+                                          ) [AssignOp]
+                                        ) [DesignatorStmtExtNoError]
+                                      ) [DesignatorStmtExt]
+                                    ) [Statements]
+                                    DesignatorStmtExt(
+                                      DesignatorStmtExtNoError(
+                                        AssignOp(
+                                          Designator(
+                                           bodovi
+                                            NoDesignatorArray(
+                                            ) [NoDesignatorArray]
+                                          ) [Designator]
+                                          ExpressionSimple(
+                                            Expression(
+                                              SingleExpressionOptList(
+                                                Term(
+                                                  FactorOptionalList(
+                                                    SingleFactorOptionalList(
+                                                      FactorDesignator(
+                                                        Designator(
+                                                         niz
+                                                          DesignatorArray(
+                                                            ExpressionSimple(
+                                                              Expression(
+                                                                SingleExpressionOptList(
+                                                                  Term(
+                                                                    SingleFactorOptionalList(
+                                                                      FactorConst(
+                                                                        ConstValueInt(
+                                                                         2
+                                                                        ) [ConstValueInt]
+                                                                      ) [FactorConst]
+                                                                    ) [SingleFactorOptionalList]
+                                                                  ) [Term]
+                                                                ) [SingleExpressionOptList]
+                                                              ) [Expression]
+                                                            ) [ExpressionSimple]
+                                                          ) [DesignatorArray]
+                                                        ) [Designator]
+                                                      ) [FactorDesignator]
+                                                    ) [SingleFactorOptionalList]
+                                                    MulopDiv(
+                                                    ) [MulopDiv]
+                                                    FactorDesignator(
+                                                      Designator(
+                                                       niz
+                                                        DesignatorArray(
+                                                          ExpressionSimple(
+                                                            Expression(
+                                                              SingleExpressionOptList(
+                                                                Term(
+                                                                  SingleFactorOptionalList(
+                                                                    FactorConst(
+                                                                      ConstValueInt(
+                                                                       0
+                                                                      ) [ConstValueInt]
+                                                                    ) [FactorConst]
+                                                                  ) [SingleFactorOptionalList]
+                                                                ) [Term]
+                                                              ) [SingleExpressionOptList]
+                                                            ) [Expression]
+                                                          ) [ExpressionSimple]
+                                                        ) [DesignatorArray]
+                                                      ) [Designator]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorOptionalList]
+                                                ) [Term]
+                                              ) [SingleExpressionOptList]
+                                            ) [Expression]
+                                          ) [ExpressionSimple]
+                                        ) [AssignOp]
+                                      ) [DesignatorStmtExtNoError]
+                                    ) [DesignatorStmtExt]
+                                  ) [Statements]
+                                  PrintStmt(
+                                    ExpressionSimple(
+                                      Expression(
+                                        SingleExpressionOptList(
+                                          Term(
+                                            SingleFactorOptionalList(
+                                              FactorDesignator(
+                                                Designator(
+                                                 bodovi
+                                                  NoDesignatorArray(
+                                                  ) [NoDesignatorArray]
+                                                ) [Designator]
+                                              ) [FactorDesignator]
+                                            ) [SingleFactorOptionalList]
+                                          ) [Term]
+                                        ) [SingleExpressionOptList]
+                                      ) [Expression]
+                                    ) [ExpressionSimple]
+                                    NoPrintParamOptional(
+                                    ) [NoPrintParamOptional]
+                                  ) [PrintStmt]
+                                ) [Statements]
+                                PrintStmt(
+                                  ExpressionSimple(
+                                    Expression(
+                                      SingleExpressionOptList(
+                                        Term(
+                                          SingleFactorOptionalList(
+                                            FactorDesignator(
+                                              Designator(
+                                               niz
+                                                DesignatorArray(
+                                                  ExpressionSimple(
+                                                    Expression(
+                                                      SingleExpressionOptList(
+                                                        Term(
+                                                          SingleFactorOptionalList(
+                                                            FactorConst(
+                                                              ConstValueInt(
+                                                               2
+                                                              ) [ConstValueInt]
+                                                            ) [FactorConst]
+                                                          ) [SingleFactorOptionalList]
+                                                        ) [Term]
+                                                      ) [SingleExpressionOptList]
+                                                    ) [Expression]
+                                                  ) [ExpressionSimple]
+                                                ) [DesignatorArray]
+                                              ) [Designator]
+                                            ) [FactorDesignator]
+                                          ) [SingleFactorOptionalList]
+                                        ) [Term]
+                                      ) [SingleExpressionOptList]
+                                    ) [Expression]
+                                  ) [ExpressionSimple]
+                                  NoPrintParamOptional(
+                                  ) [NoPrintParamOptional]
+                                ) [PrintStmt]
+                              ) [Statements]
+                              DesignatorStmtExt(
+                                DesignatorStmtExtNoError(
+                                  AssignOp(
+                                    Designator(
+                                     nizch
+                                      NoDesignatorArray(
+                                      ) [NoDesignatorArray]
+                                    ) [Designator]
+                                    ExpressionSimple(
+                                      Expression(
+                                        SingleExpressionOptList(
+                                          Term(
+                                            SingleFactorOptionalList(
+                                              FactorNew(
+                                                Type(
+                                                 char
+                                                ) [Type]
+                                                ExpressionSimple(
+                                                  Expression(
+                                                    SingleExpressionOptList(
+                                                      Term(
+                                                        SingleFactorOptionalList(
+                                                          FactorConst(
+                                                            ConstValueInt(
+                                                             3
+                                                            ) [ConstValueInt]
+                                                          ) [FactorConst]
+                                                        ) [SingleFactorOptionalList]
+                                                      ) [Term]
+                                                    ) [SingleExpressionOptList]
+                                                  ) [Expression]
+                                                ) [ExpressionSimple]
+                                              ) [FactorNew]
+                                            ) [SingleFactorOptionalList]
+                                          ) [Term]
+                                        ) [SingleExpressionOptList]
+                                      ) [Expression]
+                                    ) [ExpressionSimple]
+                                  ) [AssignOp]
+                                ) [DesignatorStmtExtNoError]
+                              ) [DesignatorStmtExt]
+                            ) [Statements]
+                            DesignatorStmtExt(
+                              DesignatorStmtExtNoError(
+                                AssignOp(
+                                  Designator(
+                                   nizch
+                                    DesignatorArray(
+                                      ExpressionSimple(
+                                        Expression(
+                                          SingleExpressionOptList(
+                                            Term(
+                                              SingleFactorOptionalList(
+                                                FactorConst(
+                                                  ConstValueInt(
+                                                   0
+                                                  ) [ConstValueInt]
+                                                ) [FactorConst]
+                                              ) [SingleFactorOptionalList]
+                                            ) [Term]
+                                          ) [SingleExpressionOptList]
+                                        ) [Expression]
+                                      ) [ExpressionSimple]
+                                    ) [DesignatorArray]
+                                  ) [Designator]
+                                  ExpressionSimple(
+                                    Expression(
+                                      SingleExpressionOptList(
+                                        Term(
+                                          SingleFactorOptionalList(
+                                            FactorConst(
+                                              ConstValueChar(
+                                               'a'
+                                              ) [ConstValueChar]
+                                            ) [FactorConst]
+                                          ) [SingleFactorOptionalList]
+                                        ) [Term]
+                                      ) [SingleExpressionOptList]
+                                    ) [Expression]
+                                  ) [ExpressionSimple]
+                                ) [AssignOp]
+                              ) [DesignatorStmtExtNoError]
+                            ) [DesignatorStmtExt]
+                          ) [Statements]
+                          DesignatorStmtExt(
+                            DesignatorStmtExtNoError(
+                              AssignOp(
+                                Designator(
+                                 nizch
+                                  DesignatorArray(
+                                    ExpressionSimple(
+                                      Expression(
+                                        SingleExpressionOptList(
+                                          Term(
+                                            SingleFactorOptionalList(
+                                              FactorDesignator(
+                                                Designator(
+                                                 jedan
+                                                  NoDesignatorArray(
+                                                  ) [NoDesignatorArray]
+                                                ) [Designator]
+                                              ) [FactorDesignator]
+                                            ) [SingleFactorOptionalList]
+                                          ) [Term]
+                                        ) [SingleExpressionOptList]
+                                      ) [Expression]
+                                    ) [ExpressionSimple]
+                                  ) [DesignatorArray]
+                                ) [Designator]
+                                ExpressionSimple(
+                                  Expression(
+                                    SingleExpressionOptList(
+                                      Term(
+                                        SingleFactorOptionalList(
+                                          FactorConst(
+                                            ConstValueChar(
+                                             'b'
+                                            ) [ConstValueChar]
+                                          ) [FactorConst]
+                                        ) [SingleFactorOptionalList]
+                                      ) [Term]
+                                    ) [SingleExpressionOptList]
+                                  ) [Expression]
+                                ) [ExpressionSimple]
+                              ) [AssignOp]
+                            ) [DesignatorStmtExtNoError]
+                          ) [DesignatorStmtExt]
+                        ) [Statements]
+                        DesignatorStmtExt(
+                          DesignatorStmtExtNoError(
+                            AssignOp(
+                              Designator(
+                               nizch
+                                DesignatorArray(
+                                  ExpressionSimple(
+                                    Expression(
+                                      ExpressionOptList(
+                                        SingleExpressionOptList(
+                                          Term(
+                                            SingleFactorOptionalList(
+                                              FactorDesignator(
+                                                Designator(
+                                                 pet
+                                                  NoDesignatorArray(
+                                                  ) [NoDesignatorArray]
+                                                ) [Designator]
+                                              ) [FactorDesignator]
+                                            ) [SingleFactorOptionalList]
+                                          ) [Term]
+                                        ) [SingleExpressionOptList]
+                                        AddopMinus(
+                                        ) [AddopMinus]
+                                        Term(
+                                          SingleFactorOptionalList(
+                                            FactorConst(
+                                              ConstValueInt(
+                                               3
+                                              ) [ConstValueInt]
+                                            ) [FactorConst]
+                                          ) [SingleFactorOptionalList]
+                                        ) [Term]
+                                      ) [ExpressionOptList]
+                                    ) [Expression]
+                                  ) [ExpressionSimple]
+                                ) [DesignatorArray]
+                              ) [Designator]
+                              ExpressionSimple(
+                                Expression(
+                                  SingleExpressionOptList(
+                                    Term(
+                                      SingleFactorOptionalList(
+                                        FactorConst(
+                                          ConstValueChar(
+                                           'c'
+                                          ) [ConstValueChar]
+                                        ) [FactorConst]
+                                      ) [SingleFactorOptionalList]
+                                    ) [Term]
+                                  ) [SingleExpressionOptList]
+                                ) [Expression]
+                              ) [ExpressionSimple]
+                            ) [AssignOp]
+                          ) [DesignatorStmtExtNoError]
+                        ) [DesignatorStmtExt]
+                      ) [Statements]
+                      PrintStmt(
+                        ExpressionSimple(
+                          Expression(
+                            SingleExpressionOptList(
+                              Term(
+                                SingleFactorOptionalList(
+                                  FactorDesignator(
+                                    Designator(
+                                     nizch
+                                      DesignatorArray(
+                                        ExpressionSimple(
+                                          Expression(
+                                            SingleExpressionOptList(
+                                              Term(
+                                                SingleFactorOptionalList(
+                                                  FactorConst(
+                                                    ConstValueInt(
+                                                     1
+                                                    ) [ConstValueInt]
+                                                  ) [FactorConst]
+                                                ) [SingleFactorOptionalList]
+                                              ) [Term]
+                                            ) [SingleExpressionOptList]
+                                          ) [Expression]
+                                        ) [ExpressionSimple]
+                                      ) [DesignatorArray]
+                                    ) [Designator]
+                                  ) [FactorDesignator]
+                                ) [SingleFactorOptionalList]
+                              ) [Term]
+                            ) [SingleExpressionOptList]
+                          ) [Expression]
+                        ) [ExpressionSimple]
+                        NoPrintParamOptional(
+                        ) [NoPrintParamOptional]
+                      ) [PrintStmt]
+                    ) [Statements]
+                    PrintStmt(
+                      ExpressionSimple(
+                        Expression(
+                          SingleExpressionOptList(
+                            Term(
+                              SingleFactorOptionalList(
+                                FactorDesignator(
+                                  Designator(
+                                   nizch
+                                    DesignatorArray(
+                                      ExpressionSimple(
+                                        Expression(
+                                          SingleExpressionOptList(
+                                            Term(
+                                              FactorOptionalList(
+                                                SingleFactorOptionalList(
+                                                  FactorDesignator(
+                                                    Designator(
+                                                     jedan
+                                                      NoDesignatorArray(
+                                                      ) [NoDesignatorArray]
+                                                    ) [Designator]
+                                                  ) [FactorDesignator]
+                                                ) [SingleFactorOptionalList]
+                                                MulopMul(
+                                                ) [MulopMul]
+                                                FactorConst(
+                                                  ConstValueInt(
+                                                   2
+                                                  ) [ConstValueInt]
+                                                ) [FactorConst]
+                                              ) [FactorOptionalList]
+                                            ) [Term]
+                                          ) [SingleExpressionOptList]
+                                        ) [Expression]
+                                      ) [ExpressionSimple]
+                                    ) [DesignatorArray]
+                                  ) [Designator]
+                                ) [FactorDesignator]
+                              ) [SingleFactorOptionalList]
+                            ) [Term]
+                          ) [SingleExpressionOptList]
+                        ) [Expression]
+                      ) [ExpressionSimple]
+                      NoPrintParamOptional(
+                      ) [NoPrintParamOptional]
+                    ) [PrintStmt]
+                  ) [Statements]
+                  DesignatorStmtExt(
+                    DesignatorStmtExtNoError(
+                      AssignOp(
+                        Designator(
+                         bodovi
+                          NoDesignatorArray(
+                          ) [NoDesignatorArray]
+                        ) [Designator]
+                        ExpressionSimple(
+                          Expression(
+                            ExpressionOptList(
+                              ExpressionOptList(
+                                SingleExpressionOptList(
+                                  Term(
+                                    SingleFactorOptionalList(
+                                      FactorDesignator(
+                                        Designator(
+                                         bodovi
+                                          NoDesignatorArray(
+                                          ) [NoDesignatorArray]
+                                        ) [Designator]
+                                      ) [FactorDesignator]
+                                    ) [SingleFactorOptionalList]
+                                  ) [Term]
+                                ) [SingleExpressionOptList]
+                                AddopPlus(
+                                ) [AddopPlus]
+                                Term(
+                                  FactorOptionalList(
+                                    SingleFactorOptionalList(
+                                      FactorExpr(
+                                        ExpressionSimple(
+                                          Expression(
+                                            ExpressionOptList(
+                                              SingleExpressionOptList(
+                                                Term(
+                                                  FactorOptionalList(
+                                                    SingleFactorOptionalList(
+                                                      FactorDesignator(
+                                                        Designator(
+                                                         pet
+                                                          NoDesignatorArray(
+                                                          ) [NoDesignatorArray]
+                                                        ) [Designator]
+                                                      ) [FactorDesignator]
+                                                    ) [SingleFactorOptionalList]
+                                                    MulopMul(
+                                                    ) [MulopMul]
+                                                    FactorDesignator(
+                                                      Designator(
+                                                       jedan
+                                                        NoDesignatorArray(
+                                                        ) [NoDesignatorArray]
+                                                      ) [Designator]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorOptionalList]
+                                                ) [Term]
+                                              ) [SingleExpressionOptList]
+                                              AddopMinus(
+                                              ) [AddopMinus]
+                                              Term(
+                                                SingleFactorOptionalList(
+                                                  FactorConst(
+                                                    ConstValueInt(
+                                                     1
+                                                    ) [ConstValueInt]
+                                                  ) [FactorConst]
+                                                ) [SingleFactorOptionalList]
+                                              ) [Term]
+                                            ) [ExpressionOptList]
+                                          ) [Expression]
+                                        ) [ExpressionSimple]
+                                      ) [FactorExpr]
+                                    ) [SingleFactorOptionalList]
+                                    MulopMul(
+                                    ) [MulopMul]
+                                    FactorDesignator(
+                                      Designator(
+                                       bodovi
+                                        NoDesignatorArray(
+                                        ) [NoDesignatorArray]
+                                      ) [Designator]
+                                    ) [FactorDesignator]
+                                  ) [FactorOptionalList]
+                                ) [Term]
+                              ) [ExpressionOptList]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              Term(
+                                SingleFactorOptionalList(
+                                  FactorExpr(
+                                    ExpressionSimple(
+                                      Expression(
+                                        ExpressionOptList(
+                                          ExpressionOptList(
+                                            SingleExpressionOptList(
+                                              Term(
+                                                FactorOptionalList(
+                                                  SingleFactorOptionalList(
+                                                    FactorConst(
+                                                      ConstValueInt(
+                                                       3
+                                                      ) [ConstValueInt]
+                                                    ) [FactorConst]
+                                                  ) [SingleFactorOptionalList]
+                                                  MulopMod(
+                                                  ) [MulopMod]
+                                                  FactorConst(
+                                                    ConstValueInt(
+                                                     2
+                                                    ) [ConstValueInt]
+                                                  ) [FactorConst]
+                                                ) [FactorOptionalList]
+                                              ) [Term]
+                                            ) [SingleExpressionOptList]
+                                            AddopPlus(
+                                            ) [AddopPlus]
+                                            Term(
+                                              FactorOptionalList(
+                                                SingleFactorOptionalList(
+                                                  FactorConst(
+                                                    ConstValueInt(
+                                                     3
+                                                    ) [ConstValueInt]
+                                                  ) [FactorConst]
+                                                ) [SingleFactorOptionalList]
+                                                MulopMul(
+                                                ) [MulopMul]
+                                                FactorConst(
+                                                  ConstValueInt(
+                                                   2
+                                                  ) [ConstValueInt]
+                                                ) [FactorConst]
+                                              ) [FactorOptionalList]
+                                            ) [Term]
+                                          ) [ExpressionOptList]
+                                          AddopMinus(
+                                          ) [AddopMinus]
+                                          Term(
+                                            SingleFactorOptionalList(
+                                              FactorConst(
+                                                ConstValueInt(
+                                                 3
+                                                ) [ConstValueInt]
+                                              ) [FactorConst]
+                                            ) [SingleFactorOptionalList]
+                                          ) [Term]
+                                        ) [ExpressionOptList]
+                                      ) [Expression]
+                                    ) [ExpressionSimple]
+                                  ) [FactorExpr]
+                                ) [SingleFactorOptionalList]
+                              ) [Term]
+                            ) [ExpressionOptList]
+                          ) [Expression]
+                        ) [ExpressionSimple]
+                      ) [AssignOp]
+                    ) [DesignatorStmtExtNoError]
+                  ) [DesignatorStmtExt]
+                ) [Statements]
+                PrintStmt(
+                  ExpressionSimple(
+                    Expression(
+                      SingleExpressionOptList(
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorDesignator(
+                              Designator(
+                               bodovi
+                                NoDesignatorArray(
+                                ) [NoDesignatorArray]
+                              ) [Designator]
+                            ) [FactorDesignator]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [SingleExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                  NoPrintParamOptional(
+                  ) [NoPrintParamOptional]
+                ) [PrintStmt]
+              ) [Statements]
+              ReadStmt(
+                Designator(
+                 bodovi
+                  NoDesignatorArray(
+                  ) [NoDesignatorArray]
+                ) [Designator]
+              ) [ReadStmt]
+            ) [Statements]
+            DesignatorStmtExt(
+              DesignatorStmtExtNoError(
+                AssignOp(
+                  Designator(
+                   bt
+                    NoDesignatorArray(
+                    ) [NoDesignatorArray]
+                  ) [Designator]
+                  ExpressionSimple(
+                    Expression(
+                      SingleExpressionOptList(
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorConst(
+                              ConstValueBool(
+                               true
+                              ) [ConstValueBool]
+                            ) [FactorConst]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [SingleExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [AssignOp]
+              ) [DesignatorStmtExtNoError]
+            ) [DesignatorStmtExt]
+          ) [Statements]
+          PrintStmt(
+            ExpressionTernar(
+              Expression(
+                SingleExpressionOptList(
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorDesignator(
+                        Designator(
+                         bt
+                          NoDesignatorArray(
+                          ) [NoDesignatorArray]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [SingleExpressionOptList]
+              ) [Expression]
+              Expression(
+                SingleExpressionOptList(
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorDesignator(
+                        Designator(
+                         bodovi
+                          NoDesignatorArray(
+                          ) [NoDesignatorArray]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [SingleExpressionOptList]
+              ) [Expression]
+              Expression(
+                ExpressionOptList(
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorDesignator(
+                          Designator(
+                           bodovi
+                            NoDesignatorArray(
+                            ) [NoDesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorConst(
+                        ConstValueInt(
+                         10
+                        ) [ConstValueInt]
+                      ) [FactorConst]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [ExpressionOptList]
+              ) [Expression]
+            ) [ExpressionTernar]
+            NoPrintParamOptional(
+            ) [NoPrintParamOptional]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionTernar(
+            Expression(
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorConst(
+                      ConstValueBool(
+                       false
+                      ) [ConstValueBool]
+                    ) [FactorConst]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+            Expression(
+              ExpressionOptList(
+                SingleExpressionOptList(
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorDesignator(
+                        Designator(
+                         bodovi
+                          NoDesignatorArray(
+                          ) [NoDesignatorArray]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [SingleExpressionOptList]
+                AddopPlus(
+                ) [AddopPlus]
+                Term(
+                  SingleFactorOptionalList(
+                    FactorConst(
+                      ConstValueInt(
+                       20
+                      ) [ConstValueInt]
+                    ) [FactorConst]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [ExpressionOptList]
+            ) [Expression]
+            Expression(
+              ExpressionOptList(
+                SingleExpressionOptList(
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorDesignator(
+                        Designator(
+                         bodovi
+                          NoDesignatorArray(
+                          ) [NoDesignatorArray]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [SingleExpressionOptList]
+                AddopPlus(
+                ) [AddopPlus]
+                Term(
+                  SingleFactorOptionalList(
+                    FactorConst(
+                      ConstValueInt(
+                       30
+                      ) [ConstValueInt]
+                    ) [FactorConst]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [ExpressionOptList]
+            ) [Expression]
+          ) [ExpressionTernar]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:07:02,674 - ===================================
+INFO  15:07:02,679 - Definisana konstanta sa imenom: nula na liniji: 5 [Con nula: int, 0, 0 ]
+INFO  15:07:02,679 - Definisana konstanta sa imenom: jedan na liniji: 6 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,680 - Definisana konstanta sa imenom: pet na liniji: 7 [Con pet: int, 5, 0 ]
+INFO  15:07:02,680 - Deklarisan globalni niz sa imenom: niz na liniji: 9 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,680 - Deklarisan globalni niz sa imenom: nizch na liniji: 10 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,681 - Obradjuje se funkcija: main na liniji: 13 [Meth main: notype, 0, 0 
+]
+INFO  15:07:02,681 - Deklarisana lokalna promenljiva sa imenom: bodovi na liniji: 14 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,681 - Deklarisana lokalna promenljiva sa imenom: bt na liniji: 15 [Var bt: int, 1, 1 ]
+INFO  15:07:02,681 - Pristup lokalnoj promenljivoj: bodovi na liniji: 17 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,682 - Pristup lokalnoj promenljivoj: bodovi na liniji: 18 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,682 - Pristup lokalnoj promenljivoj: bodovi na liniji: 19 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,683 - Pristup lokalnoj promenljivoj: bodovi na liniji: 19 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,683 - Pristup simbolickoj konstanti: jedan na liniji: 19 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,683 - Pristup lokalnoj promenljivoj: bodovi na liniji: 20 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,683 - Pristup lokalnoj promenljivoj: bodovi na liniji: 20 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,684 - Pristup simbolickoj konstanti: pet na liniji: 20 [Con pet: int, 5, 0 ]
+INFO  15:07:02,684 - Pristup lokalnoj promenljivoj: bodovi na liniji: 21 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,684 - Pristup lokalnoj promenljivoj: bodovi na liniji: 22 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,684 - Pristup globalnoj promenljivoj: niz na liniji: 25 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup simbolickoj konstanti: nula na liniji: 26 [Con nula: int, 0, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 26 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup simbolickoj konstanti: jedan na liniji: 26 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 27 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup simbolickoj konstanti: jedan na liniji: 28 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 28 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 28 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 28 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 28 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup lokalnoj promenljivoj: bodovi na liniji: 29 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 29 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup globalnom nizu: niz na liniji: 29 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,684 - Pristup lokalnoj promenljivoj: bodovi na liniji: 30 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,685 - Pristup globalnom nizu: niz na liniji: 31 [Var niz: Arr of int, 0, 0 ]
+INFO  15:07:02,685 - Pristup globalnoj promenljivoj: nizch na liniji: 34 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,685 - Pristup globalnom nizu: nizch na liniji: 35 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,685 - Pristup simbolickoj konstanti: jedan na liniji: 36 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,685 - Pristup globalnom nizu: nizch na liniji: 36 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,685 - Pristup simbolickoj konstanti: pet na liniji: 37 [Con pet: int, 5, 0 ]
+INFO  15:07:02,685 - Pristup globalnom nizu: nizch na liniji: 37 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,685 - Pristup globalnom nizu: nizch na liniji: 38 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,685 - Pristup simbolickoj konstanti: jedan na liniji: 39 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,685 - Pristup globalnom nizu: nizch na liniji: 39 [Var nizch: Arr of char, 1, 0 ]
+INFO  15:07:02,685 - Pristup lokalnoj promenljivoj: bodovi na liniji: 42 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,685 - Pristup lokalnoj promenljivoj: bodovi na liniji: 42 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,685 - Pristup simbolickoj konstanti: pet na liniji: 42 [Con pet: int, 5, 0 ]
+INFO  15:07:02,685 - Pristup simbolickoj konstanti: jedan na liniji: 42 [Con jedan: int, 1, 0 ]
+INFO  15:07:02,685 - Pristup lokalnoj promenljivoj: bodovi na liniji: 42 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bodovi na liniji: 43 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bodovi na liniji: 45 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bt na liniji: 46 [Var bt: int, 1, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bt na liniji: 48 [Var bt: int, 1, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bodovi na liniji: 48 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bodovi na liniji: 48 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bodovi na liniji: 49 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Pristup lokalnoj promenljivoj: bodovi na liniji: 49 [Var bodovi: int, 0, 1 ]
+INFO  15:07:02,686 - Deklarisanih globalnih promenljivih ima = 2
+INFO  15:07:02,686 - Definisanih konstanti ima = 3
+INFO  15:07:02,686 - Deklarisanih lokalnih promenljivih ima = 2
+INFO  15:07:02,686 - ===================================
+INFO  15:07:02,695 - Parsiranje uspesno zavrseno!

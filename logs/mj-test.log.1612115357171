@@ -1,0 +1,154 @@
+INFO  18:48:30,573 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  18:48:30,597 - #2 program
+INFO  18:48:30,597 - #38 MJProgram
+INFO  18:48:30,598 - #38 int
+INFO  18:48:30,598 - #38 anka
+INFO  18:48:30,599 - #25 ;
+INFO  18:48:30,600 - #38 int
+INFO  18:48:30,601 - #38 niz
+INFO  18:48:30,601 - #11 [
+INFO  18:48:30,601 - #12 ]
+INFO  18:48:30,601 - #10 ,
+INFO  18:48:30,601 - #38 niz2
+INFO  18:48:30,601 - #11 [
+INFO  18:48:30,601 - #12 ]
+INFO  18:48:30,601 - #25 ;
+INFO  18:48:30,602 - #3 const
+INFO  18:48:30,602 - #38 int
+INFO  18:48:30,602 - #38 a
+INFO  18:48:30,602 - #13 =
+INFO  18:48:30,602 - #39 1
+INFO  18:48:30,602 - #25 ;
+INFO  18:48:30,603 - #8 {
+INFO  18:48:30,603 - #4 void
+INFO  18:48:30,609 - #38 main
+INFO  18:48:30,610 - #14 (
+INFO  18:48:30,610 - #15 )
+INFO  18:48:30,610 - #8 {
+INFO  18:48:30,611 - #38 a
+INFO  18:48:30,611 - #13 =
+INFO  18:48:30,612 - #38 anka
+INFO  18:48:30,612 - #25 ;
+INFO  18:48:30,613 - #9 }
+INFO  18:48:30,613 - #9 }
+INFO  18:48:30,620 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           anka
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        VarDeclAdditionals(
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+          VarIdent(
+           niz2
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [VarIdent]
+        ) [VarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         a
+          ConstValueInt(
+           1
+          ) [ConstValueInt]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               a
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorDesignator(
+                          Designator(
+                           anka
+                            NoDesignatorArray(
+                            ) [NoDesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:48:30,620 - ===================================
+INFO  18:48:30,623 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 3 [Var anka: int, 0, 0 ]
+INFO  18:48:30,623 - Deklarisan globalni niz sa imenom: niz na liniji: 8 [Var niz: Arr of int, 1, 0 ]
+INFO  18:48:30,623 - Deklarisan globalni niz sa imenom: niz2 na liniji: 8 [Var niz2: Arr of int, 2, 0 ]
+INFO  18:48:30,623 - Definisana konstanta sa imenom: a na liniji: 9 [Con a: int, 1, 0 ]
+INFO  18:48:30,623 - Obradjuje se funkcija: main na liniji: 16 [Meth main: notype, 0, 0 
+]
+INFO  18:48:30,623 - Pristup simbolickoj konstanti: a na liniji: 19 [Con a: int, 1, 0 ]
+INFO  18:48:30,624 - Pristup globalnoj promenljivoj: anka na liniji: 19 [Var anka: int, 0, 0 ]
+INFO  18:48:30,624 - **************************tip factor designatora:1 na liniji 19
+ERROR 18:48:30,624 - Greska na liniji 19 : leva strana dodele mora biti promenljiva ili element niza!
+INFO  18:48:30,624 - Print count calls = 0
+INFO  18:48:30,624 - Deklarisanih globalnih promenljivih ima = 3
+INFO  18:48:30,624 - Definisanih konstanti ima = 1
+INFO  18:48:30,624 - Definisanih lokalnih promenljivih ima = 0
+INFO  18:48:30,624 - ===================================
+ERROR 18:48:30,624 - Parsiranje NIJE uspesno zavrseno!

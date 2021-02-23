@@ -1,0 +1,144 @@
+INFO  01:32:56,364 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  01:32:56,387 - #2 program
+INFO  01:32:56,387 - #38 MJProgram
+INFO  01:32:56,387 - #38 int
+INFO  01:32:56,388 - #38 niz
+INFO  01:32:56,388 - #11 [
+INFO  01:32:56,388 - #12 ]
+INFO  01:32:56,388 - #25 ;
+INFO  01:32:56,390 - #3 const
+INFO  01:32:56,390 - #38 int
+INFO  01:32:56,390 - #38 size
+INFO  01:32:56,390 - #13 =
+INFO  01:32:56,390 - #39 10
+INFO  01:32:56,390 - #25 ;
+INFO  01:32:56,392 - #8 {
+INFO  01:32:56,392 - #4 void
+INFO  01:32:56,393 - #38 main
+INFO  01:32:56,393 - #14 (
+INFO  01:32:56,394 - #15 )
+INFO  01:32:56,394 - #8 {
+INFO  01:32:56,394 - #38 niz
+INFO  01:32:56,395 - #11 [
+INFO  01:32:56,395 - #39 10
+INFO  01:32:56,401 - #12 ]
+INFO  01:32:56,402 - #13 =
+INFO  01:32:56,403 - #38 size
+INFO  01:32:56,403 - #25 ;
+INFO  01:32:56,403 - #9 }
+INFO  01:32:56,403 - #9 }
+INFO  01:32:56,411 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         size
+          ConstValueInt(
+           10
+          ) [ConstValueInt]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               niz
+                DesignatorArray(
+                  ExpressionSimple(
+                    Expression(
+                      NoOptionalMinus(
+                      ) [NoOptionalMinus]
+                      SingleExpressionOptList(
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorConst(
+                              ConstValueInt(
+                               10
+                              ) [ConstValueInt]
+                            ) [FactorConst]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [SingleExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [DesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorDesignator(
+                          Designator(
+                           size
+                            NoDesignatorArray(
+                            ) [NoDesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:32:56,411 - ===================================
+INFO  01:32:56,414 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  01:32:56,414 - Definisana konstanta sa imenom: size na liniji: 4 [Con size: int, 10, 0 ]
+INFO  01:32:56,414 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  01:32:56,415 - Pristup globalnom nizu: niz na liniji: 18 [Var niz: Arr of int, 0, 0 ]
+INFO  01:32:56,415 - Pristup simbolickoj konstanti: size na liniji: 18 [Con size: int, 10, 0 ]
+INFO  01:32:56,415 - Print count calls = 0
+INFO  01:32:56,415 - Deklarisanih globalnih promenljivih ima = 1
+INFO  01:32:56,415 - Definisanih konstanti ima = 1
+INFO  01:32:56,415 - Definisanih lokalnih promenljivih ima = 0
+INFO  01:32:56,415 - ===================================
+INFO  01:32:56,416 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,113 @@
+INFO  18:22:24,523 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  18:22:24,546 - #2 program
+INFO  18:22:24,546 - #38 MJProgram
+INFO  18:22:24,546 - #38 int
+INFO  18:22:24,547 - #38 anka
+INFO  18:22:24,547 - #25 ;
+INFO  18:22:24,548 - #8 {
+INFO  18:22:24,549 - #4 void
+INFO  18:22:24,549 - #38 main
+INFO  18:22:24,550 - #14 (
+INFO  18:22:24,550 - #15 )
+INFO  18:22:24,550 - #8 {
+INFO  18:22:24,551 - #38 anka
+INFO  18:22:24,551 - #13 =
+INFO  18:22:24,552 - #38 anka
+INFO  18:22:24,552 - #21 -
+INFO  18:22:24,553 - #39 2
+INFO  18:22:24,553 - #25 ;
+INFO  18:22:24,554 - #9 }
+INFO  18:22:24,554 - #9 }
+INFO  18:22:24,561 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    NoGlobalDeclarations(
+    ) [NoGlobalDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarIdent(
+       anka
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               anka
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  ExpressionOptList(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorDesignator(
+                            Designator(
+                             anka
+                              NoDesignatorArray(
+                              ) [NoDesignatorArray]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorConst(
+                          ConstValueInt(
+                           2
+                          ) [ConstValueInt]
+                        ) [FactorConst]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [ExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:22:24,562 - ===================================
+INFO  18:22:24,565 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 3 [Var anka: int, 0, 0 ]
+INFO  18:22:24,565 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  18:22:24,565 - Pristup globalnoj promenljivoj: anka na liniji: 19 [Var anka: int, 0, 0 ]
+INFO  18:22:24,565 - Pristup globalnoj promenljivoj: anka na liniji: 19 [Var anka: int, 0, 0 ]
+INFO  18:22:24,565 - Print count calls = 0
+INFO  18:22:24,565 - Deklarisanih globalnih promenljivih ima = 1
+INFO  18:22:24,565 - Definisanih konstanti ima = 0
+INFO  18:22:24,566 - Definisanih lokalnih promenljivih ima = 0
+INFO  18:22:24,566 - ===================================
+INFO  18:22:24,566 - Parsiranje uspesno zavrseno!

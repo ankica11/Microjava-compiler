@@ -1,0 +1,140 @@
+INFO  01:40:38,223 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  01:40:38,245 - #2 program
+INFO  01:40:38,245 - #38 MJProgram
+INFO  01:40:38,245 - #38 int
+INFO  01:40:38,246 - #38 niz
+INFO  01:40:38,246 - #11 [
+INFO  01:40:38,246 - #12 ]
+INFO  01:40:38,246 - #25 ;
+INFO  01:40:38,247 - #3 const
+INFO  01:40:38,248 - #38 int
+INFO  01:40:38,248 - #38 size
+INFO  01:40:38,248 - #13 =
+INFO  01:40:38,248 - #39 10
+INFO  01:40:38,248 - #25 ;
+INFO  01:40:38,249 - #8 {
+INFO  01:40:38,250 - #4 void
+INFO  01:40:38,250 - #38 main
+INFO  01:40:38,250 - #14 (
+INFO  01:40:38,251 - #15 )
+INFO  01:40:38,251 - #38 char
+INFO  01:40:38,252 - #38 i
+INFO  01:40:38,252 - #25 ;
+INFO  01:40:38,253 - #8 {
+INFO  01:40:38,255 - #38 i
+INFO  01:40:38,255 - #13 =
+INFO  01:40:38,256 - #40 'a'
+INFO  01:40:38,257 - #25 ;
+INFO  01:40:38,258 - #9 }
+INFO  01:40:38,258 - #9 }
+INFO  01:40:38,265 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         size
+          ConstValueInt(
+           10
+          ) [ConstValueInt]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           char
+          ) [Type]
+          LocalVarIdent(
+           i
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               i
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  SingleExpressionOptList(
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorConst(
+                          ConstValueChar(
+                           'a'
+                          ) [ConstValueChar]
+                        ) [FactorConst]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [SingleExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:40:38,265 - ===================================
+INFO  01:40:38,268 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  01:40:38,268 - Definisana konstanta sa imenom: size na liniji: 4 [Con size: int, 10, 0 ]
+INFO  01:40:38,268 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  01:40:38,268 - Deklarisana lokalna promenljiva sa imenom: i na liniji: 15 [Var i: char, 0, 1 ]
+INFO  01:40:38,268 - Pristup lokalnoj promenljivoj: i na liniji: 18 [Var i: char, 0, 1 ]
+INFO  01:40:38,269 - ***********************************struct izraza sa leve strane dodele je: 2
+INFO  01:40:38,269 - Print count calls = 0
+INFO  01:40:38,269 - Deklarisanih globalnih promenljivih ima = 1
+INFO  01:40:38,269 - Definisanih konstanti ima = 1
+INFO  01:40:38,269 - Definisanih lokalnih promenljivih ima = 1
+INFO  01:40:38,269 - ===================================
+INFO  01:40:38,269 - Parsiranje uspesno zavrseno!

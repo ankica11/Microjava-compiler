@@ -1,0 +1,147 @@
+INFO  23:34:19,207 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  23:34:19,277 - #2 program
+INFO  23:34:19,277 - #38 MJProgram
+INFO  23:34:19,277 - #38 int
+INFO  23:34:19,279 - #38 a
+INFO  23:34:19,280 - #11 [
+INFO  23:34:19,280 - #12 ]
+INFO  23:34:19,280 - #25 ;
+INFO  23:34:19,282 - #38 int
+INFO  23:34:19,283 - #38 i
+INFO  23:34:19,284 - #25 ;
+INFO  23:34:19,284 - #8 {
+INFO  23:34:19,285 - #38 int
+INFO  23:34:19,285 - #38 anka
+INFO  23:34:19,285 - #14 (
+INFO  23:34:19,286 - #15 )
+INFO  23:34:19,287 - #38 char
+INFO  23:34:19,287 - #38 k
+INFO  23:34:19,287 - #25 ;
+INFO  23:34:19,288 - #8 {
+INFO  23:34:19,289 - #9 }
+INFO  23:34:19,290 - #38 int
+INFO  23:34:19,291 - #38 main
+INFO  23:34:19,291 - #14 (
+INFO  23:34:19,291 - #15 )
+INFO  23:34:19,291 - #38 int
+INFO  23:34:19,291 - #38 k
+INFO  23:34:19,291 - #25 ;
+INFO  23:34:19,291 - #8 {
+INFO  23:34:19,292 - #9 }
+INFO  23:34:19,292 - #9 }
+INFO  23:34:19,299 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         a
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarIdent(
+       i
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          RetValAny(
+            Type(
+             int
+            ) [Type]
+          ) [RetValAny]
+         anka
+        ) [MethodTypeName]
+        NoFormParsProd(
+        ) [NoFormParsProd]
+        LocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          LocalVarDecl(
+            Type(
+             char
+            ) [Type]
+            LocalVarIdent(
+             k
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [LocalVarIdent]
+            NoLocalVarDeclAdditionals(
+            ) [NoLocalVarDeclAdditionals]
+          ) [LocalVarDecl]
+        ) [LocalVarDeclarations]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValAny(
+          Type(
+           int
+          ) [Type]
+        ) [RetValAny]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:34:19,300 - ===================================
+INFO  23:34:19,303 - Deklarisan globalni niz sa imenom: a na liniji: 3 [Var a: Arr of int, 0, 0 ]
+INFO  23:34:19,304 - Deklarisana globalna promenljiva sa imenom: i na liniji: 4 [Var i: int, 1, 0 ]
+INFO  23:34:19,304 - Obradjuje se funkcija: anka na liniji: 12 [Meth anka: int, 0, 0 
+]
+INFO  23:34:19,304 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 12 [Var k: char, 0, 1 ]
+ERROR 23:34:19,304 - Funkcija main mora imati povratni tip void!  na liniji 17
+INFO  23:34:19,304 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 17 [Var k: int, 2, 0 ]
+ERROR 23:34:19,304 - ERROR Program mora imati definisanu funkciju main! na liniji 1
+INFO  23:34:19,304 - Print count calls = 0
+INFO  23:34:19,304 - Deklarisanih globalnih promenljivih ima = 2
+INFO  23:34:19,305 - Definisanih konstanti ima = 0
+INFO  23:34:19,305 - Definisanih lokalnih promenljivih ima = 2
+INFO  23:34:19,305 - ===================================
+ERROR 23:34:19,305 - Parsiranje NIJE uspesno zavrseno!

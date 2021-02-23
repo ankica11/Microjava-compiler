@@ -1,0 +1,199 @@
+INFO  23:53:54,785 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  23:53:54,807 - #2 program
+INFO  23:53:54,807 - #38 MJProgram
+INFO  23:53:54,807 - #38 int
+INFO  23:53:54,807 - #38 a
+INFO  23:53:54,808 - #11 [
+INFO  23:53:54,808 - #12 ]
+INFO  23:53:54,808 - #25 ;
+INFO  23:53:54,809 - #38 int
+INFO  23:53:54,810 - #38 b
+INFO  23:53:54,810 - #25 ;
+INFO  23:53:54,810 - #38 char
+INFO  23:53:54,810 - #38 c
+INFO  23:53:54,810 - #25 ;
+INFO  23:53:54,810 - #3 const
+INFO  23:53:54,810 - #38 bool
+INFO  23:53:54,810 - #38 flag
+INFO  23:53:54,810 - #13 =
+INFO  23:53:54,810 - #41 true
+INFO  23:53:54,810 - #25 ;
+INFO  23:53:54,811 - #8 {
+INFO  23:53:54,812 - #4 void
+INFO  23:53:54,812 - #38 anka
+INFO  23:53:54,818 - #14 (
+INFO  23:53:54,818 - #15 )
+INFO  23:53:54,819 - #38 char
+INFO  23:53:54,819 - #38 k
+INFO  23:53:54,819 - #25 ;
+INFO  23:53:54,820 - #8 {
+INFO  23:53:54,820 - #9 }
+INFO  23:53:54,821 - #4 void
+INFO  23:53:54,821 - #38 main
+INFO  23:53:54,821 - #14 (
+INFO  23:53:54,821 - #15 )
+INFO  23:53:54,821 - #38 int
+INFO  23:53:54,821 - #38 k
+INFO  23:53:54,821 - #25 ;
+INFO  23:53:54,821 - #8 {
+INFO  23:53:54,821 - #38 c
+INFO  23:53:54,821 - #17 --
+INFO  23:53:54,822 - #25 ;
+INFO  23:53:54,822 - #9 }
+INFO  23:53:54,823 - #9 }
+INFO  23:53:54,829 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        GlobalVarDeclarations(
+          NoGlobalDeclarations(
+          ) [NoGlobalDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdent(
+             a
+              ArrayDeclaration(
+              ) [ArrayDeclaration]
+            ) [VarIdent]
+            NoVarDeclAdditionals(
+            ) [NoVarDeclAdditionals]
+          ) [VarDecl]
+        ) [GlobalVarDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           b
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarIdent(
+         c
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         flag
+          ConstValueBool(
+           true
+          ) [ConstValueBool]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          RetValVoid(
+          ) [RetValVoid]
+         anka
+        ) [MethodTypeName]
+        NoFormParsProd(
+        ) [NoFormParsProd]
+        LocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          LocalVarDecl(
+            Type(
+             char
+            ) [Type]
+            LocalVarIdent(
+             k
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [LocalVarIdent]
+            NoLocalVarDeclAdditionals(
+            ) [NoLocalVarDeclAdditionals]
+          ) [LocalVarDecl]
+        ) [LocalVarDeclarations]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            DecrementOp(
+              Designator(
+               c
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+            ) [DecrementOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:53:54,830 - ===================================
+INFO  23:53:54,832 - Deklarisan globalni niz sa imenom: a na liniji: 3 [Var a: Arr of int, 0, 0 ]
+INFO  23:53:54,832 - Deklarisana globalna promenljiva sa imenom: b na liniji: 4 [Var b: int, 1, 0 ]
+INFO  23:53:54,832 - Deklarisana globalna promenljiva sa imenom: c na liniji: 5 [Var c: char, 2, 0 ]
+INFO  23:53:54,832 - Definisana konstanta sa imenom: flag na liniji: 6 [Con flag: int, 1, 0 ]
+INFO  23:53:54,833 - Obradjuje se funkcija: anka na liniji: 13 [Meth anka: notype, 0, 0 
+]
+INFO  23:53:54,833 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 13 [Var k: char, 0, 1 ]
+INFO  23:53:54,833 - Obradjuje se funkcija: main na liniji: 18 [Meth main: notype, 0, 0 
+]
+INFO  23:53:54,833 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 18 [Var k: int, 0, 1 ]
+INFO  23:53:54,833 - Pristup promenljivoj: c na liniji: 20 [Var c: char, 2, 0 ]
+ERROR 23:53:54,833 - Greska na liniji 20 : operand u dekrement operaciji mora biti tipa int!
+INFO  23:53:54,834 - Print count calls = 0
+INFO  23:53:54,834 - Deklarisanih globalnih promenljivih ima = 3
+INFO  23:53:54,834 - Definisanih konstanti ima = 1
+INFO  23:53:54,834 - Definisanih lokalnih promenljivih ima = 2
+INFO  23:53:54,834 - ===================================
+ERROR 23:53:54,834 - Parsiranje NIJE uspesno zavrseno!

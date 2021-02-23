@@ -1,0 +1,127 @@
+INFO  18:25:21,847 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  18:25:21,869 - #2 program
+INFO  18:25:21,869 - #38 MJProgram
+INFO  18:25:21,869 - #38 int
+INFO  18:25:21,870 - #38 anka
+INFO  18:25:21,870 - #25 ;
+INFO  18:25:21,871 - #38 char
+INFO  18:25:21,872 - #38 ana
+INFO  18:25:21,872 - #25 ;
+INFO  18:25:21,872 - #8 {
+INFO  18:25:21,872 - #4 void
+INFO  18:25:21,872 - #38 main
+INFO  18:25:21,873 - #14 (
+INFO  18:25:21,873 - #15 )
+INFO  18:25:21,873 - #8 {
+INFO  18:25:21,874 - #38 anka
+INFO  18:25:21,874 - #13 =
+INFO  18:25:21,875 - #21 -
+INFO  18:25:21,875 - #38 ana
+INFO  18:25:21,875 - #21 -
+INFO  18:25:21,875 - #39 2
+INFO  18:25:21,876 - #25 ;
+INFO  18:25:21,877 - #9 }
+INFO  18:25:21,877 - #9 }
+INFO  18:25:21,884 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         anka
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       ana
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               anka
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  ExpressionOptList(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorDesignatorWithNegativeSign(
+                            Designator(
+                             ana
+                              NoDesignatorArray(
+                              ) [NoDesignatorArray]
+                            ) [Designator]
+                          ) [FactorDesignatorWithNegativeSign]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    Term(
+                      SingleFactorOptionalList(
+                        FactorConst(
+                          ConstValueInt(
+                           2
+                          ) [ConstValueInt]
+                        ) [FactorConst]
+                      ) [SingleFactorOptionalList]
+                    ) [Term]
+                  ) [ExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:25:21,884 - ===================================
+INFO  18:25:21,887 - Deklarisana globalna promenljiva sa imenom: anka na liniji: 3 [Var anka: int, 0, 0 ]
+INFO  18:25:21,887 - Deklarisana globalna promenljiva sa imenom: ana na liniji: 8 [Var ana: char, 1, 0 ]
+INFO  18:25:21,887 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  18:25:21,887 - Pristup globalnoj promenljivoj: anka na liniji: 19 [Var anka: int, 0, 0 ]
+INFO  18:25:21,887 - Pristup globalnoj promenljivoj: ana na liniji: 19 [Var ana: char, 1, 0 ]
+ERROR 18:25:21,887 - Greska na liniji 19 : znak negacije moze stajati samo ispred izraza tipa int!

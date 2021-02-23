@@ -1,0 +1,152 @@
+INFO  22:46:05,841 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  22:46:05,862 - #2 program
+INFO  22:46:05,862 - #38 MJProgram
+INFO  22:46:05,862 - #38 int
+INFO  22:46:05,863 - #38 niz
+INFO  22:46:05,864 - #11 [
+INFO  22:46:05,864 - #12 ]
+INFO  22:46:05,864 - #25 ;
+INFO  22:46:05,865 - #38 int
+INFO  22:46:05,865 - #38 index
+INFO  22:46:05,865 - #25 ;
+INFO  22:46:05,866 - #8 {
+INFO  22:46:05,866 - #4 void
+INFO  22:46:05,866 - #38 main
+INFO  22:46:05,867 - #14 (
+INFO  22:46:05,867 - #15 )
+INFO  22:46:05,867 - #8 {
+INFO  22:46:05,868 - #38 niz
+INFO  22:46:05,868 - #11 [
+INFO  22:46:05,868 - #38 index
+INFO  22:46:05,869 - #20 +
+INFO  22:46:05,870 - #39 5
+INFO  22:46:05,871 - #12 ]
+INFO  22:46:05,902 - #16 ++
+INFO  22:46:05,902 - #25 ;
+INFO  22:46:05,902 - #9 }
+INFO  22:46:05,903 - #9 }
+INFO  22:46:05,915 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      NoGlobalDeclarations(
+      ) [NoGlobalDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         niz
+          ArrayDeclaration(
+          ) [ArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarIdent(
+       index
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            IncrementOp(
+              Designator(
+               niz
+                DesignatorArray(
+                  ExpressionSimple(
+                    Expression(
+                      NoOptionalMinus(
+                      ) [NoOptionalMinus]
+                      ExpressionOptList(
+                        SingleExpressionOptList(
+                          Term(
+                            SingleFactorOptionalList(
+                              FactorDesignator(
+                                Designator(
+                                 index
+                                  NoDesignatorArray(
+                                  ) [NoDesignatorArray]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [SingleFactorOptionalList]
+                          ) [Term]
+                        ) [SingleExpressionOptList]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorConst(
+                              ConstValueInt(
+                               5
+                              ) [ConstValueInt]
+                            ) [FactorConst]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [ExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [DesignatorArray]
+              ) [Designator]
+            ) [IncrementOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:46:05,915 - ===================================
+INFO  22:46:05,917 - -----------------Type redni broj poziva: 0
+INFO  22:46:05,918 - Deklarisan globalni niz sa imenom: niz na liniji: 3 [Var niz: Arr of int, 0, 0 ]
+INFO  22:46:05,918 - -----------------Type redni broj poziva: 1
+INFO  22:46:05,918 - Deklarisana globalna promenljiva sa imenom: index na liniji: 4 [Var index: int, 1, 0 ]
+INFO  22:46:05,918 - -----------------RetValVoid redni broj poziva: 2
+INFO  22:46:05,918 - -----------------MethodTypeName redni broj poziva: 3
+INFO  22:46:05,918 - Obradjuje se funkcija: main na liniji: 14 [Meth main: notype, 0, 0 
+]
+INFO  22:46:05,918 - -----------------Designator redni broj poziva: 4
+INFO  22:46:05,918 - Pristup promenljivoj: index na liniji: 17 [Var index: int, 1, 0 ]
+INFO  22:46:05,918 - -----------------FactorDesignator redni broj poziva: 5
+INFO  22:46:05,919 - -----------------Term redni broj poziva: 6
+INFO  22:46:05,919 - -----------------FactorConst redni broj poziva: 7
+INFO  22:46:05,919 - -----------------Term redni broj poziva: 8
+INFO  22:46:05,919 - -----------------Expression redni broj poziva: 9
+INFO  22:46:05,919 - -----------------ExpressionSimple redni broj poziva: 10
+INFO  22:46:05,919 - -----------------DesignatorArray redni broj poziva: 11
+INFO  22:46:05,919 - -----------------Designator redni broj poziva: 12
+INFO  22:46:05,920 - Pristup nizu: niz na liniji: 17 [Var niz: Arr of int, 0, 0 ]
+INFO  22:46:05,920 - -----------------IncrementOp redni broj poziva: 13
+INFO  22:46:05,920 - -----------------MethodDecl redni broj poziva: 14
+INFO  22:46:05,920 - Print count calls = 0
+INFO  22:46:05,920 - Deklarisanih globalnih promenljivih ima = 2
+INFO  22:46:05,920 - Definisanih konstanti ima = 0
+INFO  22:46:05,920 - Definisanih lokalnih promenljivih ima = 0
+INFO  22:46:05,920 - ===================================
+INFO  22:46:05,921 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,31 @@
+INFO  18:49:17,177 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  18:49:17,202 - #2 program
+INFO  18:49:17,202 - #38 MJProgram
+INFO  18:49:17,202 - #38 int
+INFO  18:49:17,203 - #38 anka
+INFO  18:49:17,203 - #25 ;
+INFO  18:49:17,204 - #38 int
+INFO  18:49:17,205 - #38 niz
+INFO  18:49:17,205 - #11 [
+INFO  18:49:17,205 - #12 ]
+INFO  18:49:17,205 - #10 ,
+INFO  18:49:17,205 - #38 niz2
+INFO  18:49:17,206 - #11 [
+INFO  18:49:17,206 - #12 ]
+INFO  18:49:17,206 - #25 ;
+INFO  18:49:17,206 - #3 const
+INFO  18:49:17,206 - #38 int
+INFO  18:49:17,206 - #38 a
+INFO  18:49:17,206 - #13 =
+INFO  18:49:17,206 - #39 1
+INFO  18:49:17,206 - #25 ;
+INFO  18:49:17,207 - #8 {
+INFO  18:49:17,207 - #4 void
+INFO  18:49:17,208 - #38 main
+INFO  18:49:17,208 - #14 (
+INFO  18:49:17,209 - #15 )
+INFO  18:49:17,209 - #8 {
+INFO  18:49:17,209 - #39 10
+ERROR 18:49:17,209 - 
+Sintaksna greska na liniji 19
+ERROR 18:49:17,209 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

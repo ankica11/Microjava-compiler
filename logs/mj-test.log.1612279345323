@@ -1,0 +1,228 @@
+INFO  15:53:05,981 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  15:53:06,005 - #2 program
+INFO  15:53:06,005 - #38 MJProgram
+INFO  15:53:06,005 - #8 {
+INFO  15:53:06,006 - #4 void
+INFO  15:53:06,007 - #38 main
+INFO  15:53:06,007 - #14 (
+INFO  15:53:06,008 - #15 )
+INFO  15:53:06,008 - #38 int
+INFO  15:53:06,008 - #38 k
+INFO  15:53:06,009 - #11 [
+INFO  15:53:06,009 - #12 ]
+INFO  15:53:06,009 - #25 ;
+INFO  15:53:06,010 - #8 {
+INFO  15:53:06,011 - #38 k
+INFO  15:53:06,011 - #13 =
+INFO  15:53:06,012 - #7 new
+INFO  15:53:06,012 - #38 int
+INFO  15:53:06,012 - #11 [
+INFO  15:53:06,012 - #39 10
+INFO  15:53:06,012 - #12 ]
+INFO  15:53:06,013 - #25 ;
+INFO  15:53:06,013 - #38 k
+INFO  15:53:06,014 - #11 [
+INFO  15:53:06,014 - #39 1
+INFO  15:53:06,014 - #12 ]
+INFO  15:53:06,014 - #13 =
+INFO  15:53:06,014 - #39 123
+INFO  15:53:06,014 - #25 ;
+INFO  15:53:06,014 - #6 print
+INFO  15:53:06,014 - #14 (
+INFO  15:53:06,014 - #38 k
+INFO  15:53:06,014 - #11 [
+INFO  15:53:06,015 - #39 1
+INFO  15:53:06,015 - #12 ]
+INFO  15:53:06,015 - #20 +
+INFO  15:53:06,015 - #39 1
+INFO  15:53:06,016 - #15 )
+INFO  15:53:06,016 - #25 ;
+INFO  15:53:06,016 - #9 }
+INFO  15:53:06,016 - #9 }
+INFO  15:53:06,024 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoGlobalDeclarations(
+  ) [NoGlobalDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStmtExt(
+              DesignatorStmtExtNoError(
+                AssignOp(
+                  Designator(
+                   k
+                    NoDesignatorArray(
+                    ) [NoDesignatorArray]
+                  ) [Designator]
+                  ExpressionSimple(
+                    Expression(
+                      SingleExpressionOptList(
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorNew(
+                              Type(
+                               int
+                              ) [Type]
+                              ExpressionSimple(
+                                Expression(
+                                  SingleExpressionOptList(
+                                    Term(
+                                      SingleFactorOptionalList(
+                                        FactorConst(
+                                          ConstValueInt(
+                                           10
+                                          ) [ConstValueInt]
+                                        ) [FactorConst]
+                                      ) [SingleFactorOptionalList]
+                                    ) [Term]
+                                  ) [SingleExpressionOptList]
+                                ) [Expression]
+                              ) [ExpressionSimple]
+                            ) [FactorNew]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [SingleExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [AssignOp]
+              ) [DesignatorStmtExtNoError]
+            ) [DesignatorStmtExt]
+          ) [Statements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 k
+                  DesignatorArray(
+                    ExpressionSimple(
+                      Expression(
+                        SingleExpressionOptList(
+                          Term(
+                            SingleFactorOptionalList(
+                              FactorConst(
+                                ConstValueInt(
+                                 1
+                                ) [ConstValueInt]
+                              ) [FactorConst]
+                            ) [SingleFactorOptionalList]
+                          ) [Term]
+                        ) [SingleExpressionOptList]
+                      ) [Expression]
+                    ) [ExpressionSimple]
+                  ) [DesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConst(
+                            ConstValueInt(
+                             123
+                            ) [ConstValueInt]
+                          ) [FactorConst]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              ExpressionOptList(
+                SingleExpressionOptList(
+                  Term(
+                    SingleFactorOptionalList(
+                      FactorDesignator(
+                        Designator(
+                         k
+                          DesignatorArray(
+                            ExpressionSimple(
+                              Expression(
+                                SingleExpressionOptList(
+                                  Term(
+                                    SingleFactorOptionalList(
+                                      FactorConst(
+                                        ConstValueInt(
+                                         1
+                                        ) [ConstValueInt]
+                                      ) [FactorConst]
+                                    ) [SingleFactorOptionalList]
+                                  ) [Term]
+                                ) [SingleExpressionOptList]
+                              ) [Expression]
+                            ) [ExpressionSimple]
+                          ) [DesignatorArray]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [SingleFactorOptionalList]
+                  ) [Term]
+                ) [SingleExpressionOptList]
+                AddopPlus(
+                ) [AddopPlus]
+                Term(
+                  SingleFactorOptionalList(
+                    FactorConst(
+                      ConstValueInt(
+                       1
+                      ) [ConstValueInt]
+                    ) [FactorConst]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [ExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:53:06,025 - ===================================
+INFO  15:53:06,028 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  15:53:06,029 - Deklarisan lokalni niz sa imenom: k na liniji: 15 [Var k: Arr of int, 0, 1 ]
+INFO  15:53:06,029 - Pristup lokalnoj promenljivoj: k na liniji: 18 [Var k: Arr of int, 0, 1 ]
+INFO  15:53:06,029 - Pristup lokalnom nizu: k na liniji: 19 [Var k: Arr of int, 0, 1 ]
+INFO  15:53:06,029 - Pristup lokalnom nizu: k na liniji: 20 [Var k: Arr of int, 0, 1 ]
+INFO  15:53:06,029 - Deklarisanih globalnih promenljivih ima = 0
+INFO  15:53:06,029 - Definisanih konstanti ima = 0
+INFO  15:53:06,029 - Deklarisanih lokalnih promenljivih ima = 1
+INFO  15:53:06,029 - ===================================
+INFO  15:53:06,034 - Parsiranje uspesno zavrseno!

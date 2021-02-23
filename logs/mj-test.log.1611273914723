@@ -1,0 +1,232 @@
+INFO  01:04:06,026 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  01:04:06,048 - #2 program
+INFO  01:04:06,048 - #38 MJProgram
+INFO  01:04:06,048 - #38 int
+INFO  01:04:06,049 - #38 a
+INFO  01:04:06,049 - #25 ;
+INFO  01:04:06,050 - #38 int
+INFO  01:04:06,051 - #38 b
+INFO  01:04:06,051 - #25 ;
+INFO  01:04:06,051 - #38 char
+INFO  01:04:06,051 - #38 c
+INFO  01:04:06,051 - #25 ;
+INFO  01:04:06,051 - #8 {
+INFO  01:04:06,051 - #4 void
+INFO  01:04:06,052 - #38 anka
+INFO  01:04:06,052 - #14 (
+INFO  01:04:06,053 - #15 )
+INFO  01:04:06,053 - #38 char
+INFO  01:04:06,054 - #38 k
+INFO  01:04:06,054 - #25 ;
+INFO  01:04:06,055 - #8 {
+INFO  01:04:06,055 - #9 }
+INFO  01:04:06,055 - #4 void
+INFO  01:04:06,056 - #38 main
+INFO  01:04:06,056 - #14 (
+INFO  01:04:06,056 - #15 )
+INFO  01:04:06,057 - #38 int
+INFO  01:04:06,057 - #38 k
+INFO  01:04:06,057 - #25 ;
+INFO  01:04:06,057 - #8 {
+INFO  01:04:06,057 - #38 k
+INFO  01:04:06,057 - #13 =
+INFO  01:04:06,058 - #38 a
+INFO  01:04:06,058 - #20 +
+INFO  01:04:06,059 - #38 b
+INFO  01:04:06,059 - #22 *
+INFO  01:04:06,059 - #38 c
+INFO  01:04:06,060 - #25 ;
+INFO  01:04:06,061 - #9 }
+INFO  01:04:06,061 - #9 }
+INFO  01:04:06,068 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalVarDeclarations(
+    GlobalVarDeclarations(
+      GlobalVarDeclarations(
+        NoGlobalDeclarations(
+        ) [NoGlobalDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdent(
+           a
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [VarIdent]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [GlobalVarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarIdent(
+         b
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+        ) [VarIdent]
+        NoVarDeclAdditionals(
+        ) [NoVarDeclAdditionals]
+      ) [VarDecl]
+    ) [GlobalVarDeclarations]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarIdent(
+       c
+        NoArrayDeclaration(
+        ) [NoArrayDeclaration]
+      ) [VarIdent]
+      NoVarDeclAdditionals(
+      ) [NoVarDeclAdditionals]
+    ) [VarDecl]
+  ) [GlobalVarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          RetValVoid(
+          ) [RetValVoid]
+         anka
+        ) [MethodTypeName]
+        NoFormParsProd(
+        ) [NoFormParsProd]
+        LocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          LocalVarDecl(
+            Type(
+             char
+            ) [Type]
+            LocalVarIdent(
+             k
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [LocalVarIdent]
+            NoLocalVarDeclAdditionals(
+            ) [NoLocalVarDeclAdditionals]
+          ) [LocalVarDecl]
+        ) [LocalVarDeclarations]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               k
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  ExpressionOptList(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorDesignator(
+                            Designator(
+                             a
+                              NoDesignatorArray(
+                              ) [NoDesignatorArray]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    Term(
+                      FactorOptionalList(
+                        SingleFactorOptionalList(
+                          FactorDesignator(
+                            Designator(
+                             b
+                              NoDesignatorArray(
+                              ) [NoDesignatorArray]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [SingleFactorOptionalList]
+                        MulopMul(
+                        ) [MulopMul]
+                        FactorDesignator(
+                          Designator(
+                           c
+                            NoDesignatorArray(
+                            ) [NoDesignatorArray]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [FactorOptionalList]
+                    ) [Term]
+                  ) [ExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:04:06,068 - ===================================
+INFO  01:04:06,070 - Deklarisana globalna promenljiva sa imenom: a na liniji: 3 [Var a: int, 0, 0 ]
+INFO  01:04:06,071 - Deklarisana globalna promenljiva sa imenom: b na liniji: 4 [Var b: int, 1, 0 ]
+INFO  01:04:06,071 - Deklarisana globalna promenljiva sa imenom: c na liniji: 5 [Var c: char, 2, 0 ]
+INFO  01:04:06,071 - Obradjuje se funkcija: anka na liniji: 12 [Meth anka: notype, 0, 0 
+]
+INFO  01:04:06,071 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 12 [Var k: char, 0, 1 ]
+INFO  01:04:06,071 - Obradjuje se funkcija: main na liniji: 17 [Meth main: notype, 0, 0 
+]
+INFO  01:04:06,071 - Deklarisana lokalna promenljiva sa imenom: k na liniji: 17 [Var k: int, 0, 1 ]
+INFO  01:04:06,071 - Pristup promenljivoj: k na liniji: 19 [Var k: int, 0, 1 ]
+INFO  01:04:06,071 - Pristup promenljivoj: a na liniji: 19 [Var a: int, 0, 0 ]
+INFO  01:04:06,071 - tip factor designatora:1 na liniji 19
+INFO  01:04:06,071 - Pristup promenljivoj: b na liniji: 19 [Var b: int, 1, 0 ]
+INFO  01:04:06,071 - tip factor designatora:1 na liniji 19
+INFO  01:04:06,072 - Pristup promenljivoj: c na liniji: 19 [Var c: char, 2, 0 ]
+INFO  01:04:06,072 - tip factor designatora:2 na liniji 19
+ERROR 01:04:06,072 - Greska na liniji 19 : nekompatibilni tipovi u izrazu za mnozenje.
+ERROR 01:04:06,072 - Greska na liniji 19 : nekompatibilni tipovi u izrazu za sabiranje.
+INFO  01:04:06,072 - Print count calls = 0
+INFO  01:04:06,072 - Deklarisanih globalnih promenljivih ima = 3
+INFO  01:04:06,072 - Definisanih konstanti ima = 0
+INFO  01:04:06,072 - Definisanih lokalnih promenljivih ima = 2
+INFO  01:04:06,072 - ===================================
+ERROR 01:04:06,073 - Parsiranje NIJE uspesno zavrseno!

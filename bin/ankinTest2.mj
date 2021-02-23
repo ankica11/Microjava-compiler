@@ -1,0 +1,75 @@
+program MJProgram
+
+    
+   
+    
+    
+    
+   int a, b;
+   int niz[];
+   const int size=7;
+   
+   
+	
+{
+    
+    
+    void setAndChange(){
+    	a=10;
+    	b=11;
+    	a++;
+    	b--;
+    
+    }
+    
+    void setArray(){
+    	
+    	read(niz[0]);
+    	niz[1]=niz[0];
+    	niz[1]++;
+    	niz[2]=niz[1];
+    	niz[2]++;
+    	niz[3]=niz[2];
+    	niz[3]++;
+    	niz[4]=niz[3];
+    	niz[4]--;
+    	niz[5]=niz[4];
+    	niz[5]--;
+    	niz[6]=niz[5];
+    	niz[6]--;
+    	
+    }
+    
+    void printArray(){
+    	print(niz[0]);
+    	print(niz[1]);
+    	print(niz[2]);
+    	print(niz[3]);
+    	print(niz[4]);
+    	print(niz[5]);
+    	print(niz[6]);
+    	
+    }
+ 
+	
+	
+	void main() bool flag;
+	 {
+	  
+	  flag=false;
+	  setAndChange();
+	  print(a);
+	  print(b);
+	  niz=new int[size];
+	  setArray();
+	  printArray();
+	  
+	  print(flag ? -(a+b*10)*10 : ((a+b)*(a-b)+10)*10);
+
+	    
+	}
+	
+	
+	
+	
+}

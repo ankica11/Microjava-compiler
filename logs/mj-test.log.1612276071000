@@ -1,0 +1,197 @@
+INFO  15:27:01,900 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  15:27:01,924 - #2 program
+INFO  15:27:01,924 - #38 MJProgram
+INFO  15:27:01,924 - #8 {
+INFO  15:27:01,925 - #4 void
+INFO  15:27:01,926 - #38 main
+INFO  15:27:01,926 - #14 (
+INFO  15:27:01,926 - #15 )
+INFO  15:27:01,927 - #38 int
+INFO  15:27:01,927 - #38 k
+INFO  15:27:01,928 - #11 [
+INFO  15:27:01,928 - #12 ]
+INFO  15:27:01,928 - #25 ;
+INFO  15:27:01,929 - #8 {
+INFO  15:27:01,929 - #38 k
+INFO  15:27:01,930 - #13 =
+INFO  15:27:01,930 - #7 new
+INFO  15:27:01,930 - #38 int
+INFO  15:27:01,931 - #11 [
+INFO  15:27:01,931 - #39 10
+INFO  15:27:01,931 - #12 ]
+INFO  15:27:01,932 - #25 ;
+INFO  15:27:01,932 - #38 k
+INFO  15:27:01,938 - #11 [
+INFO  15:27:01,938 - #39 1
+INFO  15:27:01,938 - #12 ]
+INFO  15:27:01,938 - #13 =
+INFO  15:27:01,938 - #39 123
+INFO  15:27:01,938 - #25 ;
+INFO  15:27:01,938 - #6 print
+INFO  15:27:01,938 - #14 (
+INFO  15:27:01,938 - #38 k
+INFO  15:27:01,938 - #15 )
+INFO  15:27:01,939 - #25 ;
+INFO  15:27:01,939 - #9 }
+INFO  15:27:01,939 - #9 }
+INFO  15:27:01,946 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoGlobalDeclarations(
+  ) [NoGlobalDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        RetValVoid(
+        ) [RetValVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            ArrayDeclaration(
+            ) [ArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStmtExt(
+              DesignatorStmtExtNoError(
+                AssignOp(
+                  Designator(
+                   k
+                    NoDesignatorArray(
+                    ) [NoDesignatorArray]
+                  ) [Designator]
+                  ExpressionSimple(
+                    Expression(
+                      SingleExpressionOptList(
+                        Term(
+                          SingleFactorOptionalList(
+                            FactorNew(
+                              Type(
+                               int
+                              ) [Type]
+                              ExpressionSimple(
+                                Expression(
+                                  SingleExpressionOptList(
+                                    Term(
+                                      SingleFactorOptionalList(
+                                        FactorConst(
+                                          ConstValueInt(
+                                           10
+                                          ) [ConstValueInt]
+                                        ) [FactorConst]
+                                      ) [SingleFactorOptionalList]
+                                    ) [Term]
+                                  ) [SingleExpressionOptList]
+                                ) [Expression]
+                              ) [ExpressionSimple]
+                            ) [FactorNew]
+                          ) [SingleFactorOptionalList]
+                        ) [Term]
+                      ) [SingleExpressionOptList]
+                    ) [Expression]
+                  ) [ExpressionSimple]
+                ) [AssignOp]
+              ) [DesignatorStmtExtNoError]
+            ) [DesignatorStmtExt]
+          ) [Statements]
+          DesignatorStmtExt(
+            DesignatorStmtExtNoError(
+              AssignOp(
+                Designator(
+                 k
+                  DesignatorArray(
+                    ExpressionSimple(
+                      Expression(
+                        SingleExpressionOptList(
+                          Term(
+                            SingleFactorOptionalList(
+                              FactorConst(
+                                ConstValueInt(
+                                 1
+                                ) [ConstValueInt]
+                              ) [FactorConst]
+                            ) [SingleFactorOptionalList]
+                          ) [Term]
+                        ) [SingleExpressionOptList]
+                      ) [Expression]
+                    ) [ExpressionSimple]
+                  ) [DesignatorArray]
+                ) [Designator]
+                ExpressionSimple(
+                  Expression(
+                    SingleExpressionOptList(
+                      Term(
+                        SingleFactorOptionalList(
+                          FactorConst(
+                            ConstValueInt(
+                             123
+                            ) [ConstValueInt]
+                          ) [FactorConst]
+                        ) [SingleFactorOptionalList]
+                      ) [Term]
+                    ) [SingleExpressionOptList]
+                  ) [Expression]
+                ) [ExpressionSimple]
+              ) [AssignOp]
+            ) [DesignatorStmtExtNoError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              SingleExpressionOptList(
+                Term(
+                  SingleFactorOptionalList(
+                    FactorDesignator(
+                      Designator(
+                       k
+                        NoDesignatorArray(
+                        ) [NoDesignatorArray]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [SingleFactorOptionalList]
+                ) [Term]
+              ) [SingleExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:27:01,947 - ===================================
+INFO  15:27:01,950 - Obradjuje se funkcija: main na liniji: 15 [Meth main: notype, 0, 0 
+]
+INFO  15:27:01,950 - Deklarisan lokalni niz sa imenom: k na liniji: 15 [Var k: Arr of int, 0, 1 ]
+INFO  15:27:01,951 - Pristup lokalnoj promenljivoj: k na liniji: 18 [Var k: Arr of int, 0, 1 ]
+INFO  15:27:01,951 - Pristup lokalnom nizu: k na liniji: 19 [Var k: Arr of int, 0, 1 ]
+INFO  15:27:01,951 - Pristup lokalnoj promenljivoj: k na liniji: 20 [Var k: Arr of int, 0, 1 ]
+ERROR 15:27:01,951 - Greska na liniji 20 : nedozvoljena upotreba imena niza!
+ERROR 15:27:01,951 - Argument print funkcije mora biti tipa int ili char!
+INFO  15:27:01,951 - Deklarisanih globalnih promenljivih ima = 0
+INFO  15:27:01,951 - Definisanih konstanti ima = 0
+INFO  15:27:01,951 - Deklarisanih lokalnih promenljivih ima = 1
+INFO  15:27:01,951 - ===================================
+ERROR 15:27:01,952 - Parsiranje NIJE uspesno zavrseno!

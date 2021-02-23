@@ -1,0 +1,219 @@
+INFO  01:06:45,902 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  01:06:45,926 - #2 program
+INFO  01:06:45,926 - #38 MJProgram
+INFO  01:06:45,926 - #38 int
+INFO  01:06:45,927 - #38 a
+INFO  01:06:45,927 - #11 [
+INFO  01:06:45,927 - #12 ]
+INFO  01:06:45,927 - #10 ,
+INFO  01:06:45,929 - #38 b
+INFO  01:06:45,929 - #10 ,
+INFO  01:06:45,929 - #38 d
+INFO  01:06:45,929 - #25 ;
+INFO  01:06:45,929 - #3 const
+INFO  01:06:45,930 - #38 char
+INFO  01:06:45,930 - #38 anka
+INFO  01:06:45,930 - #13 =
+INFO  01:06:45,930 - #40 'a'
+INFO  01:06:45,930 - #10 ,
+INFO  01:06:45,931 - #38 marko
+INFO  01:06:45,931 - #13 =
+INFO  01:06:45,931 - #40 'b'
+INFO  01:06:45,931 - #10 ,
+INFO  01:06:45,931 - #38 peca
+INFO  01:06:45,937 - #13 =
+INFO  01:06:45,937 - #40 '1'
+INFO  01:06:45,937 - #25 ;
+INFO  01:06:45,937 - #3 const
+INFO  01:06:45,938 - #38 int
+INFO  01:06:45,938 - #38 mika
+INFO  01:06:45,938 - #13 =
+INFO  01:06:45,938 - #39 11
+INFO  01:06:45,938 - #25 ;
+INFO  01:06:45,938 - #3 const
+INFO  01:06:45,938 - #38 bool
+INFO  01:06:45,938 - #38 janja
+INFO  01:06:45,938 - #13 =
+INFO  01:06:45,938 - #41 false
+INFO  01:06:45,938 - #25 ;
+INFO  01:06:45,938 - #8 {
+INFO  01:06:45,938 - #38 int
+INFO  01:06:45,939 - #38 main
+INFO  01:06:45,939 - #14 (
+INFO  01:06:45,939 - #15 )
+INFO  01:06:45,939 - #38 int
+INFO  01:06:45,940 - #38 k
+INFO  01:06:45,940 - #25 ;
+INFO  01:06:45,941 - #8 {
+INFO  01:06:45,941 - #6 print
+INFO  01:06:45,942 - #14 (
+INFO  01:06:45,942 - #39 9
+INFO  01:06:45,942 - #15 )
+INFO  01:06:45,944 - #25 ;
+INFO  01:06:45,944 - #9 }
+INFO  01:06:45,944 - #9 }
+INFO  01:06:45,953 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  GlobalConstDeclarations(
+    GlobalConstDeclarations(
+      GlobalConstDeclarations(
+        GlobalVarDeclarations(
+          NoGlobalDeclarations(
+          ) [NoGlobalDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdent(
+             a
+              ArrayDeclaration(
+              ) [ArrayDeclaration]
+            ) [VarIdent]
+            VarDeclAdditionals(
+              VarDeclAdditionals(
+                NoVarDeclAdditionals(
+                ) [NoVarDeclAdditionals]
+                VarIdent(
+                 b
+                  NoArrayDeclaration(
+                  ) [NoArrayDeclaration]
+                ) [VarIdent]
+              ) [VarDeclAdditionals]
+              VarIdent(
+               d
+                NoArrayDeclaration(
+                ) [NoArrayDeclaration]
+              ) [VarIdent]
+            ) [VarDeclAdditionals]
+          ) [VarDecl]
+        ) [GlobalVarDeclarations]
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          ConstDeclAdditionals(
+            ConstDeclAdditionals(
+              ConstDeclAdditionalsOne(
+                ConstDeclOne(
+                 anka
+                  ConstValueChar(
+                   'a'
+                  ) [ConstValueChar]
+                ) [ConstDeclOne]
+              ) [ConstDeclAdditionalsOne]
+              ConstDeclOne(
+               marko
+                ConstValueChar(
+                 'b'
+                ) [ConstValueChar]
+              ) [ConstDeclOne]
+            ) [ConstDeclAdditionals]
+            ConstDeclOne(
+             peca
+              ConstValueChar(
+               '1'
+              ) [ConstValueChar]
+            ) [ConstDeclOne]
+          ) [ConstDeclAdditionals]
+        ) [ConstDecl]
+      ) [GlobalConstDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclAdditionalsOne(
+          ConstDeclOne(
+           mika
+            ConstValueInt(
+             11
+            ) [ConstValueInt]
+          ) [ConstDeclOne]
+        ) [ConstDeclAdditionalsOne]
+      ) [ConstDecl]
+    ) [GlobalConstDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclAdditionalsOne(
+        ConstDeclOne(
+         janja
+          ConstValueBool(
+           false
+          ) [ConstValueBool]
+        ) [ConstDeclOne]
+      ) [ConstDeclAdditionalsOne]
+    ) [ConstDecl]
+  ) [GlobalConstDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        Type(
+         int
+        ) [Type]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      LocalVarDeclarations(
+        NoLocalVarDeclarations(
+        ) [NoLocalVarDeclarations]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          LocalVarIdent(
+           k
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+          ) [LocalVarIdent]
+          NoLocalVarDeclAdditionals(
+          ) [NoLocalVarDeclAdditionals]
+        ) [LocalVarDecl]
+      ) [LocalVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStmt(
+          ExpressionSimple(
+            Expression(
+              NoOptionalMinus(
+              ) [NoOptionalMinus]
+              Term(
+                FactorConst(
+                  ConstValueInt(
+                   9
+                  ) [ConstValueInt]
+                ) [FactorConst]
+                NoFactorOptionalList(
+                ) [NoFactorOptionalList]
+              ) [Term]
+              NoExpressionOptList(
+              ) [NoExpressionOptList]
+            ) [Expression]
+          ) [ExpressionSimple]
+          NoPrintParamOptional(
+          ) [NoPrintParamOptional]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:06:45,953 - ===================================
+INFO  01:06:45,955 - Deklarisan globalni niz sa imenom: a na liniji: 3 [Var a: Arr of int, 0, 0 ]
+INFO  01:06:45,955 - Deklarisana globalna promenljiva sa imenom: b na liniji: 3 [Var b: int, 1, 0 ]
+INFO  01:06:45,955 - Deklarisana globalna promenljiva sa imenom: d na liniji: 3 [Var d: int, 2, 0 ]
+INFO  01:06:45,955 - Definisana konstanta sa imenom: anka na liniji: 4 [Con anka: char, 97, 0 ]
+INFO  01:06:45,955 - Definisana konstanta sa imenom: marko na liniji: 4 [Con marko: char, 98, 0 ]
+INFO  01:06:45,955 - Definisana konstanta sa imenom: peca na liniji: 4 [Con peca: char, 49, 0 ]
+INFO  01:06:45,955 - Definisana konstanta sa imenom: mika na liniji: 5 [Con mika: int, 11, 0 ]
+INFO  01:06:45,956 - Definisana konstanta sa imenom: janja na liniji: 6 [Con janja: int, 0, 0 ]
+INFO  01:06:45,956 - Print count calls = 0
+INFO  01:06:45,956 - Deklarisanih globalnih promenljivih ima = 3
+INFO  01:06:45,956 - Definisanih konstanti ima = 5
+INFO  01:06:45,956 - ===================================
+INFO  01:06:45,956 - Parsiranje uspesno zavrseno!

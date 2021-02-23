@@ -1,0 +1,123 @@
+INFO  21:53:27,900 - Compiling source file: D:\1 pp1\working_directory\MJCompiler\test\program.mj
+INFO  21:53:27,923 - #2 program
+INFO  21:53:27,923 - #41 MJProgram
+INFO  21:53:27,923 - #8 {
+INFO  21:53:27,924 - #26 int
+INFO  21:53:27,924 - #41 main
+INFO  21:53:27,925 - #14 (
+INFO  21:53:27,925 - #15 )
+INFO  21:53:27,925 - #26 int
+INFO  21:53:27,926 - #41 a
+INFO  21:53:27,926 - #10 ,
+INFO  21:53:27,927 - #41 c
+INFO  21:53:27,927 - #25 ;
+INFO  21:53:27,927 - #27 char
+INFO  21:53:27,928 - #41 b
+INFO  21:53:27,928 - #25 ;
+INFO  21:53:27,928 - #8 {
+INFO  21:53:27,928 - #41 a
+INFO  21:53:27,929 - #20 +
+ERROR 21:53:27,929 - 
+Sintaksna greska na liniji 10
+INFO  21:53:27,929 - #42 2
+INFO  21:53:27,930 - #20 +
+INFO  21:53:27,936 - #13 =
+INFO  21:53:27,936 - #42 7
+INFO  21:53:27,937 - #25 ;
+INFO  21:53:27,937 - #41 b
+INFO  21:53:27,937 - #13 =
+INFO  21:53:27,937 - #43 'm'
+ERROR 21:53:27,937 - Uspesno izvrsen oporavak od greske pri konstrukciji iskaza dodele na liniji 10
+INFO  21:53:27,938 - #25 ;
+INFO  21:53:27,939 - #9 }
+INFO  21:53:27,940 - #9 }
+INFO  21:53:27,941 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoGlobalDeclarations(
+  ) [NoGlobalDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      RetValAny(
+        IntegerType(
+        ) [IntegerType]
+      ) [RetValAny]
+     main
+      NoFormParsProd(
+      ) [NoFormParsProd]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDecl(
+            IntegerType(
+            ) [IntegerType]
+           a
+            NoArrayDeclaration(
+            ) [NoArrayDeclaration]
+            VarDeclAdditionals(
+              NoVarDeclAdditionals(
+              ) [NoVarDeclAdditionals]
+             c
+              NoArrayDeclaration(
+              ) [NoArrayDeclaration]
+            ) [VarDeclAdditionals]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          CharType(
+          ) [CharType]
+         b
+          NoArrayDeclaration(
+          ) [NoArrayDeclaration]
+          NoVarDeclAdditionals(
+          ) [NoVarDeclAdditionals]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmtExt(
+            DesignatorStmtExtError(
+            ) [DesignatorStmtExtError]
+          ) [DesignatorStmtExt]
+        ) [Statements]
+        DesignatorStmtExt(
+          DesignatorStmtExtNoError(
+            AssignOp(
+              Designator(
+               b
+                NoDesignatorArray(
+                ) [NoDesignatorArray]
+              ) [Designator]
+              ExpressionSimple(
+                Expression(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  Term(
+                    FactorConst(
+                      ConstValueChar(
+                       'm'
+                      ) [ConstValueChar]
+                    ) [FactorConst]
+                    NoFactorOptionalList(
+                    ) [NoFactorOptionalList]
+                  ) [Term]
+                  NoExpressionOptList(
+                  ) [NoExpressionOptList]
+                ) [Expression]
+              ) [ExpressionSimple]
+            ) [AssignOp]
+          ) [DesignatorStmtExtNoError]
+        ) [DesignatorStmtExt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:53:27,942 - ===================================
+INFO  21:53:27,943 -  Print count calls = 0
+INFO  21:53:27,943 -  Deklarisanih promenljivih ima = 3
